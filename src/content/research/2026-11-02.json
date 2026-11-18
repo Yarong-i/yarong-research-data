@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-02",
+  "market": "open",
+  "registeredAt": "2026-11-18T11:32:34.331Z",
+  "corrections": [],
+  "source": {
+    "system": "YATC ASK",
+    "runs": [
+      "PREMARKET-33",
+      "POSTMARKET-34"
+    ],
+    "origins": [
+      "YATC-ASK-Office PC 보관본 (2026-11-04 동기화)",
+      "158 서버 공개용 내보내기"
+    ]
+  },
+  "models": [
+    {
+      "model": "claude-sonnet-5",
+      "premarket": {
+        "status": "failed",
+        "publishedAt": "2026-11-01T23:18:59.639026+00:00",
+        "detail": "모델 응답이 검증 기준을 통과하지 못해 추천을 내지 않았습니다.",
+        "picks": []
+      },
+      "postmarket": {
+        "status": "nothing",
+        "detail": "복기할 장전 추천이 없었습니다.",
+        "results": []
+      },
+      "key": "sonnet",
+      "label": "Claude Sonnet 5 (운영)",
+      "short": "Sonnet",
+      "role": "operating",
+      "runs": [
+        "PREMARKET-33"
+      ]
+    }
+  ],
+  "updatedAt": "2026-11-18T11:53:26.838Z"
+}

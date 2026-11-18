@@ -1,0 +1,65 @@
+name: Merge research export
+
+# The research server pushes research-export.json here with a deploy key that exists only on this repository.
+# This job merges it into the published records with the site's own importer, checks the result with the site's
+# build, and commits the merged records. The site (Yarong-i/Yarong-i.github.io) reads them on its next deploy.
+# Commits made with GITHUB_TOKEN do not start workflows, so there is no loop.
+on:
+  push:
+    branches: [main]
+    paths: [research-export.json]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: merge
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the records
+        uses: actions/checkout@v7
+        with:
+          path: data
+      - name: Check out the site code (importer and build check)
+        uses: actions/checkout@v7
+        with:
+          repository: Yarong-i/Yarong-i.github.io
+          ref: main
+          path: site
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - run: npm ci --no-audit --no-fund
+        working-directory: site
+      - name: Merge the export (idempotent; published pre-market records are never replaced)
+        working-directory: site
+        run: |
+          mkdir -p src/content/research src/content/performance
+          cp ../data/src/content/research/*.json src/content/research/ 2>/dev/null || true
+          cp ../data/src/content/performance/*.json src/content/performance/ 2>/dev/null || true
+          node scripts/import-research-export.mjs ../data/research-export.json
+      - name: Check with the site build
+        working-directory: site
+        run: npm run build
+      - name: Commit merged records
+        working-directory: data
+        run: |
+          mkdir -p src/content/research src/content/performance
+          cp ../site/src/content/research/*.json src/content/research/ 2>/dev/null || true
+          cp ../site/src/content/performance/*.json src/content/performance/ 2>/dev/null || true
+          git add src/content
+          if git diff --cached --quiet; then echo "Records unchanged."; exit 0; fi
+          git -c user.name="yarong-research-bot" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -m "records: merge export"
+          for attempt in 1 2 3; do
+            git push origin HEAD:main && exit 0
+            git pull --rebase origin main
+          done
+          echo "Could not save merged records after 3 attempts"; exit 1

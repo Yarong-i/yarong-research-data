@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-18",
+  "market": "open",
+  "registeredAt": "2026-11-18T11:53:26.838Z",
+  "corrections": [],
+  "source": {
+    "system": "YATC ASK",
+    "runs": [
+      "PREMARKET-91",
+      "POSTMARKET_CMP-95",
+      "PREMARKET_CMP_OPUS-92",
+      "PREMARKET_CMP_ASTRA-93"
+    ],
+    "origins": [
+      "158 서버 공개용 내보내기"
+    ]
+  },
+  "models": [
+    {
+      "key": "sonnet",
+      "model": "claude-sonnet-5",
+      "label": "Claude Sonnet 5 (운영)",
+      "short": "Sonnet",
+      "role": "operating",
+      "runs": [
+        "PREMARKET-91",
+        "POSTMARKET_CMP-95"
+      ],
+      "premarket": {
+        "status": "no-picks",
+        "picks": [],
+        "excluded": [],
+        "publishedAt": "2026-11-17T23:28:34.931050+00:00",
+        "detail": "정상 실행했고 추천할 종목이 없었습니다.",
+        "rankStatus": "추천 없음"
+      },
+      "postmarket": {
+        "status": "nothing",
+        "results": []
+      },
+      "strategy": {
+        "base": {
+          "executed": false,
+          "category": "NO_PICK",
+          "detail": "추천 없음",
+          "dayPct": 0,
+          "cumPct": -0.7726497705721869,
+          "asOf": "2026-11-18",
+          "startDate": "2026-11-06",
+          "final": true,
+          "tradingDays": 9,
+          "trades": 7
+        }
+      }
+    },
+    {
+      "key": "opus",
+      "model": "claude-opus-5-5",
+      "label": "Claude Opus 5.5",
+      "short": "Opus",
+      "role": "comparison",
+      "runs": [
+        "PREMARKET_CMP_OPUS-92",
+        "POSTMARKET_CMP-95"
+      ],
+      "premarket": {
+        "status": "no-picks",
+        "picks": [],
+        "excluded": [],
+        "publishedAt": "2026-11-17T23:29:13.408796+00:00",
+        "detail": "정상 실행했고 추천할 종목이 없었습니다.",
+        "rankStatus": "추천 없음"
+      },
+      "postmarket": {
+        "status": "nothing",
+        "results": [],
+        "publishedAt": "2026-11-18T06:40:41.873754+00:00"
+      },
+      "strategy": {
+        "base": {
+          "executed": false,
+          "category": "NO_PICK",
+          "detail": "추천 없음",
+          "dayPct": 0,
+          "cumPct": -6.422424518483427,
+          "asOf": "2026-11-18",
+          "startDate": "2026-11-06",
+          "final": true,
+          "tradingDays": 9,
+          "trades": 7
+        }
+      }
+    },
+    {
+      "key": "astra",
+      "model": "gpt-6-astra",
+      "label": "GPT-6 Astra",
+      "short": "Astra",
+      "role": "comparison",
+      "runs": [
+        "PREMARKET_CMP_ASTRA-93",
+        "POSTMARKET_CMP-95"
+      ],
+      "premarket": {
+        "status": "published",
+        "picks": [
+          {
+            "order": 1,
+            "ticker": "064350",
+            "name": "현대로템",
+            "reasons": [
+              "현대로템은 계약 변경의 영향을 점검할 후보로 선정한다. 정정공시 원문에서 이집트 신호 현대화 사업의 계약금액이 정정전 99,932,800,000원에서 정정후 95,409,640,266원으로 줄고 계약기간이 연장됐음을 확인했다. 기존 계약의 규모와 이행 일정 변화라는 구체적인 재료다.",
+              "개장 전 기사 제목에 따르면 한국證은 목표가를 하향하며 대규모 수주 가시화 필요성을 제시했다. 제목만 확보된 평가이지만, 계약 정정과 함께 수주 여건을 재점검할 근거로 해석한다. 상승 기대에 따른 선정은 아니다."
+            ],
+            "risks": [
+              "정정공시는 기간 연장과 컨소시엄 간 과업변경, 물품 수량 변경을 사유로 명시한다. 따라서 계약금액 감소만으로 회사 전체의 수익성 악화를 확정할 수 없다.",
+              "기사 제목에는 항공우주 시험동과 무주 투자 규제완화 소식도 있다. 사업 확장 가능성을 시사하지만, 제목만으로 당일 실적 영향을 판단하기 어렵다.",
+              "가격 자료는 전일 완료 세션이다. 정정공시의 접수 시각은 없고 한국證 평가 기사는 가격 자료 이후에 나왔으므로, 이 자료들을 전일 주가 하락의 원인으로 단정할 수 없다."
+            ],
+            "changeConditions": [
+              "과업 축소에 상응하는 비용 감소와 대금 회수 일정이 확인되어 손익·현금흐름 부담이 제한적이라면 계약 정정에 대한 경계 수준을 낮춘다.",
+              "기사 제목에서 KB證이 주목한 페루 전차 계약에 대해 회사의 확정 공시와 계약 조건이 확보되면, 수주 공백 중심의 판단을 재검토한다."
+            ],
+            "score": 6,
+            "rank": 1,
+            "finalRank": 1
+          }
+        ],
+        "excluded": [],
+        "publishedAt": "2026-11-17T23:29:35.444029+00:00",
+        "rankStatus": "모델 순위 확인"
+      },
+      "postmarket": {
+        "status": "reviewed",
+        "results": [
+          {
+            "ticker": "064350",
+            "name": "현대로템",
+            "status": "provisional",
+            "open": 67100,
+            "close": 66700,
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+            "closeStatus": "PROVISIONAL"
+          }
+        ],
+        "publishedAt": "2026-11-18T06:40:41.873754+00:00"
+      },
+      "strategy": {
+        "base": {
+          "executed": true,
+          "category": "PICK",
+          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+          "ticker": "064350",
+          "name": "현대로템",
+          "dayPct": -0.5961251862891204,
+          "cumPct": -9.257583351388664,
+          "asOf": "2026-11-18",
+          "startDate": "2026-11-06",
+          "final": false,
+          "tradingDays": 9,
+          "trades": 8
+        }
+      }
+    }
+  ]
+}

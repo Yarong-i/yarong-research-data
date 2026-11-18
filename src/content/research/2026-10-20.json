@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-20",
+  "market": "open",
+  "registeredAt": "2026-11-18T11:53:26.838Z",
+  "corrections": [],
+  "source": {
+    "system": "YATC ASK",
+    "runs": [
+      "PREMARKET-8"
+    ],
+    "origins": [
+      "158 서버 공개용 내보내기"
+    ]
+  },
+  "models": [
+    {
+      "key": "sonnet",
+      "model": "claude-sonnet-5",
+      "label": "Claude Sonnet 5 (운영)",
+      "short": "Sonnet",
+      "role": "operating",
+      "runs": [
+        "PREMARKET-8"
+      ],
+      "premarket": {
+        "status": "failed",
+        "picks": [],
+        "excluded": [],
+        "publishedAt": "2026-10-19T23:30:36.090592+00:00",
+        "detail": "모델 응답이 검증 기준을 통과하지 못해 추천을 내지 않았습니다."
+      },
+      "postmarket": {
+        "status": "nothing",
+        "results": []
+      }
+    }
+  ]
+}

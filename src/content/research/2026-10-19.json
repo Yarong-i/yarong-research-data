@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-19",
+  "market": "open",
+  "registeredAt": "2026-11-18T11:53:26.838Z",
+  "corrections": [],
+  "source": {
+    "system": "YATC ASK",
+    "runs": [
+      "PREMARKET-5"
+    ],
+    "origins": [
+      "158 서버 공개용 내보내기"
+    ]
+  },
+  "models": [
+    {
+      "key": "sonnet",
+      "model": "모델 미기록",
+      "label": "운영 모델 (모델 미기록)",
+      "short": "운영 · 미기록",
+      "role": "operating",
+      "runs": [
+        "PREMARKET-5"
+      ],
+      "premarket": {
+        "status": "failed",
+        "picks": [],
+        "excluded": [],
+        "publishedAt": "2026-10-18T23:29:30.563071+00:00",
+        "detail": "모델 응답이 검증 기준을 통과하지 못해 추천을 내지 않았습니다."
+      },
+      "postmarket": {
+        "status": "nothing",
+        "results": []
+      }
+    }
+  ]
+}
