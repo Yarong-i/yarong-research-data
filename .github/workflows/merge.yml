@@ -2,13 +2,22 @@ name: Merge research export
 
 # The research server pushes research-export.json here with a deploy key that exists only on this repository.
 # This job merges it into the published records with the site's own importer, checks the result with the site's
-# build, and commits the merged records. The site (Yarong-i/Yarong-i.github.io) reads them on its next deploy.
-# Commits made with GITHUB_TOKEN do not start workflows, so there is no loop.
+# build, commits the merged records, then starts the site's deploy (Yarong-i/Yarong-i.github.io) with
+# SITE_DEPLOY_TOKEN - a fine-grained token limited to that repository's Actions (read and write). Without the
+# secret the dispatch is skipped and the site's own schedule picks the records up.
+# It always merges the LATEST export on main (not the commit that started the run), so a run that starts late
+# can never put older records back. Commits made with GITHUB_TOKEN do not start workflows, so there is no loop.
+# The schedule re-runs the same idempotent merge as a retry (no change -> no commit).
 on:
   push:
     branches: [main]
     paths: [research-export.json]
   workflow_dispatch:
+  schedule:
+    - cron: '35,45,55 23 * * 0-4'   # 08:35 / 08:45 / 08:55 KST, Mon-Fri
+    - cron: '10 0 * * 1-5'          # 09:10 KST
+    - cron: '50 6 * * 1-5'          # 15:50 KST
+    - cron: '5,20 7 * * 1-5'        # 16:05 / 16:20 KST
 
 permissions:
   contents: write
@@ -21,9 +30,10 @@ jobs:
   merge:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out the records
+      - name: Check out the records (latest main)
         uses: actions/checkout@v7
         with:
+          ref: main
           path: data
       - name: Check out the site code (importer and build check)
         uses: actions/checkout@v7
@@ -63,3 +73,13 @@ jobs:
             git pull --rebase origin main
           done
           echo "Could not save merged records after 3 attempts"; exit 1
+      - name: Start the site deploy
+        env:
+          GH_TOKEN: ${{ secrets.SITE_DEPLOY_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::notice::SITE_DEPLOY_TOKEN is not set; the site's scheduled deploy will pick up the records."
+            exit 0
+          fi
+          gh workflow run deploy.yml --repo Yarong-i/Yarong-i.github.io --ref main
+          echo "Site deploy requested."
