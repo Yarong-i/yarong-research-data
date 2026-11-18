@@ -1,6 +1,6 @@
 # yarong-research-data
 
-Public stock-research records shown on https://yarong-i.github.io/research/. Data only; no site code.
+Public stock-research records shown on https://yarong.kr/research/. Data only; no site code.
 
 - `research-export.json` — latest public export from the research server (read-only export, public fields only).
   Pushed with a deploy key that is registered on this repository only.
