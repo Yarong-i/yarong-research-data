@@ -2,7 +2,13 @@
   "date": "2026-11-16",
   "market": "open",
   "registeredAt": "2026-11-18T11:53:26.838Z",
-  "corrections": [],
+  "corrections": [
+    {
+      "at": "2026-11-19T08:18:27.607857+00:00",
+      "ticker": "claude-sonnet-5:001450",
+      "note": "Sonnet 장후 값 갱신: 375500 종가 51,800원 그대로, 근거 없음 → KIS_AUCTION · 007310 종가 295,000원 그대로, 근거 없음 → KIS_AUCTION"
+    }
+  ],
   "source": {
     "system": "YATC ASK",
     "runs": [
@@ -118,7 +124,8 @@
             "open": 54000,
             "close": 51800,
             "prevClose": 54000,
-            "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+            "closeStatus": "KIS_AUCTION"
           },
           {
             "ticker": "007310",
@@ -127,10 +134,12 @@
             "open": 300000,
             "close": 295000,
             "prevClose": 304500,
-            "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+            "closeStatus": "KIS_AUCTION"
           }
         ],
-        "publishedAt": "2026-11-16T06:41:08.781234+00:00"
+        "publishedAt": "2026-11-16T06:41:08.781234+00:00",
+        "revision": "9c36512d93d2ef47"
       },
       "strategy": {
         "base": {
@@ -147,7 +156,62 @@
           "tradingDays": 7,
           "trades": 6
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-19T08:18:27.607857+00:00",
+          "revision": null,
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "001450",
+                "name": "현대해상",
+                "status": "confirmed",
+                "open": 35900,
+                "close": 37800,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              },
+              {
+                "ticker": "375500",
+                "name": "DL이앤씨",
+                "status": "confirmed",
+                "open": 54000,
+                "close": 51800,
+                "prevClose": 54000,
+                "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+              },
+              {
+                "ticker": "007310",
+                "name": "오뚜기",
+                "status": "confirmed",
+                "open": 300000,
+                "close": 295000,
+                "prevClose": 304500,
+                "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+              }
+            ],
+            "publishedAt": "2026-11-16T06:41:08.781234+00:00"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "001450",
+              "name": "현대해상",
+              "dayPct": 5.292479108635106,
+              "cumPct": 3.687006419514449,
+              "asOf": "2026-11-16",
+              "startDate": "2026-11-06",
+              "final": false,
+              "tradingDays": 7,
+              "trades": 6
+            }
+          }
+        }
+      ]
     },
     {
       "key": "opus",
@@ -222,7 +286,8 @@
             "closeStatus": "KIS_AUCTION"
           }
         ],
-        "publishedAt": "2026-11-16T06:41:23.977708+00:00"
+        "publishedAt": "2026-11-16T06:41:23.977708+00:00",
+        "revision": "969236f3cb37555f"
       },
       "strategy": {
         "base": {
@@ -306,7 +371,8 @@
             "closeStatus": "KIS_AUCTION"
           }
         ],
-        "publishedAt": "2026-11-16T06:41:23.977708+00:00"
+        "publishedAt": "2026-11-16T06:41:23.977708+00:00",
+        "revision": "24c27f9cce2f1d52"
       },
       "strategy": {
         "base": {
@@ -325,5 +391,6 @@
         }
       }
     }
-  ]
+  ],
+  "updatedAt": "2026-11-19T08:18:47.933Z"
 }

@@ -2,7 +2,13 @@
   "date": "2026-10-23",
   "market": "open",
   "registeredAt": "2026-11-18T11:32:34.331Z",
-  "corrections": [],
+  "corrections": [
+    {
+      "at": "2026-11-19T08:18:27.607857+00:00",
+      "ticker": "claude-sonnet-5:028050",
+      "note": "Sonnet 장후 값 갱신: 028050 종가 59,700원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED · 028670 종가 6,190원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED"
+    }
+  ],
   "source": {
     "system": "YATC ASK",
     "runs": [
@@ -65,27 +71,30 @@
       },
       "postmarket": {
         "status": "reviewed",
-        "publishedAt": "2026-10-23T06:40:55.718064+00:00",
         "results": [
           {
             "ticker": "028050",
             "name": "삼성E&A",
-            "status": "confirmed",
+            "status": "provisional",
             "open": 56300,
             "close": 59700,
             "prevClose": 55400,
-            "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+            "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
           },
           {
             "ticker": "028670",
             "name": "팬오션",
-            "status": "confirmed",
+            "status": "provisional",
             "open": 6300,
             "close": 6190,
             "prevClose": 6320,
-            "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+            "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
           }
-        ]
+        ],
+        "publishedAt": "2026-10-23T06:40:55.718064+00:00",
+        "revision": "e22a4d42722f69bd"
       },
       "key": "sonnet",
       "label": "Claude Sonnet 5 (운영)",
@@ -93,8 +102,38 @@
       "role": "operating",
       "runs": [
         "PREMARKET-15"
+      ],
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-19T08:18:27.607857+00:00",
+          "revision": null,
+          "postmarket": {
+            "status": "reviewed",
+            "publishedAt": "2026-10-23T06:40:55.718064+00:00",
+            "results": [
+              {
+                "ticker": "028050",
+                "name": "삼성E&A",
+                "status": "confirmed",
+                "open": 56300,
+                "close": 59700,
+                "prevClose": 55400,
+                "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+              },
+              {
+                "ticker": "028670",
+                "name": "팬오션",
+                "status": "confirmed",
+                "open": 6300,
+                "close": 6190,
+                "prevClose": 6320,
+                "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+              }
+            ]
+          }
+        }
       ]
     }
   ],
-  "updatedAt": "2026-11-18T11:53:26.838Z"
+  "updatedAt": "2026-11-19T08:18:47.933Z"
 }

@@ -7,6 +7,11 @@
       "at": "2026-11-11T03:52:35.074053+00:00",
       "ticker": "035720",
       "note": "035720 종가 32,100원 → 32,300원 정정 (KIS_PATHS_AGREE_KRX_UNVERIFIED) · 저장값은 종가 단일가가 아님(15:19 직전가 32,100) - 정정값은 KRX 공식 종가 확인 전 불명확"
+    },
+    {
+      "at": "2026-11-19T08:18:27.607857+00:00",
+      "ticker": "claude-sonnet-5:035720",
+      "note": "Sonnet 장후 값 갱신: 251270 종가 34,800원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED · 021240 종가 108,100원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED"
     }
   ],
   "source": {
@@ -123,23 +128,26 @@
           {
             "ticker": "251270",
             "name": "넷마블",
-            "status": "confirmed",
+            "status": "provisional",
             "open": 34300,
             "close": 34800,
             "prevClose": 36700,
-            "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+            "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
           },
           {
             "ticker": "021240",
             "name": "코웨이",
-            "status": "confirmed",
+            "status": "provisional",
             "open": 107600,
             "close": 108100,
             "prevClose": 109800,
-            "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+            "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
           }
         ],
-        "publishedAt": "2026-11-06T06:40:39.516433+00:00"
+        "publishedAt": "2026-11-06T06:40:39.516433+00:00",
+        "revision": "623990da8146df82"
       },
       "strategy": {
         "base": {
@@ -155,7 +163,61 @@
           "tradingDays": 1,
           "trades": 1
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-19T08:18:27.607857+00:00",
+          "revision": null,
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "035720",
+                "name": "카카오",
+                "status": "confirmed",
+                "open": 30650,
+                "close": 32300,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS FHKST03010230 2026-11-06 15:30 종가 단일가(189,133주) = 당시 15:40 KIS 현재가(J); KRX 공식 종가 미대조",
+                "closeStatus": "KIS_PATHS_AGREE_KRX_UNVERIFIED"
+              },
+              {
+                "ticker": "251270",
+                "name": "넷마블",
+                "status": "confirmed",
+                "open": 34300,
+                "close": 34800,
+                "prevClose": 36700,
+                "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+              },
+              {
+                "ticker": "021240",
+                "name": "코웨이",
+                "status": "confirmed",
+                "open": 107600,
+                "close": 108100,
+                "prevClose": 109800,
+                "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+              }
+            ],
+            "publishedAt": "2026-11-06T06:40:39.516433+00:00"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "ticker": "035720",
+              "name": "카카오",
+              "dayPct": 4.7308319738988525,
+              "cumPct": 4.7308319738988525,
+              "asOf": "2026-11-06",
+              "startDate": "2026-11-06",
+              "final": true,
+              "tradingDays": 1,
+              "trades": 1
+            }
+          }
+        }
+      ]
     },
     {
       "key": "opus",
@@ -250,7 +312,8 @@
             "closeStatus": "KIS_PATHS_AGREE_KRX_UNVERIFIED"
           }
         ],
-        "publishedAt": "2026-11-06T06:40:43.737439+00:00"
+        "publishedAt": "2026-11-06T06:40:43.737439+00:00",
+        "revision": "ae6bcf37f70a785a"
       },
       "strategy": {
         "base": {
@@ -359,7 +422,8 @@
             "closeStatus": "KIS_PATHS_AGREE_KRX_UNVERIFIED"
           }
         ],
-        "publishedAt": "2026-11-06T06:40:43.737439+00:00"
+        "publishedAt": "2026-11-06T06:40:43.737439+00:00",
+        "revision": "ae6bcf37f70a785a"
       },
       "strategy": {
         "base": {
@@ -377,5 +441,6 @@
         }
       }
     }
-  ]
+  ],
+  "updatedAt": "2026-11-19T08:18:47.933Z"
 }

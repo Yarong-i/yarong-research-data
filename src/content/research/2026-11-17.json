@@ -82,7 +82,8 @@
             "closeStatus": "KIS_AUCTION"
           }
         ],
-        "publishedAt": "2026-11-17T06:40:57.663824+00:00"
+        "publishedAt": "2026-11-17T06:40:57.663824+00:00",
+        "revision": "131de64c49ddefb2"
       },
       "strategy": {
         "base": {
@@ -176,7 +177,8 @@
             "closeStatus": "KIS_AUCTION"
           }
         ],
-        "publishedAt": "2026-11-17T06:41:09.481633+00:00"
+        "publishedAt": "2026-11-17T06:41:09.481633+00:00",
+        "revision": "6802aea2052360e7"
       },
       "strategy": {
         "base": {
@@ -287,7 +289,8 @@
             "closeStatus": "KIS_AUCTION"
           }
         ],
-        "publishedAt": "2026-11-17T06:41:09.481633+00:00"
+        "publishedAt": "2026-11-17T06:41:09.481633+00:00",
+        "revision": "d1b16800f1934f31"
       },
       "strategy": {
         "base": {
@@ -306,5 +309,6 @@
         }
       }
     }
-  ]
+  ],
+  "updatedAt": "2026-11-19T08:18:47.933Z"
 }

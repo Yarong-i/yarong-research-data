@@ -2,7 +2,13 @@
   "date": "2026-10-26",
   "market": "open",
   "registeredAt": "2026-11-18T11:32:34.331Z",
-  "corrections": [],
+  "corrections": [
+    {
+      "at": "2026-11-19T08:18:27.607857+00:00",
+      "ticker": "claude-sonnet-5:086790",
+      "note": "Sonnet 장후 값 갱신: 086790 종가 112,300원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED · 316140 종가 29,250원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED · 028260 종가 291,500원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED"
+    }
+  ],
   "source": {
     "system": "YATC ASK",
     "runs": [
@@ -86,36 +92,40 @@
       },
       "postmarket": {
         "status": "reviewed",
-        "publishedAt": "2026-10-26T06:40:45.877767+00:00",
         "results": [
           {
             "ticker": "086790",
             "name": "하나금융지주",
-            "status": "confirmed",
+            "status": "provisional",
             "open": 115000,
             "close": 112300,
             "prevClose": 116300,
-            "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+            "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
           },
           {
             "ticker": "316140",
             "name": "우리금융지주",
-            "status": "confirmed",
+            "status": "provisional",
             "open": 30050,
             "close": 29250,
             "prevClose": 30100,
-            "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+            "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
           },
           {
             "ticker": "028260",
             "name": "삼성물산",
-            "status": "confirmed",
+            "status": "provisional",
             "open": 283500,
             "close": 291500,
             "prevClose": 288000,
-            "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+            "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
           }
-        ]
+        ],
+        "publishedAt": "2026-10-26T06:40:45.877767+00:00",
+        "revision": "41d0e4269dee16bb"
       },
       "key": "sonnet",
       "label": "Claude Sonnet 5 (운영)",
@@ -123,8 +133,47 @@
       "role": "operating",
       "runs": [
         "PREMARKET-17"
+      ],
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-19T08:18:27.607857+00:00",
+          "revision": null,
+          "postmarket": {
+            "status": "reviewed",
+            "publishedAt": "2026-10-26T06:40:45.877767+00:00",
+            "results": [
+              {
+                "ticker": "086790",
+                "name": "하나금융지주",
+                "status": "confirmed",
+                "open": 115000,
+                "close": 112300,
+                "prevClose": 116300,
+                "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+              },
+              {
+                "ticker": "316140",
+                "name": "우리금융지주",
+                "status": "confirmed",
+                "open": 30050,
+                "close": 29250,
+                "prevClose": 30100,
+                "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+              },
+              {
+                "ticker": "028260",
+                "name": "삼성물산",
+                "status": "confirmed",
+                "open": 283500,
+                "close": 291500,
+                "prevClose": 288000,
+                "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+              }
+            ]
+          }
+        }
       ]
     }
   ],
-  "updatedAt": "2026-11-18T11:53:26.838Z"
+  "updatedAt": "2026-11-19T08:18:47.933Z"
 }

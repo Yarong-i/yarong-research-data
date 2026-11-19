@@ -2,7 +2,13 @@
   "date": "2026-11-05",
   "market": "open",
   "registeredAt": "2026-11-18T11:53:26.838Z",
-  "corrections": [],
+  "corrections": [
+    {
+      "at": "2026-11-19T08:18:27.607857+00:00",
+      "ticker": "claude-sonnet-5:010130",
+      "note": "Sonnet 장후 값 갱신: 010130 종가 988,000원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED · 035720 종가 32,200원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED"
+    }
+  ],
   "source": {
     "system": "YATC ASK",
     "runs": [
@@ -77,24 +83,58 @@
           {
             "ticker": "010130",
             "name": "고려아연",
-            "status": "confirmed",
+            "status": "provisional",
             "open": 924000,
             "close": 988000,
             "prevClose": 891000,
-            "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+            "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
           },
           {
             "ticker": "035720",
             "name": "카카오",
-            "status": "confirmed",
+            "status": "provisional",
             "open": 30200,
             "close": 32200,
             "prevClose": 29100,
-            "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+            "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
           }
         ],
-        "publishedAt": "2026-11-05T06:40:50.046675+00:00"
-      }
+        "publishedAt": "2026-11-05T06:40:50.046675+00:00",
+        "revision": "1a9af7e0ddeb62d8"
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-19T08:18:27.607857+00:00",
+          "revision": null,
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "010130",
+                "name": "고려아연",
+                "status": "confirmed",
+                "open": 924000,
+                "close": 988000,
+                "prevClose": 891000,
+                "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+              },
+              {
+                "ticker": "035720",
+                "name": "카카오",
+                "status": "confirmed",
+                "open": 30200,
+                "close": 32200,
+                "prevClose": 29100,
+                "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+              }
+            ],
+            "publishedAt": "2026-11-05T06:40:50.046675+00:00"
+          }
+        }
+      ]
     }
-  ]
+  ],
+  "updatedAt": "2026-11-19T08:18:47.933Z"
 }

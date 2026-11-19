@@ -36,7 +36,8 @@
       },
       "postmarket": {
         "status": "nothing",
-        "results": []
+        "results": [],
+        "revision": "51d38f4fac2311af"
       },
       "strategy": {
         "base": {
@@ -74,7 +75,8 @@
       "postmarket": {
         "status": "nothing",
         "results": [],
-        "publishedAt": "2026-11-18T06:40:41.873754+00:00"
+        "publishedAt": "2026-11-18T06:40:41.873754+00:00",
+        "revision": "c9b104c58f2cf12c"
       },
       "strategy": {
         "base": {
@@ -143,7 +145,8 @@
             "closeStatus": "KIS_AUCTION"
           }
         ],
-        "publishedAt": "2026-11-18T06:40:41.873754+00:00"
+        "publishedAt": "2026-11-18T06:40:41.873754+00:00",
+        "revision": "eb43bce23329f3bd"
       },
       "strategy": {
         "base": {
@@ -163,5 +166,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-19T06:41:21.338Z"
+  "updatedAt": "2026-11-19T08:18:47.933Z"
 }

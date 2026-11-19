@@ -2,7 +2,13 @@
   "date": "2026-10-21",
   "market": "open",
   "registeredAt": "2026-11-18T11:32:34.331Z",
-  "corrections": [],
+  "corrections": [
+    {
+      "at": "2026-11-19T08:18:27.607857+00:00",
+      "ticker": "claude-sonnet-5:329180",
+      "note": "Sonnet 장후 값 갱신: 329180 종가 318,500원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED · 055550 종가 91,600원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED"
+    }
+  ],
   "source": {
     "system": "YATC ASK",
     "runs": [
@@ -66,27 +72,30 @@
       },
       "postmarket": {
         "status": "reviewed",
-        "publishedAt": "2026-10-21T06:40:36.027913+00:00",
         "results": [
           {
             "ticker": "329180",
             "name": "HD현대중공업",
-            "status": "confirmed",
+            "status": "provisional",
             "open": 318500,
             "close": 318500,
             "prevClose": 318000,
-            "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+            "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
           },
           {
             "ticker": "055550",
             "name": "신한지주",
-            "status": "confirmed",
+            "status": "provisional",
             "open": 92400,
             "close": 91600,
             "prevClose": 91800,
-            "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+            "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
           }
-        ]
+        ],
+        "publishedAt": "2026-10-21T06:40:36.027913+00:00",
+        "revision": "b4f075c7c3201e66"
       },
       "key": "sonnet",
       "label": "Claude Sonnet 5 (운영)",
@@ -94,8 +103,38 @@
       "role": "operating",
       "runs": [
         "PREMARKET-11"
+      ],
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-19T08:18:27.607857+00:00",
+          "revision": null,
+          "postmarket": {
+            "status": "reviewed",
+            "publishedAt": "2026-10-21T06:40:36.027913+00:00",
+            "results": [
+              {
+                "ticker": "329180",
+                "name": "HD현대중공업",
+                "status": "confirmed",
+                "open": 318500,
+                "close": 318500,
+                "prevClose": 318000,
+                "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+              },
+              {
+                "ticker": "055550",
+                "name": "신한지주",
+                "status": "confirmed",
+                "open": 92400,
+                "close": 91600,
+                "prevClose": 91800,
+                "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+              }
+            ]
+          }
+        }
       ]
     }
   ],
-  "updatedAt": "2026-11-18T11:53:26.838Z"
+  "updatedAt": "2026-11-19T08:18:47.933Z"
 }

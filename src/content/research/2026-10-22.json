@@ -2,7 +2,13 @@
   "date": "2026-10-22",
   "market": "open",
   "registeredAt": "2026-11-18T11:32:34.331Z",
-  "corrections": [],
+  "corrections": [
+    {
+      "at": "2026-11-19T08:18:27.607857+00:00",
+      "ticker": "claude-sonnet-5:028050",
+      "note": "Sonnet 장후 값 갱신: 028050 종가 55,500원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED"
+    }
+  ],
   "source": {
     "system": "YATC ASK",
     "runs": [
@@ -47,18 +53,20 @@
       },
       "postmarket": {
         "status": "reviewed",
-        "publishedAt": "2026-10-22T06:40:41.342420+00:00",
         "results": [
           {
             "ticker": "028050",
             "name": "삼성E&A",
-            "status": "confirmed",
+            "status": "provisional",
             "open": 51000,
             "close": 55500,
             "prevClose": 47700,
-            "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+            "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
           }
-        ]
+        ],
+        "publishedAt": "2026-10-22T06:40:41.342420+00:00",
+        "revision": "884e7c29c83099b0"
       },
       "key": "sonnet",
       "label": "Claude Sonnet 5 (운영)",
@@ -66,8 +74,29 @@
       "role": "operating",
       "runs": [
         "PREMARKET-13"
+      ],
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-19T08:18:27.607857+00:00",
+          "revision": null,
+          "postmarket": {
+            "status": "reviewed",
+            "publishedAt": "2026-10-22T06:40:41.342420+00:00",
+            "results": [
+              {
+                "ticker": "028050",
+                "name": "삼성E&A",
+                "status": "confirmed",
+                "open": 51000,
+                "close": 55500,
+                "prevClose": 47700,
+                "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+              }
+            ]
+          }
+        }
       ]
     }
   ],
-  "updatedAt": "2026-11-18T11:53:26.838Z"
+  "updatedAt": "2026-11-19T08:18:47.933Z"
 }

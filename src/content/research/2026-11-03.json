@@ -2,7 +2,13 @@
   "date": "2026-11-03",
   "market": "open",
   "registeredAt": "2026-11-18T11:32:34.331Z",
-  "corrections": [],
+  "corrections": [
+    {
+      "at": "2026-11-19T08:18:27.607857+00:00",
+      "ticker": "claude-sonnet-5:006280",
+      "note": "Sonnet 장후 값 갱신: 006280 종가 136,800원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED · 003670 종가 163,200원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED · 005490 종가 265,000원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED"
+    }
+  ],
   "source": {
     "system": "YATC ASK",
     "runs": [
@@ -87,36 +93,40 @@
       },
       "postmarket": {
         "status": "reviewed",
-        "publishedAt": "2026-11-03T06:41:04.918495+00:00",
         "results": [
           {
             "ticker": "006280",
             "name": "녹십자",
-            "status": "confirmed",
+            "status": "provisional",
             "open": 132800,
             "close": 136800,
             "prevClose": 133900,
-            "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+            "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
           },
           {
             "ticker": "003670",
             "name": "포스코퓨처엠",
-            "status": "confirmed",
+            "status": "provisional",
             "open": 167500,
             "close": 163200,
             "prevClose": 168900,
-            "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+            "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
           },
           {
             "ticker": "005490",
             "name": "POSCO홀딩스",
-            "status": "confirmed",
+            "status": "provisional",
             "open": 281000,
             "close": 265000,
             "prevClose": 283000,
-            "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+            "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
           }
-        ]
+        ],
+        "publishedAt": "2026-11-03T06:41:04.918495+00:00",
+        "revision": "ded9db8886cb86f2"
       },
       "key": "sonnet",
       "label": "Claude Sonnet 5 (운영)",
@@ -124,8 +134,47 @@
       "role": "operating",
       "runs": [
         "PREMARKET-38"
+      ],
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-19T08:18:27.607857+00:00",
+          "revision": null,
+          "postmarket": {
+            "status": "reviewed",
+            "publishedAt": "2026-11-03T06:41:04.918495+00:00",
+            "results": [
+              {
+                "ticker": "006280",
+                "name": "녹십자",
+                "status": "confirmed",
+                "open": 132800,
+                "close": 136800,
+                "prevClose": 133900,
+                "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+              },
+              {
+                "ticker": "003670",
+                "name": "포스코퓨처엠",
+                "status": "confirmed",
+                "open": 167500,
+                "close": 163200,
+                "prevClose": 168900,
+                "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+              },
+              {
+                "ticker": "005490",
+                "name": "POSCO홀딩스",
+                "status": "confirmed",
+                "open": 281000,
+                "close": 265000,
+                "prevClose": 283000,
+                "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+              }
+            ]
+          }
+        }
       ]
     }
   ],
-  "updatedAt": "2026-11-18T11:53:26.838Z"
+  "updatedAt": "2026-11-19T08:18:47.933Z"
 }

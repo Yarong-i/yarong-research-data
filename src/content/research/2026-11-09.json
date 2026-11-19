@@ -2,7 +2,13 @@
   "date": "2026-11-09",
   "market": "open",
   "registeredAt": "2026-11-18T11:53:26.838Z",
-  "corrections": [],
+  "corrections": [
+    {
+      "at": "2026-11-19T08:18:27.607857+00:00",
+      "ticker": "claude-sonnet-5:003230",
+      "note": "Sonnet 장후 값 갱신: 112610 종가 48,700원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED · 082740 종가 24,750원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED"
+    }
+  ],
   "source": {
     "system": "YATC ASK",
     "runs": [
@@ -115,23 +121,26 @@
           {
             "ticker": "112610",
             "name": "씨에스윈드",
-            "status": "confirmed",
+            "status": "provisional",
             "open": 48500,
             "close": 48700,
             "prevClose": 49100,
-            "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+            "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
           },
           {
             "ticker": "082740",
             "name": "한화엔진",
-            "status": "confirmed",
+            "status": "provisional",
             "open": 23650,
             "close": 24750,
             "prevClose": 24350,
-            "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+            "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
           }
         ],
-        "publishedAt": "2026-11-09T06:40:46.744541+00:00"
+        "publishedAt": "2026-11-09T06:40:46.744541+00:00",
+        "revision": "88550f62efdb2cee"
       },
       "strategy": {
         "base": {
@@ -147,7 +156,60 @@
           "tradingDays": 2,
           "trades": 2
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-19T08:18:27.607857+00:00",
+          "revision": null,
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "003230",
+                "name": "삼양식품",
+                "status": "confirmed",
+                "open": 1169000,
+                "close": 1152000,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)"
+              },
+              {
+                "ticker": "112610",
+                "name": "씨에스윈드",
+                "status": "confirmed",
+                "open": 48500,
+                "close": 48700,
+                "prevClose": 49100,
+                "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+              },
+              {
+                "ticker": "082740",
+                "name": "한화엔진",
+                "status": "confirmed",
+                "open": 23650,
+                "close": 24750,
+                "prevClose": 24350,
+                "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+              }
+            ],
+            "publishedAt": "2026-11-09T06:40:46.744541+00:00"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "ticker": "003230",
+              "name": "삼양식품",
+              "dayPct": -1.4542343883661268,
+              "cumPct": 3.207800200112465,
+              "asOf": "2026-11-09",
+              "startDate": "2026-11-06",
+              "final": true,
+              "tradingDays": 2,
+              "trades": 2
+            }
+          }
+        }
+      ]
     },
     {
       "key": "opus",
@@ -224,7 +286,8 @@
             "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)"
           }
         ],
-        "publishedAt": "2026-11-09T06:40:51.084120+00:00"
+        "publishedAt": "2026-11-09T06:40:51.084120+00:00",
+        "revision": "f82edc3f4687712f"
       },
       "strategy": {
         "base": {
@@ -335,7 +398,8 @@
             "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)"
           }
         ],
-        "publishedAt": "2026-11-09T06:40:51.084120+00:00"
+        "publishedAt": "2026-11-09T06:40:51.084120+00:00",
+        "revision": "f82edc3f4687712f"
       },
       "strategy": {
         "base": {
@@ -353,5 +417,6 @@
         }
       }
     }
-  ]
+  ],
+  "updatedAt": "2026-11-19T08:18:47.933Z"
 }

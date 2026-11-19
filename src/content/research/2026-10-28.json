@@ -25,8 +25,8 @@
       },
       "postmarket": {
         "status": "nothing",
-        "detail": "복기할 장전 추천이 없었습니다.",
-        "results": []
+        "results": [],
+        "revision": "9302cb268c3f3063"
       },
       "key": "sonnet",
       "label": "운영 모델 (모델 미기록)",
@@ -37,5 +37,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-18T11:53:26.838Z"
+  "updatedAt": "2026-11-19T08:18:47.933Z"
 }
