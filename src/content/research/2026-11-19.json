@@ -2,13 +2,20 @@
   "date": "2026-11-19",
   "market": "open",
   "registeredAt": "2026-11-18T23:42:48.345Z",
-  "corrections": [],
+  "corrections": [
+    {
+      "at": "2026-11-19T07:40:18.182284+00:00",
+      "note": "장후 복기·성과 정정: 처음 발표(15:40 발표)는 정규장(10:00~16:30) 종료 전에 작성된 장중 조회·조기 복기였습니다. 정규장 시가와 마감 후 종가로 다시 계산했고, 처음 발표의 장중 가격은 성과에 쓰지 않습니다. 추천·순위·점수는 바뀌지 않았습니다."
+    }
+  ],
   "source": {
     "system": "YATC ASK",
     "runs": [
       "PREMARKET-96",
       "PREMARKET_CMP_OPUS-98",
-      "PREMARKET_CMP_ASTRA-97"
+      "PREMARKET_CMP_ASTRA-97",
+      "POSTMARKET_CMP_CORRECTED-102",
+      "POSTMARKET_CORRECTION-101"
     ],
     "origins": [
       "158 서버 공개용 내보내기"
@@ -22,7 +29,9 @@
       "short": "Sonnet",
       "role": "operating",
       "runs": [
-        "PREMARKET-96"
+        "PREMARKET-96",
+        "POSTMARKET_CMP_CORRECTED-102",
+        "POSTMARKET_CORRECTION-101"
       ],
       "premarket": {
         "status": "published",
@@ -69,11 +78,31 @@
           {
             "ticker": "352820",
             "name": "하이브",
-            "status": "unconfirmed",
-            "note": "정규장 시가·종가를 확정하지 못했습니다."
+            "status": "provisional",
+            "open": 176000,
+            "close": 189400,
+            "basis": "10:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 16:40 조회 - 시간외 단일가(17:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+            "closeStatus": "PROVISIONAL"
           }
         ],
-        "publishedAt": "2026-11-19T06:40:47.254246+00:00"
+        "publishedAt": "2026-11-19T06:40:47.254246+00:00",
+        "correctedAt": "2026-11-19T07:40:18.182284+00:00"
+      },
+      "strategy": {
+        "base": {
+          "executed": true,
+          "category": "PICK",
+          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+          "ticker": "352820",
+          "name": "하이브",
+          "dayPct": 7.613636363636367,
+          "cumPct": 6.7821598491683455,
+          "asOf": "2026-11-19",
+          "startDate": "2026-11-06",
+          "final": false,
+          "tradingDays": 10,
+          "trades": 8
+        }
       }
     },
     {
@@ -83,7 +112,9 @@
       "short": "Opus",
       "role": "comparison",
       "runs": [
-        "PREMARKET_CMP_OPUS-98"
+        "PREMARKET_CMP_OPUS-98",
+        "POSTMARKET_CMP_CORRECTED-102",
+        "POSTMARKET_CORRECTION-101"
       ],
       "premarket": {
         "status": "published",
@@ -137,7 +168,24 @@
             "closeStatus": "PROVISIONAL"
           }
         ],
-        "publishedAt": "2026-11-19T06:40:56.198213+00:00"
+        "publishedAt": "2026-11-19T06:40:56.198213+00:00",
+        "correctedAt": "2026-11-19T07:40:18.182284+00:00"
+      },
+      "strategy": {
+        "base": {
+          "executed": true,
+          "category": "PICK",
+          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+          "ticker": "352820",
+          "name": "하이브",
+          "dayPct": 7.613636363636367,
+          "cumPct": 0.7022317965865943,
+          "asOf": "2026-11-19",
+          "startDate": "2026-11-06",
+          "final": false,
+          "tradingDays": 10,
+          "trades": 8
+        }
       }
     },
     {
@@ -147,7 +195,9 @@
       "short": "Astra",
       "role": "comparison",
       "runs": [
-        "PREMARKET_CMP_ASTRA-97"
+        "PREMARKET_CMP_ASTRA-97",
+        "POSTMARKET_CMP_CORRECTED-102",
+        "POSTMARKET_CORRECTION-101"
       ],
       "premarket": {
         "status": "published",
@@ -212,9 +262,26 @@
             "closeStatus": "PROVISIONAL"
           }
         ],
-        "publishedAt": "2026-11-19T06:40:56.198213+00:00"
+        "publishedAt": "2026-11-19T06:40:56.198213+00:00",
+        "correctedAt": "2026-11-19T07:40:18.182284+00:00"
+      },
+      "strategy": {
+        "base": {
+          "executed": true,
+          "category": "PICK",
+          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+          "ticker": "000990",
+          "name": "DB하이텍",
+          "dayPct": 1.200000000000001,
+          "cumPct": -8.16867435160532,
+          "asOf": "2026-11-19",
+          "startDate": "2026-11-06",
+          "final": false,
+          "tradingDays": 10,
+          "trades": 9
+        }
       }
     }
   ],
-  "updatedAt": "2026-11-19T07:42:25.242Z"
+  "updatedAt": "2026-11-19T07:58:26.019Z"
 }

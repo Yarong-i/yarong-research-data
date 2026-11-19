@@ -3,16 +3,18 @@
   "label": "GPT-6 Astra",
   "short": "Astra",
   "strategy": "base",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-19",
   "startDate": "2026-11-06",
-  "cumulativePct": -9.257583351388664,
-  "dayPct": -0.5961251862891204,
-  "tradingDays": 9,
-  "trades": 8,
-  "includesProvisional": [],
+  "cumulativePct": -8.16867435160532,
+  "dayPct": 1.200000000000001,
+  "tradingDays": 10,
+  "trades": 9,
+  "includesProvisional": [
+    "2026-11-19"
+  ],
   "unverifiedCorrections": [
     "2026-11-06"
   ],
   "basis": "최종 1순위를 정규장 시가에 시작 자산 100%로 매수, 당일 종가 매도, 일별 복리 · 비용 전 · 실제 주문 아님",
-  "source": "YATC ASK 비교 장부 ASK-CMP-V1 (POSTMARKET_CMP-95)"
+  "source": "YATC ASK 비교 장부 ASK-CMP-V1 (POSTMARKET_CMP_CORRECTED-102)"
 }
