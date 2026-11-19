@@ -1,6 +1,6 @@
 {
  "exportVersion": "YARONG-PUBLIC-EXPORT-V1",
- "exportedAt": "2026-11-19T07:58:06.534817+00:00",
+ "exportedAt": "2026-11-19T08:18:27.607857+00:00",
  "system": "YATC ASK",
  "ledgerStart": "2026-11-06",
  "costs": {
@@ -30,7 +30,8 @@
      },
      "postmarket": {
       "status": "nothing",
-      "results": []
+      "results": [],
+      "revision": "9302cb268c3f3063"
      }
     }
    ],
@@ -58,7 +59,8 @@
      },
      "postmarket": {
       "status": "nothing",
-      "results": []
+      "results": [],
+      "revision": "9302cb268c3f3063"
      }
     }
    ],
@@ -131,23 +133,26 @@
        {
         "ticker": "329180",
         "name": "HD현대중공업",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 318500.0,
         "close": 318500.0,
         "prevClose": 318000.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        },
        {
         "ticker": "055550",
         "name": "신한지주",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 92400.0,
         "close": 91600.0,
         "prevClose": 91800.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        }
       ],
-      "publishedAt": "2026-10-21T06:40:36.027913+00:00"
+      "publishedAt": "2026-10-21T06:40:36.027913+00:00",
+      "revision": "b4f075c7c3201e66"
      }
     }
    ],
@@ -201,14 +206,16 @@
        {
         "ticker": "028050",
         "name": "삼성E&A",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 51000.0,
         "close": 55500.0,
         "prevClose": 47700.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        }
       ],
-      "publishedAt": "2026-10-22T06:40:41.342420+00:00"
+      "publishedAt": "2026-10-22T06:40:41.342420+00:00",
+      "revision": "884e7c29c83099b0"
      }
     }
    ],
@@ -280,23 +287,26 @@
        {
         "ticker": "028050",
         "name": "삼성E&A",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 56300.0,
         "close": 59700.0,
         "prevClose": 55400.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        },
        {
         "ticker": "028670",
         "name": "팬오션",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 6300.0,
         "close": 6190.0,
         "prevClose": 6320.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        }
       ],
-      "publishedAt": "2026-10-23T06:40:55.718064+00:00"
+      "publishedAt": "2026-10-23T06:40:55.718064+00:00",
+      "revision": "e22a4d42722f69bd"
      }
     }
    ],
@@ -389,32 +399,36 @@
        {
         "ticker": "086790",
         "name": "하나금융지주",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 115000.0,
         "close": 112300.0,
         "prevClose": 116300.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        },
        {
         "ticker": "316140",
         "name": "우리금융지주",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 30050.0,
         "close": 29250.0,
         "prevClose": 30100.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        },
        {
         "ticker": "028260",
         "name": "삼성물산",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 283500.0,
         "close": 291500.0,
         "prevClose": 288000.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        }
       ],
-      "publishedAt": "2026-10-26T06:40:45.877767+00:00"
+      "publishedAt": "2026-10-26T06:40:45.877767+00:00",
+      "revision": "41d0e4269dee16bb"
      }
     }
    ],
@@ -442,7 +456,8 @@
      },
      "postmarket": {
       "status": "nothing",
-      "results": []
+      "results": [],
+      "revision": "9302cb268c3f3063"
      }
     }
    ],
@@ -470,7 +485,8 @@
      },
      "postmarket": {
       "status": "nothing",
-      "results": []
+      "results": [],
+      "revision": "9302cb268c3f3063"
      }
     }
    ],
@@ -525,14 +541,16 @@
        {
         "ticker": "000660",
         "name": "SK하이닉스",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 1511000.0,
         "close": 1520000.0,
         "prevClose": 1487000.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        }
       ],
-      "publishedAt": "2026-10-29T06:40:56.746081+00:00"
+      "publishedAt": "2026-10-29T06:40:56.746081+00:00",
+      "revision": "866f34da82981f31"
      }
     }
    ],
@@ -624,32 +642,36 @@
        {
         "ticker": "010060",
         "name": "OCI홀딩스",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 172800.0,
         "close": 165700.0,
         "prevClose": 180500.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        },
        {
         "ticker": "241560",
         "name": "두산밥캣",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 49450.0,
         "close": 48450.0,
         "prevClose": 49150.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        },
        {
         "ticker": "073240",
         "name": "금호타이어",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 5050.0,
         "close": 5160.0,
         "prevClose": 5170.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        }
       ],
-      "publishedAt": "2026-10-30T06:40:42.409588+00:00"
+      "publishedAt": "2026-10-30T06:40:42.409588+00:00",
+      "revision": "d65d31cd859e3cf2"
      }
     }
    ],
@@ -677,7 +699,8 @@
      },
      "postmarket": {
       "status": "nothing",
-      "results": []
+      "results": [],
+      "revision": "9302cb268c3f3063"
      }
     }
    ],
@@ -771,32 +794,36 @@
        {
         "ticker": "006280",
         "name": "녹십자",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 132800.0,
         "close": 136800.0,
         "prevClose": 133900.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        },
        {
         "ticker": "003670",
         "name": "포스코퓨처엠",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 167500.0,
         "close": 163200.0,
         "prevClose": 168900.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        },
        {
         "ticker": "005490",
         "name": "POSCO홀딩스",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 281000.0,
         "close": 265000.0,
         "prevClose": 283000.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        }
       ],
-      "publishedAt": "2026-11-03T06:41:04.918495+00:00"
+      "publishedAt": "2026-11-03T06:41:04.918495+00:00",
+      "revision": "ded9db8886cb86f2"
      }
     }
    ],
@@ -866,23 +893,26 @@
        {
         "ticker": "000210",
         "name": "DL",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 41000.0,
         "close": 43750.0,
         "prevClose": 39850.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        },
        {
         "ticker": "103140",
         "name": "풍산",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 59500.0,
         "close": 56700.0,
         "prevClose": 60300.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        }
       ],
-      "publishedAt": "2026-11-04T06:42:10.204826+00:00"
+      "publishedAt": "2026-11-04T06:42:10.204826+00:00",
+      "revision": "d074e3392b31b24d"
      }
     }
    ],
@@ -956,23 +986,26 @@
        {
         "ticker": "010130",
         "name": "고려아연",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 924000.0,
         "close": 988000.0,
         "prevClose": 891000.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        },
        {
         "ticker": "035720",
         "name": "카카오",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 30200.0,
         "close": 32200.0,
         "prevClose": 29100.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        }
       ],
-      "publishedAt": "2026-11-05T06:40:50.046675+00:00"
+      "publishedAt": "2026-11-05T06:40:50.046675+00:00",
+      "revision": "1a9af7e0ddeb62d8"
      }
     }
    ],
@@ -1083,23 +1116,26 @@
        {
         "ticker": "251270",
         "name": "넷마블",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 34300.0,
         "close": 34800.0,
         "prevClose": 36700.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        },
        {
         "ticker": "021240",
         "name": "코웨이",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 107600.0,
         "close": 108100.0,
         "prevClose": 109800.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        }
       ],
-      "publishedAt": "2026-11-06T06:40:39.516433+00:00"
+      "publishedAt": "2026-11-06T06:40:39.516433+00:00",
+      "revision": "623990da8146df82"
      },
      "strategy": {
       "base": {
@@ -1210,7 +1246,8 @@
         "closeStatus": "KIS_PATHS_AGREE_KRX_UNVERIFIED"
        }
       ],
-      "publishedAt": "2026-11-06T06:40:43.737439+00:00"
+      "publishedAt": "2026-11-06T06:40:43.737439+00:00",
+      "revision": "ae6bcf37f70a785a"
      },
      "strategy": {
       "base": {
@@ -1319,7 +1356,8 @@
         "closeStatus": "KIS_PATHS_AGREE_KRX_UNVERIFIED"
        }
       ],
-      "publishedAt": "2026-11-06T06:40:43.737439+00:00"
+      "publishedAt": "2026-11-06T06:40:43.737439+00:00",
+      "revision": "ae6bcf37f70a785a"
      },
      "strategy": {
       "base": {
@@ -1449,23 +1487,26 @@
        {
         "ticker": "112610",
         "name": "씨에스윈드",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 48500.0,
         "close": 48700.0,
         "prevClose": 49100.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        },
        {
         "ticker": "082740",
         "name": "한화엔진",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 23650.0,
         "close": 24750.0,
         "prevClose": 24350.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        }
       ],
-      "publishedAt": "2026-11-09T06:40:46.744541+00:00"
+      "publishedAt": "2026-11-09T06:40:46.744541+00:00",
+      "revision": "88550f62efdb2cee"
      },
      "strategy": {
       "base": {
@@ -1558,7 +1599,8 @@
         "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)"
        }
       ],
-      "publishedAt": "2026-11-09T06:40:51.084120+00:00"
+      "publishedAt": "2026-11-09T06:40:51.084120+00:00",
+      "revision": "f82edc3f4687712f"
      },
      "strategy": {
       "base": {
@@ -1669,7 +1711,8 @@
         "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)"
        }
       ],
-      "publishedAt": "2026-11-09T06:40:51.084120+00:00"
+      "publishedAt": "2026-11-09T06:40:51.084120+00:00",
+      "revision": "f82edc3f4687712f"
      },
      "strategy": {
       "base": {
@@ -1779,14 +1822,16 @@
        {
         "ticker": "285130",
         "name": "SK케미칼",
-        "status": "confirmed",
+        "status": "provisional",
         "open": 44800.0,
         "close": 42900.0,
         "prevClose": 43250.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
        }
       ],
-      "publishedAt": "2026-11-10T06:40:45.270239+00:00"
+      "publishedAt": "2026-11-10T06:40:45.270239+00:00",
+      "revision": "dfe1da1f9410f98d"
      },
      "strategy": {
       "base": {
@@ -1898,7 +1943,8 @@
         "closeStatus": "KRX_CONFIRMED"
        }
       ],
-      "publishedAt": "2026-11-10T06:40:49.475049+00:00"
+      "publishedAt": "2026-11-10T06:40:49.475049+00:00",
+      "revision": "d90c94007114959a"
      },
      "strategy": {
       "base": {
@@ -2007,7 +2053,8 @@
         "closeStatus": "KRX_CONFIRMED"
        }
       ],
-      "publishedAt": "2026-11-10T06:40:49.475049+00:00"
+      "publishedAt": "2026-11-10T06:40:49.475049+00:00",
+      "revision": "d90c94007114959a"
      },
      "strategy": {
       "base": {
@@ -2057,7 +2104,8 @@
      },
      "postmarket": {
       "status": "nothing",
-      "results": []
+      "results": [],
+      "revision": "472fc88082dc8d23"
      },
      "strategy": {
       "base": {
@@ -2093,7 +2141,8 @@
      "postmarket": {
       "status": "nothing",
       "results": [],
-      "publishedAt": "2026-11-11T06:40:03.941807+00:00"
+      "publishedAt": "2026-11-11T06:40:03.941807+00:00",
+      "revision": "ea431a4e92682cae"
      },
      "strategy": {
       "base": {
@@ -2129,7 +2178,8 @@
      "postmarket": {
       "status": "nothing",
       "results": [],
-      "publishedAt": "2026-11-11T06:40:03.941807+00:00"
+      "publishedAt": "2026-11-11T06:40:03.941807+00:00",
+      "revision": "ea431a4e92682cae"
      },
      "strategy": {
       "base": {
@@ -2210,7 +2260,8 @@
         "closeStatus": "KIS_AUCTION"
        }
       ],
-      "publishedAt": "2026-11-12T06:40:50.235289+00:00"
+      "publishedAt": "2026-11-12T06:40:50.235289+00:00",
+      "revision": "f9db73d4959c9b90"
      },
      "strategy": {
       "base": {
@@ -2305,7 +2356,8 @@
         "closeStatus": "KIS_AUCTION"
        }
       ],
-      "publishedAt": "2026-11-12T06:40:54.577342+00:00"
+      "publishedAt": "2026-11-12T06:40:54.577342+00:00",
+      "revision": "f9db73d4959c9b90"
      },
      "strategy": {
       "base": {
@@ -2415,7 +2467,8 @@
         "closeStatus": "KIS_AUCTION"
        }
       ],
-      "publishedAt": "2026-11-12T06:40:54.577342+00:00"
+      "publishedAt": "2026-11-12T06:40:54.577342+00:00",
+      "revision": "f9db73d4959c9b90"
      },
      "strategy": {
       "base": {
@@ -2508,7 +2561,8 @@
         "closeStatus": "KIS_AUCTION"
        }
       ],
-      "publishedAt": "2026-11-13T06:41:03.325720+00:00"
+      "publishedAt": "2026-11-13T06:41:03.325720+00:00",
+      "revision": "482b44fbf99b9a55"
      },
      "strategy": {
       "base": {
@@ -2623,7 +2677,8 @@
         "closeStatus": "KIS_AUCTION"
        }
       ],
-      "publishedAt": "2026-11-13T06:41:12.905033+00:00"
+      "publishedAt": "2026-11-13T06:41:12.905033+00:00",
+      "revision": "338655ca45e6124b"
      },
      "strategy": {
       "base": {
@@ -2733,7 +2788,8 @@
         "closeStatus": "KIS_AUCTION"
        }
       ],
-      "publishedAt": "2026-11-13T06:41:12.905033+00:00"
+      "publishedAt": "2026-11-13T06:41:12.905033+00:00",
+      "revision": "338655ca45e6124b"
      },
      "strategy": {
       "base": {
@@ -2861,7 +2917,8 @@
         "open": 54000.0,
         "close": 51800.0,
         "prevClose": 54000.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+        "closeStatus": "KIS_AUCTION"
        },
        {
         "ticker": "007310",
@@ -2870,10 +2927,12 @@
         "open": 300000.0,
         "close": 295000.0,
         "prevClose": 304500.0,
-        "basis": "정규장 09:00 분봉 시가 → 15:30 종가 단일가"
+        "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+        "closeStatus": "KIS_AUCTION"
        }
       ],
-      "publishedAt": "2026-11-16T06:41:08.781234+00:00"
+      "publishedAt": "2026-11-16T06:41:08.781234+00:00",
+      "revision": "9c36512d93d2ef47"
      },
      "strategy": {
       "base": {
@@ -2965,7 +3024,8 @@
         "closeStatus": "KIS_AUCTION"
        }
       ],
-      "publishedAt": "2026-11-16T06:41:23.977708+00:00"
+      "publishedAt": "2026-11-16T06:41:23.977708+00:00",
+      "revision": "969236f3cb37555f"
      },
      "strategy": {
       "base": {
@@ -3049,7 +3109,8 @@
         "closeStatus": "KIS_AUCTION"
        }
       ],
-      "publishedAt": "2026-11-16T06:41:23.977708+00:00"
+      "publishedAt": "2026-11-16T06:41:23.977708+00:00",
+      "revision": "24c27f9cce2f1d52"
      },
      "strategy": {
       "base": {
@@ -3141,7 +3202,8 @@
         "closeStatus": "KIS_AUCTION"
        }
       ],
-      "publishedAt": "2026-11-17T06:40:57.663824+00:00"
+      "publishedAt": "2026-11-17T06:40:57.663824+00:00",
+      "revision": "131de64c49ddefb2"
      },
      "strategy": {
       "base": {
@@ -3235,7 +3297,8 @@
         "closeStatus": "KIS_AUCTION"
        }
       ],
-      "publishedAt": "2026-11-17T06:41:09.481633+00:00"
+      "publishedAt": "2026-11-17T06:41:09.481633+00:00",
+      "revision": "6802aea2052360e7"
      },
      "strategy": {
       "base": {
@@ -3346,7 +3409,8 @@
         "closeStatus": "KIS_AUCTION"
        }
       ],
-      "publishedAt": "2026-11-17T06:41:09.481633+00:00"
+      "publishedAt": "2026-11-17T06:41:09.481633+00:00",
+      "revision": "d1b16800f1934f31"
      },
      "strategy": {
       "base": {
@@ -3392,7 +3456,8 @@
      },
      "postmarket": {
       "status": "nothing",
-      "results": []
+      "results": [],
+      "revision": "51d38f4fac2311af"
      },
      "strategy": {
       "base": {
@@ -3430,7 +3495,8 @@
      "postmarket": {
       "status": "nothing",
       "results": [],
-      "publishedAt": "2026-11-18T06:40:41.873754+00:00"
+      "publishedAt": "2026-11-18T06:40:41.873754+00:00",
+      "revision": "c9b104c58f2cf12c"
      },
      "strategy": {
       "base": {
@@ -3499,7 +3565,8 @@
         "closeStatus": "KIS_AUCTION"
        }
       ],
-      "publishedAt": "2026-11-18T06:40:41.873754+00:00"
+      "publishedAt": "2026-11-18T06:40:41.873754+00:00",
+      "revision": "eb43bce23329f3bd"
      },
      "strategy": {
       "base": {
@@ -3589,7 +3656,8 @@
        }
       ],
       "publishedAt": "2026-11-19T06:40:47.254246+00:00",
-      "correctedAt": "2026-11-19T07:40:18.182284+00:00"
+      "correctedAt": "2026-11-19T07:40:18.182284+00:00",
+      "revision": "356c9daf79880e6e"
      },
      "strategy": {
       "base": {
@@ -3672,7 +3740,8 @@
        }
       ],
       "publishedAt": "2026-11-19T06:40:56.198213+00:00",
-      "correctedAt": "2026-11-19T07:40:18.182284+00:00"
+      "correctedAt": "2026-11-19T07:40:18.182284+00:00",
+      "revision": "72408d9009f4d4e0"
      },
      "strategy": {
       "base": {
@@ -3766,7 +3835,8 @@
        }
       ],
       "publishedAt": "2026-11-19T06:40:56.198213+00:00",
-      "correctedAt": "2026-11-19T07:40:18.182284+00:00"
+      "correctedAt": "2026-11-19T07:40:18.182284+00:00",
+      "revision": "c0c75d0e89b230b8"
      },
      "strategy": {
       "base": {
