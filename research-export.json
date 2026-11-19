@@ -1,6 +1,6 @@
 {
  "exportVersion": "YARONG-PUBLIC-EXPORT-V1",
- "exportedAt": "2026-11-19T06:41:06.465118+00:00",
+ "exportedAt": "2026-11-19T07:42:05.426270+00:00",
  "system": "YATC ASK",
  "ledgerStart": "2026-11-06",
  "costs": {
@@ -3579,8 +3579,11 @@
        {
         "ticker": "352820",
         "name": "하이브",
-        "status": "unconfirmed",
-        "note": "정규장 시가·종가를 확정하지 못했습니다."
+        "status": "provisional",
+        "open": 176000.0,
+        "close": 189400.0,
+        "basis": "10:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 16:40 조회 - 시간외 단일가(17:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+        "closeStatus": "PROVISIONAL"
        }
       ],
       "publishedAt": "2026-11-19T06:40:47.254246+00:00"
@@ -3635,8 +3638,19 @@
       "rankStatus": "모델 순위 확인"
      },
      "postmarket": {
-      "status": "pending",
-      "results": []
+      "status": "reviewed",
+      "results": [
+       {
+        "ticker": "352820",
+        "name": "하이브",
+        "status": "provisional",
+        "open": 176000.0,
+        "close": 189400.0,
+        "basis": "10:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 16:40 조회 - 시간외 단일가(17:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+        "closeStatus": "PROVISIONAL"
+       }
+      ],
+      "publishedAt": "2026-11-19T06:40:56.198213+00:00"
      }
     },
     {
@@ -3699,8 +3713,19 @@
       "rankStatus": "모델 순위 확인"
      },
      "postmarket": {
-      "status": "pending",
-      "results": []
+      "status": "reviewed",
+      "results": [
+       {
+        "ticker": "000990",
+        "name": "DB하이텍",
+        "status": "provisional",
+        "open": 75000.0,
+        "close": 75900.0,
+        "basis": "10:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 16:40 조회 - 시간외 단일가(17:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+        "closeStatus": "PROVISIONAL"
+       }
+      ],
+      "publishedAt": "2026-11-19T06:40:56.198213+00:00"
      }
     }
    ],
