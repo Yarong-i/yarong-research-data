@@ -64,8 +64,16 @@
         "rankStatus": "모델 순위 확인"
       },
       "postmarket": {
-        "status": "pending",
-        "results": []
+        "status": "reviewed",
+        "results": [
+          {
+            "ticker": "352820",
+            "name": "하이브",
+            "status": "unconfirmed",
+            "note": "정규장 시가·종가를 확정하지 못했습니다."
+          }
+        ],
+        "publishedAt": "2026-11-19T06:40:47.254246+00:00"
       }
     },
     {
@@ -185,5 +193,6 @@
         "results": []
       }
     }
-  ]
+  ],
+  "updatedAt": "2026-11-19T06:41:21.338Z"
 }
