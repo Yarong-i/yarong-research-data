@@ -2,7 +2,23 @@
   "date": "2026-11-13",
   "market": "open",
   "registeredAt": "2026-11-18T11:53:26.838Z",
-  "corrections": [],
+  "corrections": [
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "claude-sonnet-5:000990",
+      "note": "Sonnet 장후 값 갱신: 성과 확정"
+    },
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "claude-opus-5-5:000880",
+      "note": "Opus 장후 값 갱신: 성과 확정"
+    },
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "gpt-6-astra:000880",
+      "note": "Astra 장후 값 갱신: 성과 확정"
+    }
+  ],
   "source": {
     "system": "YATC ASK",
     "runs": [
@@ -84,24 +100,63 @@
           }
         ],
         "publishedAt": "2026-11-13T06:41:03.325720+00:00",
-        "revision": "482b44fbf99b9a55"
+        "revision": "4881db576d7f2588"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "000990",
           "name": "DB하이텍",
           "dayPct": -1.6867469879518038,
           "cumPct": -1.5247743264399927,
           "asOf": "2026-11-13",
           "startDate": "2026-11-06",
-          "final": false,
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 6,
-          "trades": 5
+          "trades": 5,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "482b44fbf99b9a55",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "000990",
+                "name": "DB하이텍",
+                "status": "confirmed",
+                "open": 83000,
+                "close": 81600,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              }
+            ],
+            "publishedAt": "2026-11-13T06:41:03.325720+00:00",
+            "revision": "482b44fbf99b9a55"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "000990",
+              "name": "DB하이텍",
+              "dayPct": -1.6867469879518038,
+              "cumPct": -1.5247743264399927,
+              "asOf": "2026-11-13",
+              "startDate": "2026-11-06",
+              "final": false,
+              "tradingDays": 6,
+              "trades": 5
+            }
+          }
+        }
+      ]
     },
     {
       "key": "opus",
@@ -200,24 +255,63 @@
           }
         ],
         "publishedAt": "2026-11-13T06:41:12.905033+00:00",
-        "revision": "338655ca45e6124b"
+        "revision": "5e028fe5be66d8b4"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "000880",
           "name": "한화",
           "dayPct": -2.7061855670103108,
           "cumPct": -2.5458924469116795,
           "asOf": "2026-11-13",
           "startDate": "2026-11-06",
-          "final": false,
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 6,
-          "trades": 5
+          "trades": 5,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "338655ca45e6124b",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "000880",
+                "name": "한화",
+                "status": "confirmed",
+                "open": 77600,
+                "close": 75500,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              }
+            ],
+            "publishedAt": "2026-11-13T06:41:12.905033+00:00",
+            "revision": "338655ca45e6124b"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "000880",
+              "name": "한화",
+              "dayPct": -2.7061855670103108,
+              "cumPct": -2.5458924469116795,
+              "asOf": "2026-11-13",
+              "startDate": "2026-11-06",
+              "final": false,
+              "tradingDays": 6,
+              "trades": 5
+            }
+          }
+        }
+      ]
     },
     {
       "key": "astra",
@@ -311,25 +405,64 @@
           }
         ],
         "publishedAt": "2026-11-13T06:41:12.905033+00:00",
-        "revision": "338655ca45e6124b"
+        "revision": "5e028fe5be66d8b4"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "000880",
           "name": "한화",
           "dayPct": -2.7061855670103108,
           "cumPct": -2.5458924469116795,
           "asOf": "2026-11-13",
           "startDate": "2026-11-06",
-          "final": false,
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 6,
-          "trades": 5
+          "trades": 5,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "338655ca45e6124b",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "000880",
+                "name": "한화",
+                "status": "confirmed",
+                "open": 77600,
+                "close": 75500,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              }
+            ],
+            "publishedAt": "2026-11-13T06:41:12.905033+00:00",
+            "revision": "338655ca45e6124b"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "000880",
+              "name": "한화",
+              "dayPct": -2.7061855670103108,
+              "cumPct": -2.5458924469116795,
+              "asOf": "2026-11-13",
+              "startDate": "2026-11-06",
+              "final": false,
+              "tradingDays": 6,
+              "trades": 5
+            }
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-19T08:18:47.933Z"
+  "updatedAt": "2026-11-20T06:41:18.927Z"
 }

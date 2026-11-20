@@ -7,6 +7,21 @@
       "at": "2026-11-19T08:18:27.607857+00:00",
       "ticker": "claude-sonnet-5:003230",
       "note": "Sonnet 장후 값 갱신: 112610 종가 48,700원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED · 082740 종가 24,750원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED"
+    },
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "claude-sonnet-5:003230",
+      "note": "Sonnet 장후 값 갱신: 누적 +3.21% → +3.85%"
+    },
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "claude-opus-5-5:003230",
+      "note": "Opus 장후 값 갱신: 누적 +3.21% → +3.85%"
+    },
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "gpt-6-astra:003230",
+      "note": "Astra 장후 값 갱신: 누적 +3.21% → +3.85%"
     }
   ],
   "source": {
@@ -140,7 +155,7 @@
           }
         ],
         "publishedAt": "2026-11-09T06:40:46.744541+00:00",
-        "revision": "88550f62efdb2cee"
+        "revision": "e77cf44acfdd8132"
       },
       "strategy": {
         "base": {
@@ -149,12 +164,13 @@
           "ticker": "003230",
           "name": "삼양식품",
           "dayPct": -1.4542343883661268,
-          "cumPct": 3.207800200112465,
+          "cumPct": 3.8508394536957313,
           "asOf": "2026-11-09",
           "startDate": "2026-11-06",
           "final": true,
           "tradingDays": 2,
-          "trades": 2
+          "trades": 2,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
       },
       "postmarketHistory": [
@@ -192,6 +208,60 @@
               }
             ],
             "publishedAt": "2026-11-09T06:40:46.744541+00:00"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "ticker": "003230",
+              "name": "삼양식품",
+              "dayPct": -1.4542343883661268,
+              "cumPct": 3.207800200112465,
+              "asOf": "2026-11-09",
+              "startDate": "2026-11-06",
+              "final": true,
+              "tradingDays": 2,
+              "trades": 2
+            }
+          }
+        },
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "88550f62efdb2cee",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "003230",
+                "name": "삼양식품",
+                "status": "confirmed",
+                "open": 1169000,
+                "close": 1152000,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)"
+              },
+              {
+                "ticker": "112610",
+                "name": "씨에스윈드",
+                "status": "provisional",
+                "open": 48500,
+                "close": 48700,
+                "prevClose": 49100,
+                "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+                "closeStatus": "PROVISIONAL_UNCONFIRMED"
+              },
+              {
+                "ticker": "082740",
+                "name": "한화엔진",
+                "status": "provisional",
+                "open": 23650,
+                "close": 24750,
+                "prevClose": 24350,
+                "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+                "closeStatus": "PROVISIONAL_UNCONFIRMED"
+              }
+            ],
+            "publishedAt": "2026-11-09T06:40:46.744541+00:00",
+            "revision": "88550f62efdb2cee"
           },
           "strategy": {
             "base": {
@@ -287,7 +357,7 @@
           }
         ],
         "publishedAt": "2026-11-09T06:40:51.084120+00:00",
-        "revision": "f82edc3f4687712f"
+        "revision": "8f618764428491e1"
       },
       "strategy": {
         "base": {
@@ -296,14 +366,51 @@
           "ticker": "003230",
           "name": "삼양식품",
           "dayPct": -1.4542343883661268,
-          "cumPct": 3.207800200112465,
+          "cumPct": 3.8508394536957313,
           "asOf": "2026-11-09",
           "startDate": "2026-11-06",
           "final": true,
           "tradingDays": 2,
-          "trades": 2
+          "trades": 2,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "f82edc3f4687712f",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "003230",
+                "name": "삼양식품",
+                "status": "confirmed",
+                "open": 1169000,
+                "close": 1152000,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)"
+              }
+            ],
+            "publishedAt": "2026-11-09T06:40:51.084120+00:00",
+            "revision": "f82edc3f4687712f"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "ticker": "003230",
+              "name": "삼양식품",
+              "dayPct": -1.4542343883661268,
+              "cumPct": 3.207800200112465,
+              "asOf": "2026-11-09",
+              "startDate": "2026-11-06",
+              "final": true,
+              "tradingDays": 2,
+              "trades": 2
+            }
+          }
+        }
+      ]
     },
     {
       "key": "astra",
@@ -399,7 +506,7 @@
           }
         ],
         "publishedAt": "2026-11-09T06:40:51.084120+00:00",
-        "revision": "f82edc3f4687712f"
+        "revision": "8f618764428491e1"
       },
       "strategy": {
         "base": {
@@ -408,15 +515,52 @@
           "ticker": "003230",
           "name": "삼양식품",
           "dayPct": -1.4542343883661268,
-          "cumPct": 3.207800200112465,
+          "cumPct": 3.8508394536957313,
           "asOf": "2026-11-09",
           "startDate": "2026-11-06",
           "final": true,
           "tradingDays": 2,
-          "trades": 2
+          "trades": 2,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "f82edc3f4687712f",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "003230",
+                "name": "삼양식품",
+                "status": "confirmed",
+                "open": 1169000,
+                "close": 1152000,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)"
+              }
+            ],
+            "publishedAt": "2026-11-09T06:40:51.084120+00:00",
+            "revision": "f82edc3f4687712f"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "ticker": "003230",
+              "name": "삼양식품",
+              "dayPct": -1.4542343883661268,
+              "cumPct": 3.207800200112465,
+              "asOf": "2026-11-09",
+              "startDate": "2026-11-06",
+              "final": true,
+              "tradingDays": 2,
+              "trades": 2
+            }
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-19T08:18:47.933Z"
+  "updatedAt": "2026-11-20T06:41:18.927Z"
 }

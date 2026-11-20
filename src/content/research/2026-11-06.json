@@ -12,6 +12,21 @@
       "at": "2026-11-19T08:18:27.607857+00:00",
       "ticker": "claude-sonnet-5:035720",
       "note": "Sonnet 장후 값 갱신: 251270 종가 34,800원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED · 021240 종가 108,100원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED"
+    },
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "claude-sonnet-5:035720",
+      "note": "Sonnet 장후 값 갱신: 당일 +4.73% → +5.38% · 누적 +4.73% → +5.38%"
+    },
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "claude-opus-5-5:035720",
+      "note": "Opus 장후 값 갱신: 당일 +4.73% → +5.38% · 누적 +4.73% → +5.38%"
+    },
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "gpt-6-astra:035720",
+      "note": "Astra 장후 값 갱신: 당일 +4.73% → +5.38% · 누적 +4.73% → +5.38%"
     }
   ],
   "source": {
@@ -147,7 +162,7 @@
           }
         ],
         "publishedAt": "2026-11-06T06:40:39.516433+00:00",
-        "revision": "623990da8146df82"
+        "revision": "1416c2dae05993cb"
       },
       "strategy": {
         "base": {
@@ -155,13 +170,15 @@
           "category": "PICK",
           "ticker": "035720",
           "name": "카카오",
-          "dayPct": 4.7308319738988525,
-          "cumPct": 4.7308319738988525,
+          "dayPct": 5.38336052202284,
+          "cumPct": 5.38336052202284,
           "asOf": "2026-11-06",
           "startDate": "2026-11-06",
           "final": true,
+          "closeStatus": "KIS_PATHS_AGREE_KRX_UNVERIFIED",
           "tradingDays": 1,
-          "trades": 1
+          "trades": 1,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
       },
       "postmarketHistory": [
@@ -200,6 +217,61 @@
               }
             ],
             "publishedAt": "2026-11-06T06:40:39.516433+00:00"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "ticker": "035720",
+              "name": "카카오",
+              "dayPct": 4.7308319738988525,
+              "cumPct": 4.7308319738988525,
+              "asOf": "2026-11-06",
+              "startDate": "2026-11-06",
+              "final": true,
+              "tradingDays": 1,
+              "trades": 1
+            }
+          }
+        },
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "623990da8146df82",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "035720",
+                "name": "카카오",
+                "status": "confirmed",
+                "open": 30650,
+                "close": 32300,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS FHKST03010230 2026-11-06 15:30 종가 단일가(189,133주) = 당시 15:40 KIS 현재가(J); KRX 공식 종가 미대조",
+                "closeStatus": "KIS_PATHS_AGREE_KRX_UNVERIFIED"
+              },
+              {
+                "ticker": "251270",
+                "name": "넷마블",
+                "status": "provisional",
+                "open": 34300,
+                "close": 34800,
+                "prevClose": 36700,
+                "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+                "closeStatus": "PROVISIONAL_UNCONFIRMED"
+              },
+              {
+                "ticker": "021240",
+                "name": "코웨이",
+                "status": "provisional",
+                "open": 107600,
+                "close": 108100,
+                "prevClose": 109800,
+                "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+                "closeStatus": "PROVISIONAL_UNCONFIRMED"
+              }
+            ],
+            "publishedAt": "2026-11-06T06:40:39.516433+00:00",
+            "revision": "623990da8146df82"
           },
           "strategy": {
             "base": {
@@ -313,7 +385,7 @@
           }
         ],
         "publishedAt": "2026-11-06T06:40:43.737439+00:00",
-        "revision": "ae6bcf37f70a785a"
+        "revision": "a85befb4d8c9340d"
       },
       "strategy": {
         "base": {
@@ -321,15 +393,54 @@
           "category": "PICK",
           "ticker": "035720",
           "name": "카카오",
-          "dayPct": 4.7308319738988525,
-          "cumPct": 4.7308319738988525,
+          "dayPct": 5.38336052202284,
+          "cumPct": 5.38336052202284,
           "asOf": "2026-11-06",
           "startDate": "2026-11-06",
           "final": true,
+          "closeStatus": "KIS_PATHS_AGREE_KRX_UNVERIFIED",
           "tradingDays": 1,
-          "trades": 1
+          "trades": 1,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "ae6bcf37f70a785a",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "035720",
+                "name": "카카오",
+                "status": "confirmed",
+                "open": 30650,
+                "close": 32300,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS FHKST03010230 2026-11-06 15:30 종가 단일가(189,133주) = 당시 15:40 KIS 현재가(J); KRX 공식 종가 미대조",
+                "closeStatus": "KIS_PATHS_AGREE_KRX_UNVERIFIED"
+              }
+            ],
+            "publishedAt": "2026-11-06T06:40:43.737439+00:00",
+            "revision": "ae6bcf37f70a785a"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "ticker": "035720",
+              "name": "카카오",
+              "dayPct": 4.7308319738988525,
+              "cumPct": 4.7308319738988525,
+              "asOf": "2026-11-06",
+              "startDate": "2026-11-06",
+              "final": true,
+              "tradingDays": 1,
+              "trades": 1
+            }
+          }
+        }
+      ]
     },
     {
       "key": "astra",
@@ -423,7 +534,7 @@
           }
         ],
         "publishedAt": "2026-11-06T06:40:43.737439+00:00",
-        "revision": "ae6bcf37f70a785a"
+        "revision": "a85befb4d8c9340d"
       },
       "strategy": {
         "base": {
@@ -431,16 +542,55 @@
           "category": "PICK",
           "ticker": "035720",
           "name": "카카오",
-          "dayPct": 4.7308319738988525,
-          "cumPct": 4.7308319738988525,
+          "dayPct": 5.38336052202284,
+          "cumPct": 5.38336052202284,
           "asOf": "2026-11-06",
           "startDate": "2026-11-06",
           "final": true,
+          "closeStatus": "KIS_PATHS_AGREE_KRX_UNVERIFIED",
           "tradingDays": 1,
-          "trades": 1
+          "trades": 1,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "ae6bcf37f70a785a",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "035720",
+                "name": "카카오",
+                "status": "confirmed",
+                "open": 30650,
+                "close": 32300,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS FHKST03010230 2026-11-06 15:30 종가 단일가(189,133주) = 당시 15:40 KIS 현재가(J); KRX 공식 종가 미대조",
+                "closeStatus": "KIS_PATHS_AGREE_KRX_UNVERIFIED"
+              }
+            ],
+            "publishedAt": "2026-11-06T06:40:43.737439+00:00",
+            "revision": "ae6bcf37f70a785a"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "ticker": "035720",
+              "name": "카카오",
+              "dayPct": 4.7308319738988525,
+              "cumPct": 4.7308319738988525,
+              "asOf": "2026-11-06",
+              "startDate": "2026-11-06",
+              "final": true,
+              "tradingDays": 1,
+              "trades": 1
+            }
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-19T08:18:47.933Z"
+  "updatedAt": "2026-11-20T06:41:18.927Z"
 }

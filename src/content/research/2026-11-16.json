@@ -7,6 +7,21 @@
       "at": "2026-11-19T08:18:27.607857+00:00",
       "ticker": "claude-sonnet-5:001450",
       "note": "Sonnet 장후 값 갱신: 375500 종가 51,800원 그대로, 근거 없음 → KIS_AUCTION · 007310 종가 295,000원 그대로, 근거 없음 → KIS_AUCTION"
+    },
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "claude-sonnet-5:001450",
+      "note": "Sonnet 장후 값 갱신: 성과 확정"
+    },
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "claude-opus-5-5:007310",
+      "note": "Opus 장후 값 갱신: 성과 확정"
+    },
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "gpt-6-astra:375500",
+      "note": "Astra 장후 값 갱신: 성과 확정"
     }
   ],
   "source": {
@@ -139,22 +154,23 @@
           }
         ],
         "publishedAt": "2026-11-16T06:41:08.781234+00:00",
-        "revision": "9c36512d93d2ef47"
+        "revision": "ea5d5ace311b8303"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "001450",
           "name": "현대해상",
           "dayPct": 5.292479108635106,
           "cumPct": 3.687006419514449,
           "asOf": "2026-11-16",
           "startDate": "2026-11-06",
-          "final": false,
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 7,
-          "trades": 6
+          "trades": 6,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
       },
       "postmarketHistory": [
@@ -193,6 +209,62 @@
               }
             ],
             "publishedAt": "2026-11-16T06:41:08.781234+00:00"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "001450",
+              "name": "현대해상",
+              "dayPct": 5.292479108635106,
+              "cumPct": 3.687006419514449,
+              "asOf": "2026-11-16",
+              "startDate": "2026-11-06",
+              "final": false,
+              "tradingDays": 7,
+              "trades": 6
+            }
+          }
+        },
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "9c36512d93d2ef47",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "001450",
+                "name": "현대해상",
+                "status": "confirmed",
+                "open": 35900,
+                "close": 37800,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              },
+              {
+                "ticker": "375500",
+                "name": "DL이앤씨",
+                "status": "confirmed",
+                "open": 54000,
+                "close": 51800,
+                "prevClose": 54000,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              },
+              {
+                "ticker": "007310",
+                "name": "오뚜기",
+                "status": "confirmed",
+                "open": 300000,
+                "close": 295000,
+                "prevClose": 304500,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              }
+            ],
+            "publishedAt": "2026-11-16T06:41:08.781234+00:00",
+            "revision": "9c36512d93d2ef47"
           },
           "strategy": {
             "base": {
@@ -287,24 +359,63 @@
           }
         ],
         "publishedAt": "2026-11-16T06:41:23.977708+00:00",
-        "revision": "969236f3cb37555f"
+        "revision": "699411adf2308bfb"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "007310",
           "name": "오뚜기",
           "dayPct": -1.6666666666666718,
           "cumPct": -4.170127572796489,
           "asOf": "2026-11-16",
           "startDate": "2026-11-06",
-          "final": false,
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 7,
-          "trades": 6
+          "trades": 6,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "969236f3cb37555f",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "007310",
+                "name": "오뚜기",
+                "status": "confirmed",
+                "open": 300000,
+                "close": 295000,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              }
+            ],
+            "publishedAt": "2026-11-16T06:41:23.977708+00:00",
+            "revision": "969236f3cb37555f"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "007310",
+              "name": "오뚜기",
+              "dayPct": -1.6666666666666718,
+              "cumPct": -4.170127572796489,
+              "asOf": "2026-11-16",
+              "startDate": "2026-11-06",
+              "final": false,
+              "tradingDays": 7,
+              "trades": 6
+            }
+          }
+        }
+      ]
     },
     {
       "key": "astra",
@@ -372,25 +483,64 @@
           }
         ],
         "publishedAt": "2026-11-16T06:41:23.977708+00:00",
-        "revision": "24c27f9cce2f1d52"
+        "revision": "f3a2907e570fdcbf"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "375500",
           "name": "DL이앤씨",
           "dayPct": -4.074074074074074,
           "cumPct": -6.516244976852326,
           "asOf": "2026-11-16",
           "startDate": "2026-11-06",
-          "final": false,
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 7,
-          "trades": 6
+          "trades": 6,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "24c27f9cce2f1d52",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "375500",
+                "name": "DL이앤씨",
+                "status": "confirmed",
+                "open": 54000,
+                "close": 51800,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              }
+            ],
+            "publishedAt": "2026-11-16T06:41:23.977708+00:00",
+            "revision": "24c27f9cce2f1d52"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "375500",
+              "name": "DL이앤씨",
+              "dayPct": -4.074074074074074,
+              "cumPct": -6.516244976852326,
+              "asOf": "2026-11-16",
+              "startDate": "2026-11-06",
+              "final": false,
+              "tradingDays": 7,
+              "trades": 6
+            }
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-19T08:18:47.933Z"
+  "updatedAt": "2026-11-20T06:41:18.927Z"
 }

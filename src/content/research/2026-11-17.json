@@ -2,7 +2,23 @@
   "date": "2026-11-17",
   "market": "open",
   "registeredAt": "2026-11-18T11:53:26.838Z",
-  "corrections": [],
+  "corrections": [
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "claude-sonnet-5:006400",
+      "note": "Sonnet 장후 값 갱신: 성과 확정"
+    },
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "claude-opus-5-5:001440",
+      "note": "Opus 장후 값 갱신: 성과 확정"
+    },
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "gpt-6-astra:001440",
+      "note": "Astra 장후 값 갱신: 성과 확정"
+    }
+  ],
   "source": {
     "system": "YATC ASK",
     "runs": [
@@ -83,24 +99,63 @@
           }
         ],
         "publishedAt": "2026-11-17T06:40:57.663824+00:00",
-        "revision": "131de64c49ddefb2"
+        "revision": "808d1fe3ef8d2f01"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "006400",
           "name": "삼성SDI",
           "dayPct": -4.3010752688172005,
           "cumPct": -0.7726497705721869,
           "asOf": "2026-11-17",
           "startDate": "2026-11-06",
-          "final": false,
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 8,
-          "trades": 7
+          "trades": 7,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "131de64c49ddefb2",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "006400",
+                "name": "삼성SDI",
+                "status": "confirmed",
+                "open": 465000,
+                "close": 445000,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              }
+            ],
+            "publishedAt": "2026-11-17T06:40:57.663824+00:00",
+            "revision": "131de64c49ddefb2"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "006400",
+              "name": "삼성SDI",
+              "dayPct": -4.3010752688172005,
+              "cumPct": -0.7726497705721869,
+              "asOf": "2026-11-17",
+              "startDate": "2026-11-06",
+              "final": false,
+              "tradingDays": 8,
+              "trades": 7
+            }
+          }
+        }
+      ]
     },
     {
       "key": "opus",
@@ -178,24 +233,63 @@
           }
         ],
         "publishedAt": "2026-11-17T06:41:09.481633+00:00",
-        "revision": "6802aea2052360e7"
+        "revision": "ee59da7bce3b4420"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "001440",
           "name": "대한전선",
           "dayPct": -2.350307778399552,
           "cumPct": -6.422424518483427,
           "asOf": "2026-11-17",
           "startDate": "2026-11-06",
-          "final": false,
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 8,
-          "trades": 7
+          "trades": 7,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "6802aea2052360e7",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "001440",
+                "name": "대한전선",
+                "status": "confirmed",
+                "open": 17870,
+                "close": 17450,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              }
+            ],
+            "publishedAt": "2026-11-17T06:41:09.481633+00:00",
+            "revision": "6802aea2052360e7"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "001440",
+              "name": "대한전선",
+              "dayPct": -2.350307778399552,
+              "cumPct": -6.422424518483427,
+              "asOf": "2026-11-17",
+              "startDate": "2026-11-06",
+              "final": false,
+              "tradingDays": 8,
+              "trades": 7
+            }
+          }
+        }
+      ]
     },
     {
       "key": "astra",
@@ -290,25 +384,64 @@
           }
         ],
         "publishedAt": "2026-11-17T06:41:09.481633+00:00",
-        "revision": "d1b16800f1934f31"
+        "revision": "a0a6ce2e5783ce4a"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "001440",
           "name": "대한전선",
           "dayPct": -2.350307778399552,
           "cumPct": -8.713400942701345,
           "asOf": "2026-11-17",
           "startDate": "2026-11-06",
-          "final": false,
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 8,
-          "trades": 7
+          "trades": 7,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "d1b16800f1934f31",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "001440",
+                "name": "대한전선",
+                "status": "confirmed",
+                "open": 17870,
+                "close": 17450,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              }
+            ],
+            "publishedAt": "2026-11-17T06:41:09.481633+00:00",
+            "revision": "d1b16800f1934f31"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "001440",
+              "name": "대한전선",
+              "dayPct": -2.350307778399552,
+              "cumPct": -8.713400942701345,
+              "asOf": "2026-11-17",
+              "startDate": "2026-11-06",
+              "final": false,
+              "tradingDays": 8,
+              "trades": 7
+            }
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-19T08:18:47.933Z"
+  "updatedAt": "2026-11-20T06:41:18.927Z"
 }

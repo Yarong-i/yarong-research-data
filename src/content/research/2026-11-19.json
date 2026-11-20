@@ -6,6 +6,21 @@
     {
       "at": "2026-11-19T07:40:18.182284+00:00",
       "note": "장후 복기·성과 정정: 처음 발표(15:40 발표)는 정규장(10:00~16:30) 종료 전에 작성된 장중 조회·조기 복기였습니다. 정규장 시가와 마감 후 종가로 다시 계산했고, 처음 발표의 장중 가격은 성과에 쓰지 않습니다. 추천·순위·점수는 바뀌지 않았습니다."
+    },
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "claude-sonnet-5:352820",
+      "note": "Sonnet 장후 값 갱신: 352820 종가 189,400원 그대로, 잠정 → 확정, 근거 PROVISIONAL → KIS_AUCTION · 성과 확정"
+    },
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "claude-opus-5-5:352820",
+      "note": "Opus 장후 값 갱신: 352820 종가 189,400원 그대로, 잠정 → 확정, 근거 PROVISIONAL → KIS_AUCTION · 성과 확정"
+    },
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "gpt-6-astra:000990",
+      "note": "Astra 장후 값 갱신: 000990 종가 75,900원 그대로, 잠정 → 확정, 근거 PROVISIONAL → KIS_AUCTION · 성과 확정"
     }
   ],
   "source": {
@@ -78,33 +93,73 @@
           {
             "ticker": "352820",
             "name": "하이브",
-            "status": "provisional",
+            "status": "confirmed",
             "open": 176000,
             "close": 189400,
-            "basis": "10:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 16:40 조회 - 시간외 단일가(17:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
-            "closeStatus": "PROVISIONAL"
+            "basis": "10:00 분봉 시가(시가 단일가 포함) → 16:30 종가 단일가 분봉(KIS 원본 시각 163000)",
+            "closeStatus": "KIS_AUCTION"
           }
         ],
         "publishedAt": "2026-11-19T06:40:47.254246+00:00",
         "correctedAt": "2026-11-19T07:40:18.182284+00:00",
-        "revision": "356c9daf79880e6e"
+        "revision": "2a5414c25f8849e3"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "352820",
           "name": "하이브",
           "dayPct": 7.613636363636367,
           "cumPct": 6.7821598491683455,
           "asOf": "2026-11-19",
           "startDate": "2026-11-06",
-          "final": false,
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 10,
-          "trades": 8
+          "trades": 8,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "356c9daf79880e6e",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "352820",
+                "name": "하이브",
+                "status": "provisional",
+                "open": 176000,
+                "close": 189400,
+                "basis": "10:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 16:40 조회 - 시간외 단일가(17:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+                "closeStatus": "PROVISIONAL"
+              }
+            ],
+            "publishedAt": "2026-11-19T06:40:47.254246+00:00",
+            "correctedAt": "2026-11-19T07:40:18.182284+00:00",
+            "revision": "356c9daf79880e6e"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "352820",
+              "name": "하이브",
+              "dayPct": 7.613636363636367,
+              "cumPct": 6.7821598491683455,
+              "asOf": "2026-11-19",
+              "startDate": "2026-11-06",
+              "final": false,
+              "tradingDays": 10,
+              "trades": 8
+            }
+          }
+        }
+      ]
     },
     {
       "key": "opus",
@@ -162,33 +217,73 @@
           {
             "ticker": "352820",
             "name": "하이브",
-            "status": "provisional",
+            "status": "confirmed",
             "open": 176000,
             "close": 189400,
-            "basis": "10:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 16:40 조회 - 시간외 단일가(17:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
-            "closeStatus": "PROVISIONAL"
+            "basis": "10:00 분봉 시가(시가 단일가 포함) → 16:30 종가 단일가 분봉(KIS 원본 시각 163000)",
+            "closeStatus": "KIS_AUCTION"
           }
         ],
         "publishedAt": "2026-11-19T06:40:56.198213+00:00",
         "correctedAt": "2026-11-19T07:40:18.182284+00:00",
-        "revision": "72408d9009f4d4e0"
+        "revision": "f6203cbc288fb59b"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "352820",
           "name": "하이브",
           "dayPct": 7.613636363636367,
           "cumPct": 0.7022317965865943,
           "asOf": "2026-11-19",
           "startDate": "2026-11-06",
-          "final": false,
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 10,
-          "trades": 8
+          "trades": 8,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "72408d9009f4d4e0",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "352820",
+                "name": "하이브",
+                "status": "provisional",
+                "open": 176000,
+                "close": 189400,
+                "basis": "10:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 16:40 조회 - 시간외 단일가(17:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+                "closeStatus": "PROVISIONAL"
+              }
+            ],
+            "publishedAt": "2026-11-19T06:40:56.198213+00:00",
+            "correctedAt": "2026-11-19T07:40:18.182284+00:00",
+            "revision": "72408d9009f4d4e0"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "352820",
+              "name": "하이브",
+              "dayPct": 7.613636363636367,
+              "cumPct": 0.7022317965865943,
+              "asOf": "2026-11-19",
+              "startDate": "2026-11-06",
+              "final": false,
+              "tradingDays": 10,
+              "trades": 8
+            }
+          }
+        }
+      ]
     },
     {
       "key": "astra",
@@ -257,34 +352,74 @@
           {
             "ticker": "000990",
             "name": "DB하이텍",
-            "status": "provisional",
+            "status": "confirmed",
             "open": 75000,
             "close": 75900,
-            "basis": "10:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 16:40 조회 - 시간외 단일가(17:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
-            "closeStatus": "PROVISIONAL"
+            "basis": "10:00 분봉 시가(시가 단일가 포함) → 16:30 종가 단일가 분봉(KIS 원본 시각 163000)",
+            "closeStatus": "KIS_AUCTION"
           }
         ],
         "publishedAt": "2026-11-19T06:40:56.198213+00:00",
         "correctedAt": "2026-11-19T07:40:18.182284+00:00",
-        "revision": "c0c75d0e89b230b8"
+        "revision": "e8d00f3dab771a7d"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "000990",
           "name": "DB하이텍",
           "dayPct": 1.200000000000001,
           "cumPct": -8.16867435160532,
           "asOf": "2026-11-19",
           "startDate": "2026-11-06",
-          "final": false,
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 10,
-          "trades": 9
+          "trades": 9,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "c0c75d0e89b230b8",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "000990",
+                "name": "DB하이텍",
+                "status": "provisional",
+                "open": 75000,
+                "close": 75900,
+                "basis": "10:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 16:40 조회 - 시간외 단일가(17:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+                "closeStatus": "PROVISIONAL"
+              }
+            ],
+            "publishedAt": "2026-11-19T06:40:56.198213+00:00",
+            "correctedAt": "2026-11-19T07:40:18.182284+00:00",
+            "revision": "c0c75d0e89b230b8"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "000990",
+              "name": "DB하이텍",
+              "dayPct": 1.200000000000001,
+              "cumPct": -8.16867435160532,
+              "asOf": "2026-11-19",
+              "startDate": "2026-11-06",
+              "final": false,
+              "tradingDays": 10,
+              "trades": 9
+            }
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-19T08:18:47.933Z"
+  "updatedAt": "2026-11-20T06:41:18.927Z"
 }

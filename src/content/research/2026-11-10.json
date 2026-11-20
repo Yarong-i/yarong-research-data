@@ -12,6 +12,21 @@
       "at": "2026-11-19T08:18:27.607857+00:00",
       "ticker": "claude-sonnet-5:000150",
       "note": "Sonnet 장후 값 갱신: 285130 종가 42,900원 그대로, 확정 → 잠정, 근거 없음 → PROVISIONAL_UNCONFIRMED"
+    },
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "claude-sonnet-5:000150",
+      "note": "Sonnet 장후 값 갱신: 당일 -3.06% → -2.75% · 누적 +0.05% → +0.99%"
+    },
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "claude-opus-5-5:000150",
+      "note": "Opus 장후 값 갱신: 당일 -3.06% → -2.75% · 누적 +0.05% → +0.99%"
+    },
+    {
+      "at": "2026-11-20T06:41:02.153022+00:00",
+      "ticker": "gpt-6-astra:000150",
+      "note": "Astra 장후 값 갱신: 당일 -3.06% → -2.75% · 누적 +0.05% → +0.99%"
     }
   ],
   "source": {
@@ -121,7 +136,7 @@
           }
         ],
         "publishedAt": "2026-11-10T06:40:45.270239+00:00",
-        "revision": "dfe1da1f9410f98d"
+        "revision": "ef5bea60e6057259"
       },
       "strategy": {
         "base": {
@@ -129,13 +144,15 @@
           "category": "PICK",
           "ticker": "000150",
           "name": "두산",
-          "dayPct": -3.0581039755351647,
-          "cumPct": 0.05159835913044475,
+          "dayPct": -2.752293577981646,
+          "cumPct": 0.9925594687316242,
           "asOf": "2026-11-10",
           "startDate": "2026-11-06",
           "final": true,
+          "closeStatus": "KRX_CONFIRMED",
           "tradingDays": 3,
-          "trades": 3
+          "trades": 3,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
       },
       "postmarketHistory": [
@@ -165,6 +182,51 @@
               }
             ],
             "publishedAt": "2026-11-10T06:40:45.270239+00:00"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "ticker": "000150",
+              "name": "두산",
+              "dayPct": -3.0581039755351647,
+              "cumPct": 0.05159835913044475,
+              "asOf": "2026-11-10",
+              "startDate": "2026-11-06",
+              "final": true,
+              "tradingDays": 3,
+              "trades": 3
+            }
+          }
+        },
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "dfe1da1f9410f98d",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "000150",
+                "name": "두산",
+                "status": "confirmed",
+                "open": 654000,
+                "close": 636000,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS FHKST03010230 2026-11-10 15:30 종가 단일가(7,149주) = 당시 15:40 KIS 현재가(J) = 11/11 KIS 기준가 = KRX [11006] 11/11 화면 종가-대비",
+                "closeStatus": "KRX_CONFIRMED"
+              },
+              {
+                "ticker": "285130",
+                "name": "SK케미칼",
+                "status": "provisional",
+                "open": 44800,
+                "close": 42900,
+                "prevClose": 43250,
+                "basis": "정규장 09:00 분봉 시가 → 당일 분봉으로 읽은 장후 값 (종가 단일가 미확인)",
+                "closeStatus": "PROVISIONAL_UNCONFIRMED"
+              }
+            ],
+            "publishedAt": "2026-11-10T06:40:45.270239+00:00",
+            "revision": "dfe1da1f9410f98d"
           },
           "strategy": {
             "base": {
@@ -279,7 +341,7 @@
           }
         ],
         "publishedAt": "2026-11-10T06:40:49.475049+00:00",
-        "revision": "d90c94007114959a"
+        "revision": "4839587e5d77cb1f"
       },
       "strategy": {
         "base": {
@@ -287,15 +349,54 @@
           "category": "PICK",
           "ticker": "000150",
           "name": "두산",
-          "dayPct": -3.0581039755351647,
-          "cumPct": 0.05159835913044475,
+          "dayPct": -2.752293577981646,
+          "cumPct": 0.9925594687316242,
           "asOf": "2026-11-10",
           "startDate": "2026-11-06",
           "final": true,
+          "closeStatus": "KRX_CONFIRMED",
           "tradingDays": 3,
-          "trades": 3
+          "trades": 3,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "d90c94007114959a",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "000150",
+                "name": "두산",
+                "status": "confirmed",
+                "open": 654000,
+                "close": 636000,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS FHKST03010230 2026-11-10 15:30 종가 단일가(7,149주) = 당시 15:40 KIS 현재가(J) = 11/11 KIS 기준가 = KRX [11006] 11/11 화면 종가-대비",
+                "closeStatus": "KRX_CONFIRMED"
+              }
+            ],
+            "publishedAt": "2026-11-10T06:40:49.475049+00:00",
+            "revision": "d90c94007114959a"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "ticker": "000150",
+              "name": "두산",
+              "dayPct": -3.0581039755351647,
+              "cumPct": 0.05159835913044475,
+              "asOf": "2026-11-10",
+              "startDate": "2026-11-06",
+              "final": true,
+              "tradingDays": 3,
+              "trades": 3
+            }
+          }
+        }
+      ]
     },
     {
       "key": "astra",
@@ -389,7 +490,7 @@
           }
         ],
         "publishedAt": "2026-11-10T06:40:49.475049+00:00",
-        "revision": "d90c94007114959a"
+        "revision": "4839587e5d77cb1f"
       },
       "strategy": {
         "base": {
@@ -397,16 +498,55 @@
           "category": "PICK",
           "ticker": "000150",
           "name": "두산",
-          "dayPct": -3.0581039755351647,
-          "cumPct": 0.05159835913044475,
+          "dayPct": -2.752293577981646,
+          "cumPct": 0.9925594687316242,
           "asOf": "2026-11-10",
           "startDate": "2026-11-06",
           "final": true,
+          "closeStatus": "KRX_CONFIRMED",
           "tradingDays": 3,
-          "trades": 3
+          "trades": 3,
+          "restatedBy": "POSTMARKET_CMP-107"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-20T06:41:02.153022+00:00",
+          "revision": "d90c94007114959a",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "000150",
+                "name": "두산",
+                "status": "confirmed",
+                "open": 654000,
+                "close": 636000,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS FHKST03010230 2026-11-10 15:30 종가 단일가(7,149주) = 당시 15:40 KIS 현재가(J) = 11/11 KIS 기준가 = KRX [11006] 11/11 화면 종가-대비",
+                "closeStatus": "KRX_CONFIRMED"
+              }
+            ],
+            "publishedAt": "2026-11-10T06:40:49.475049+00:00",
+            "revision": "d90c94007114959a"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "ticker": "000150",
+              "name": "두산",
+              "dayPct": -3.0581039755351647,
+              "cumPct": 0.05159835913044475,
+              "asOf": "2026-11-10",
+              "startDate": "2026-11-06",
+              "final": true,
+              "tradingDays": 3,
+              "trades": 3
+            }
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-19T08:18:47.933Z"
+  "updatedAt": "2026-11-20T06:41:18.927Z"
 }

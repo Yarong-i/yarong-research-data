@@ -8,7 +8,8 @@
     "runs": [
       "PREMARKET-103",
       "PREMARKET_CMP_OPUS-105",
-      "PREMARKET_CMP_ASTRA-104"
+      "PREMARKET_CMP_ASTRA-104",
+      "POSTMARKET_CMP-107"
     ],
     "origins": [
       "158 서버 공개용 내보내기"
@@ -22,7 +23,8 @@
       "short": "Sonnet",
       "role": "operating",
       "runs": [
-        "PREMARKET-103"
+        "PREMARKET-103",
+        "POSTMARKET_CMP-107"
       ],
       "premarket": {
         "status": "published",
@@ -93,8 +95,58 @@
         "rankStatus": "모델 순위 확인"
       },
       "postmarket": {
-        "status": "pending",
-        "results": []
+        "status": "reviewed",
+        "results": [
+          {
+            "ticker": "035250",
+            "name": "강원랜드",
+            "status": "provisional",
+            "open": 14220,
+            "close": 14220,
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+            "closeStatus": "PROVISIONAL"
+          },
+          {
+            "ticker": "042660",
+            "name": "한화오션",
+            "status": "provisional",
+            "open": 43150,
+            "close": 42100,
+            "prevClose": 45000,
+            "basis": "정규장 09:00 분봉 시가 → 마감 후 KRX 현재가 기반 잠정 종가",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
+          },
+          {
+            "ticker": "066570",
+            "name": "LG전자",
+            "status": "provisional",
+            "open": 130400,
+            "close": 130600,
+            "prevClose": 135900,
+            "basis": "정규장 09:00 분봉 시가 → 마감 후 KRX 현재가 기반 잠정 종가",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
+          }
+        ],
+        "publishedAt": "2026-11-20T06:40:50.633348+00:00",
+        "revision": "bc56ec67004890c4"
+      },
+      "strategy": {
+        "base": {
+          "executed": true,
+          "category": "PICK",
+          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+          "ticker": "035250",
+          "name": "강원랜드",
+          "dayPct": 0,
+          "cumPct": 6.7821598491683455,
+          "asOf": "2026-11-20",
+          "startDate": "2026-11-06",
+          "final": false,
+          "closeStatus": "PROVISIONAL",
+          "tradingDays": 11,
+          "trades": 9,
+          "restatedBy": "POSTMARKET_CMP-107"
+        }
       }
     },
     {
@@ -104,7 +156,8 @@
       "short": "Opus",
       "role": "comparison",
       "runs": [
-        "PREMARKET_CMP_OPUS-105"
+        "PREMARKET_CMP_OPUS-105",
+        "POSTMARKET_CMP-107"
       ],
       "premarket": {
         "status": "published",
@@ -181,8 +234,38 @@
         "rankStatus": "모델 순위 확인"
       },
       "postmarket": {
-        "status": "pending",
-        "results": []
+        "status": "reviewed",
+        "results": [
+          {
+            "ticker": "035250",
+            "name": "강원랜드",
+            "status": "provisional",
+            "open": 14220,
+            "close": 14220,
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+            "closeStatus": "PROVISIONAL"
+          }
+        ],
+        "publishedAt": "2026-11-20T06:41:01.352697+00:00",
+        "revision": "becbc3c575f84eb5"
+      },
+      "strategy": {
+        "base": {
+          "executed": true,
+          "category": "PICK",
+          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+          "ticker": "035250",
+          "name": "강원랜드",
+          "dayPct": 0,
+          "cumPct": 0.7022317965865943,
+          "asOf": "2026-11-20",
+          "startDate": "2026-11-06",
+          "final": false,
+          "closeStatus": "PROVISIONAL",
+          "tradingDays": 11,
+          "trades": 9,
+          "restatedBy": "POSTMARKET_CMP-107"
+        }
       }
     },
     {
@@ -192,7 +275,8 @@
       "short": "Astra",
       "role": "comparison",
       "runs": [
-        "PREMARKET_CMP_ASTRA-104"
+        "PREMARKET_CMP_ASTRA-104",
+        "POSTMARKET_CMP-107"
       ],
       "premarket": {
         "status": "published",
@@ -252,10 +336,40 @@
         "rankStatus": "모델 순위 확인"
       },
       "postmarket": {
-        "status": "pending",
-        "results": []
+        "status": "reviewed",
+        "results": [
+          {
+            "ticker": "042660",
+            "name": "한화오션",
+            "status": "provisional",
+            "open": 43150,
+            "close": 42100,
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+            "closeStatus": "PROVISIONAL"
+          }
+        ],
+        "publishedAt": "2026-11-20T06:41:01.352697+00:00",
+        "revision": "3cebc4bf406a34da"
+      },
+      "strategy": {
+        "base": {
+          "executed": true,
+          "category": "PICK",
+          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+          "ticker": "042660",
+          "name": "한화오션",
+          "dayPct": -2.4333719582850466,
+          "cumPct": -10.403272078854787,
+          "asOf": "2026-11-20",
+          "startDate": "2026-11-06",
+          "final": false,
+          "closeStatus": "PROVISIONAL",
+          "tradingDays": 11,
+          "trades": 10,
+          "restatedBy": "POSTMARKET_CMP-107"
+        }
       }
     }
   ],
-  "updatedAt": "2026-11-19T23:32:21.065Z"
+  "updatedAt": "2026-11-20T06:41:18.927Z"
 }
