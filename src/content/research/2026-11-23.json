@@ -2,7 +2,13 @@
   "date": "2026-11-23",
   "market": "open",
   "registeredAt": "2026-11-22T23:31:21.794Z",
-  "corrections": [],
+  "corrections": [
+    {
+      "at": "2026-11-23T06:41:06.434820+00:00",
+      "ticker": "claude-sonnet-5:006260",
+      "note": "Sonnet 장후 값 갱신: 006260 가격 추가 · 000660 가격 추가 · 017800 가격 추가"
+    }
+  ],
   "source": {
     "system": "YATC ASK",
     "runs": [
@@ -97,10 +103,52 @@
         "rankStatus": "모델 순위 확인"
       },
       "postmarket": {
-        "status": "nothing",
-        "results": [],
-        "revision": "9302cb268c3f3063"
-      }
+        "status": "reviewed",
+        "results": [
+          {
+            "ticker": "006260",
+            "name": "LS",
+            "status": "provisional",
+            "open": 161900,
+            "close": 161000,
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+            "closeStatus": "PROVISIONAL"
+          },
+          {
+            "ticker": "000660",
+            "name": "SK하이닉스",
+            "status": "provisional",
+            "open": 1079000,
+            "close": 1085000,
+            "prevClose": 1113000,
+            "basis": "정규장 09:00 분봉 시가 → 마감 후 KRX 현재가 기반 잠정 종가",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
+          },
+          {
+            "ticker": "017800",
+            "name": "현대엘리베이터",
+            "status": "provisional",
+            "open": 60600,
+            "close": 59100,
+            "prevClose": 61300,
+            "basis": "정규장 09:00 분봉 시가 → 마감 후 KRX 현재가 기반 잠정 종가",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
+          }
+        ],
+        "publishedAt": "2026-11-23T06:40:58.382356+00:00",
+        "revision": "3e3da7e8917e4028"
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-23T06:41:06.434820+00:00",
+          "revision": "9302cb268c3f3063",
+          "postmarket": {
+            "status": "nothing",
+            "results": [],
+            "revision": "9302cb268c3f3063"
+          }
+        }
+      ]
     },
     {
       "key": "opus",
@@ -233,5 +281,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-22T23:33:20.819Z"
+  "updatedAt": "2026-11-23T06:41:26.594Z"
 }
