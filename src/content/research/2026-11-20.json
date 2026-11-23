@@ -17,6 +17,21 @@
       "at": "2026-11-23T06:41:06.434820+00:00",
       "ticker": "gpt-6-astra:042660",
       "note": "Astra 장후 값 갱신: 042660 종가 42,100원 그대로, 잠정 → 확정, 근거 PROVISIONAL → KIS_AUCTION"
+    },
+    {
+      "at": "2026-11-23T06:42:06.542788+00:00",
+      "ticker": "claude-sonnet-5:035250",
+      "note": "Sonnet 장후 값 갱신: 성과 확정"
+    },
+    {
+      "at": "2026-11-23T06:42:06.542788+00:00",
+      "ticker": "claude-opus-5-5:035250",
+      "note": "Opus 장후 값 갱신: 성과 확정"
+    },
+    {
+      "at": "2026-11-23T06:42:06.542788+00:00",
+      "ticker": "gpt-6-astra:042660",
+      "note": "Astra 장후 값 갱신: 성과 확정"
     }
   ],
   "source": {
@@ -144,24 +159,23 @@
           }
         ],
         "publishedAt": "2026-11-20T06:40:50.633348+00:00",
-        "revision": "91f8238d2d9917d3"
+        "revision": "c37e1368495c5e1c"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "035250",
           "name": "강원랜드",
           "dayPct": 0,
           "cumPct": 6.7821598491683455,
           "asOf": "2026-11-20",
           "startDate": "2026-11-06",
-          "final": false,
-          "closeStatus": "PROVISIONAL",
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 11,
           "trades": 9,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-112"
         }
       },
       "postmarketHistory": [
@@ -203,6 +217,64 @@
             ],
             "publishedAt": "2026-11-20T06:40:50.633348+00:00",
             "revision": "bc56ec67004890c4"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "035250",
+              "name": "강원랜드",
+              "dayPct": 0,
+              "cumPct": 6.7821598491683455,
+              "asOf": "2026-11-20",
+              "startDate": "2026-11-06",
+              "final": false,
+              "closeStatus": "PROVISIONAL",
+              "tradingDays": 11,
+              "trades": 9,
+              "restatedBy": "POSTMARKET_CMP-107"
+            }
+          }
+        },
+        {
+          "replacedAt": "2026-11-23T06:42:06.542788+00:00",
+          "revision": "91f8238d2d9917d3",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "035250",
+                "name": "강원랜드",
+                "status": "confirmed",
+                "open": 14220,
+                "close": 14220,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              },
+              {
+                "ticker": "042660",
+                "name": "한화오션",
+                "status": "confirmed",
+                "open": 43150,
+                "close": 42100,
+                "prevClose": 45000,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              },
+              {
+                "ticker": "066570",
+                "name": "LG전자",
+                "status": "provisional",
+                "open": 130400,
+                "close": 130600,
+                "prevClose": 135900,
+                "basis": "정규장 09:00 분봉 시가 → 마감 후 KRX 현재가 기반 잠정 종가",
+                "closeStatus": "PROVISIONAL_UNCONFIRMED"
+              }
+            ],
+            "publishedAt": "2026-11-20T06:40:50.633348+00:00",
+            "revision": "91f8238d2d9917d3"
           },
           "strategy": {
             "base": {
@@ -323,24 +395,23 @@
           }
         ],
         "publishedAt": "2026-11-20T06:41:01.352697+00:00",
-        "revision": "c13be62bf2ddcb69"
+        "revision": "01b8bdcbae17b8c5"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "035250",
           "name": "강원랜드",
           "dayPct": 0,
           "cumPct": 0.7022317965865943,
           "asOf": "2026-11-20",
           "startDate": "2026-11-06",
-          "final": false,
-          "closeStatus": "PROVISIONAL",
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 11,
           "trades": 9,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-112"
         }
       },
       "postmarketHistory": [
@@ -362,6 +433,44 @@
             ],
             "publishedAt": "2026-11-20T06:41:01.352697+00:00",
             "revision": "becbc3c575f84eb5"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "035250",
+              "name": "강원랜드",
+              "dayPct": 0,
+              "cumPct": 0.7022317965865943,
+              "asOf": "2026-11-20",
+              "startDate": "2026-11-06",
+              "final": false,
+              "closeStatus": "PROVISIONAL",
+              "tradingDays": 11,
+              "trades": 9,
+              "restatedBy": "POSTMARKET_CMP-107"
+            }
+          }
+        },
+        {
+          "replacedAt": "2026-11-23T06:42:06.542788+00:00",
+          "revision": "c13be62bf2ddcb69",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "035250",
+                "name": "강원랜드",
+                "status": "confirmed",
+                "open": 14220,
+                "close": 14220,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              }
+            ],
+            "publishedAt": "2026-11-20T06:41:01.352697+00:00",
+            "revision": "c13be62bf2ddcb69"
           },
           "strategy": {
             "base": {
@@ -465,24 +574,23 @@
           }
         ],
         "publishedAt": "2026-11-20T06:41:01.352697+00:00",
-        "revision": "9ca0969ce0204fcb"
+        "revision": "420a9f45a853f48d"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "042660",
           "name": "한화오션",
           "dayPct": -2.4333719582850466,
           "cumPct": -10.403272078854787,
           "asOf": "2026-11-20",
           "startDate": "2026-11-06",
-          "final": false,
-          "closeStatus": "PROVISIONAL",
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 11,
           "trades": 10,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-112"
         }
       },
       "postmarketHistory": [
@@ -523,9 +631,47 @@
               "restatedBy": "POSTMARKET_CMP-107"
             }
           }
+        },
+        {
+          "replacedAt": "2026-11-23T06:42:06.542788+00:00",
+          "revision": "9ca0969ce0204fcb",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "042660",
+                "name": "한화오션",
+                "status": "confirmed",
+                "open": 43150,
+                "close": 42100,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              }
+            ],
+            "publishedAt": "2026-11-20T06:41:01.352697+00:00",
+            "revision": "9ca0969ce0204fcb"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "042660",
+              "name": "한화오션",
+              "dayPct": -2.4333719582850466,
+              "cumPct": -10.403272078854787,
+              "asOf": "2026-11-20",
+              "startDate": "2026-11-06",
+              "final": false,
+              "closeStatus": "PROVISIONAL",
+              "tradingDays": 11,
+              "trades": 10,
+              "restatedBy": "POSTMARKET_CMP-107"
+            }
+          }
         }
       ]
     }
   ],
-  "updatedAt": "2026-11-23T06:41:26.594Z"
+  "updatedAt": "2026-11-23T06:42:29.953Z"
 }
