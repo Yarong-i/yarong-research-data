@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-24",
+  "market": "open",
+  "registeredAt": "2026-11-23T23:31:34.763Z",
+  "corrections": [],
+  "source": {
+    "system": "YATC ASK",
+    "runs": [
+      "PREMARKET-113"
+    ],
+    "origins": [
+      "158 서버 공개용 내보내기"
+    ]
+  },
+  "models": [
+    {
+      "key": "sonnet",
+      "model": "claude-sonnet-5",
+      "label": "Claude Sonnet 5 (운영)",
+      "short": "Sonnet",
+      "role": "operating",
+      "runs": [
+        "PREMARKET-113"
+      ],
+      "premarket": {
+        "status": "published",
+        "picks": [
+          {
+            "order": 1,
+            "ticker": "042660",
+            "name": "한화오션",
+            "reasons": [
+              "한화오션은 2026-11-23 이사회에서 임직원 주식보상(RSU 등) 목적으로 보통주 570,071주(약 240억원)를 장내 매수하는 자기주식 취득을 결정했고, 관련 보도는 정규장 마감(15:30) 이후인 16:38에 나와 그날 종가에는 반영되지 않은 새로운 정보임.",
+              "보도에 따르면 한국기업평가(한기평)가 한화오션의 신용등급을 'A'로 상향하며 수익성 개선 지속을 근거로 들었다고 전해지며, 이 역시 정규장 마감 이후(17:42) 보도되어 11/24 개장 전 새로 반영될 수 있는 정보임.",
+              "보도에 따르면 미 중간선거 이후 미 군함의 '현지 건조' 요구 압박이 거세지고 있으며 한화오션·HD현대의 투자 관련 보도가 나왔는데, 이는 향후 미국 관련 수주·투자 기회로 이어질 가능성이 있는 산업 테마로 해석할 수 있음."
+            ],
+            "risks": [
+              "보도에 따르면 한화오션 주가는 11월 23일 애프터마켓(시간외)에서 40,100원으로 정규장 종가보다도 추가로 4.75% 하락한 것으로 보도되어, 자사주 매입 결정 발표 이후에도 시장이 즉각적으로 긍정 반응하지 않았을 가능성을 보여줌.",
+              "이번 자기주식 취득은 소각이 아니라 임직원 주식보상 목적으로, 추후 RSU 지급 등으로 재유통될 수 있어 영구적인 유통주식 감소 효과는 제한적임.",
+              "하청노동자들이 노동부 장관과 면담하며 교섭을 요구하는 등 노사 갈등 이슈가 보도되고 있어 평판·운영 리스크가 상존함."
+            ],
+            "changeConditions": [
+              "11/24 개장 시 가격이 11/23 애프터마켓의 추가 하락 흐름을 이어받아 약세로 출발할 경우, 자사주 매입·신용등급 상향의 단기 지지 효과가 크지 않다고 판단해야 함.",
+              "미 현지 건조 압박 관련 테마가 구체적인 계약·투자 공시로 이어지는지 추가 확인이 필요하며, 확인되지 않으면 해당 근거의 비중을 낮춰야 함."
+            ],
+            "score": 5,
+            "rank": 2,
+            "finalRank": 1
+          }
+        ],
+        "excluded": [
+          {
+            "ticker": "483650",
+            "name": "달바글로벌",
+            "reason": "확인된 추천 이유가 이 종목의 새 공시·뉴스(수집 구간 내)를 인용하지 않음",
+            "rank": 1,
+            "score": 6
+          }
+        ],
+        "publishedAt": "2026-11-23T23:30:52.514313+00:00",
+        "rankStatus": "모델 순위 확인"
+      },
+      "postmarket": {
+        "status": "pending",
+        "results": []
+      }
+    },
+    {
+      "key": "opus",
+      "model": "claude-opus-5-5",
+      "label": "Claude Opus 5.5",
+      "short": "Opus",
+      "role": "comparison",
+      "runs": [],
+      "premarket": {
+        "status": "pending",
+        "picks": [],
+        "excluded": []
+      },
+      "postmarket": {
+        "status": "pending",
+        "results": []
+      }
+    },
+    {
+      "key": "astra",
+      "model": "gpt-6-astra",
+      "label": "GPT-6 Astra",
+      "short": "Astra",
+      "role": "comparison",
+      "runs": [],
+      "premarket": {
+        "status": "pending",
+        "picks": [],
+        "excluded": []
+      },
+      "postmarket": {
+        "status": "pending",
+        "results": []
+      }
+    }
+  ]
+}
