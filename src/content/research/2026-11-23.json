@@ -32,6 +32,21 @@
       "at": "2026-11-24T06:41:02.401993+00:00",
       "ticker": "gpt-6-astra:017800",
       "note": "Astra 장후 값 갱신: 017800 종가 59,100원 그대로, 잠정 → 확정, 근거 PROVISIONAL → KIS_AUCTION"
+    },
+    {
+      "at": "2026-11-24T06:42:06.647886+00:00",
+      "ticker": "claude-sonnet-5:006260",
+      "note": "Sonnet 장후 값 갱신: 성과 확정"
+    },
+    {
+      "at": "2026-11-24T06:42:06.647886+00:00",
+      "ticker": "claude-opus-5-5:017800",
+      "note": "Opus 장후 값 갱신: 성과 확정"
+    },
+    {
+      "at": "2026-11-24T06:42:06.647886+00:00",
+      "ticker": "gpt-6-astra:017800",
+      "note": "Astra 장후 값 갱신: 성과 확정"
     }
   ],
   "source": {
@@ -163,7 +178,7 @@
           }
         ],
         "publishedAt": "2026-11-23T06:40:58.382356+00:00",
-        "revision": "b7e8f0b48de4a654"
+        "revision": "93423ffb49294702"
       },
       "postmarketHistory": [
         {
@@ -272,24 +287,81 @@
               "restatedBy": "POSTMARKET_CMP-112"
             }
           }
+        },
+        {
+          "replacedAt": "2026-11-24T06:42:06.647886+00:00",
+          "revision": "b7e8f0b48de4a654",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "006260",
+                "name": "LS",
+                "status": "confirmed",
+                "open": 161900,
+                "close": 161000,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              },
+              {
+                "ticker": "000660",
+                "name": "SK하이닉스",
+                "status": "provisional",
+                "open": 1079000,
+                "close": 1085000,
+                "prevClose": 1113000,
+                "basis": "정규장 09:00 분봉 시가 → 마감 후 KRX 현재가 기반 잠정 종가",
+                "closeStatus": "PROVISIONAL_UNCONFIRMED"
+              },
+              {
+                "ticker": "017800",
+                "name": "현대엘리베이터",
+                "status": "confirmed",
+                "open": 60600,
+                "close": 59100,
+                "prevClose": 61300,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              }
+            ],
+            "publishedAt": "2026-11-23T06:40:58.382356+00:00",
+            "revision": "b7e8f0b48de4a654"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "006260",
+              "name": "LS",
+              "dayPct": -0.5558987029030238,
+              "cumPct": 6.188559207634992,
+              "asOf": "2026-11-23",
+              "startDate": "2026-11-06",
+              "final": false,
+              "closeStatus": "PROVISIONAL",
+              "tradingDays": 12,
+              "trades": 10,
+              "restatedBy": "POSTMARKET_CMP-112"
+            }
+          }
         }
       ],
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "006260",
           "name": "LS",
           "dayPct": -0.5558987029030238,
           "cumPct": 6.188559207634992,
           "asOf": "2026-11-23",
           "startDate": "2026-11-06",
-          "final": false,
-          "closeStatus": "PROVISIONAL",
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 12,
           "trades": 10,
-          "restatedBy": "POSTMARKET_CMP-112"
+          "restatedBy": "POSTMARKET_CMP-117"
         }
       },
       "premarketHistory": [
@@ -447,24 +519,23 @@
           }
         ],
         "publishedAt": "2026-11-23T06:41:09.161838+00:00",
-        "revision": "7a9a3890e9f53310"
+        "revision": "2941db98e478063f"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "017800",
           "name": "현대엘리베이터",
           "dayPct": -2.4752475247524774,
           "cumPct": -1.7903977033289165,
           "asOf": "2026-11-23",
           "startDate": "2026-11-06",
-          "final": false,
-          "closeStatus": "PROVISIONAL",
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 12,
           "trades": 10,
-          "restatedBy": "POSTMARKET_CMP-112"
+          "restatedBy": "POSTMARKET_CMP-117"
         }
       },
       "postmarketHistory": [
@@ -486,6 +557,44 @@
             ],
             "publishedAt": "2026-11-23T06:41:09.161838+00:00",
             "revision": "ab674fd6f612aaaf"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "017800",
+              "name": "현대엘리베이터",
+              "dayPct": -2.4752475247524774,
+              "cumPct": -1.7903977033289165,
+              "asOf": "2026-11-23",
+              "startDate": "2026-11-06",
+              "final": false,
+              "closeStatus": "PROVISIONAL",
+              "tradingDays": 12,
+              "trades": 10,
+              "restatedBy": "POSTMARKET_CMP-112"
+            }
+          }
+        },
+        {
+          "replacedAt": "2026-11-24T06:42:06.647886+00:00",
+          "revision": "7a9a3890e9f53310",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "017800",
+                "name": "현대엘리베이터",
+                "status": "confirmed",
+                "open": 60600,
+                "close": 59100,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              }
+            ],
+            "publishedAt": "2026-11-23T06:41:09.161838+00:00",
+            "revision": "7a9a3890e9f53310"
           },
           "strategy": {
             "base": {
@@ -582,24 +691,23 @@
           }
         ],
         "publishedAt": "2026-11-23T06:41:09.161838+00:00",
-        "revision": "ac1875f96e72b4b6"
+        "revision": "ccbb6ad2a0bf103d"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "017800",
           "name": "현대엘리베이터",
           "dayPct": -2.4752475247524774,
           "cumPct": -12.62101286898215,
           "asOf": "2026-11-23",
           "startDate": "2026-11-06",
-          "final": false,
-          "closeStatus": "PROVISIONAL",
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 12,
           "trades": 11,
-          "restatedBy": "POSTMARKET_CMP-112"
+          "restatedBy": "POSTMARKET_CMP-117"
         }
       },
       "postmarketHistory": [
@@ -640,9 +748,47 @@
               "restatedBy": "POSTMARKET_CMP-112"
             }
           }
+        },
+        {
+          "replacedAt": "2026-11-24T06:42:06.647886+00:00",
+          "revision": "ac1875f96e72b4b6",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "017800",
+                "name": "현대엘리베이터",
+                "status": "confirmed",
+                "open": 60600,
+                "close": 59100,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+                "closeStatus": "KIS_AUCTION"
+              }
+            ],
+            "publishedAt": "2026-11-23T06:41:09.161838+00:00",
+            "revision": "ac1875f96e72b4b6"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "017800",
+              "name": "현대엘리베이터",
+              "dayPct": -2.4752475247524774,
+              "cumPct": -12.62101286898215,
+              "asOf": "2026-11-23",
+              "startDate": "2026-11-06",
+              "final": false,
+              "closeStatus": "PROVISIONAL",
+              "tradingDays": 12,
+              "trades": 11,
+              "restatedBy": "POSTMARKET_CMP-112"
+            }
+          }
         }
       ]
     }
   ],
-  "updatedAt": "2026-11-24T06:41:22.761Z"
+  "updatedAt": "2026-11-24T06:42:23.647Z"
 }
