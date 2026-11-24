@@ -9,9 +9,7 @@
   "dayPct": -0.5558987029030238,
   "tradingDays": 12,
   "trades": 10,
-  "includesProvisional": [
-    "2026-11-23"
-  ],
+  "includesProvisional": [],
   "unverifiedCorrections": [
     "2026-11-06"
   ],
