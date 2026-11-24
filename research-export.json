@@ -1,6 +1,6 @@
 {
  "exportVersion": "YARONG-PUBLIC-EXPORT-V1",
- "exportedAt": "2026-11-23T23:33:06.416096+00:00",
+ "exportedAt": "2026-11-24T06:41:02.401993+00:00",
  "system": "YATC ASK",
  "ledgerStart": "2026-11-06",
  "costs": {
@@ -4349,11 +4349,11 @@
        {
         "ticker": "006260",
         "name": "LS",
-        "status": "provisional",
+        "status": "confirmed",
         "open": 161900.0,
         "close": 161000.0,
-        "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
-        "closeStatus": "PROVISIONAL"
+        "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+        "closeStatus": "KIS_AUCTION"
        },
        {
         "ticker": "000660",
@@ -4368,16 +4368,16 @@
        {
         "ticker": "017800",
         "name": "현대엘리베이터",
-        "status": "provisional",
+        "status": "confirmed",
         "open": 60600.0,
         "close": 59100.0,
         "prevClose": 61300.0,
-        "basis": "정규장 09:00 분봉 시가 → 마감 후 KRX 현재가 기반 잠정 종가",
-        "closeStatus": "PROVISIONAL_UNCONFIRMED"
+        "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+        "closeStatus": "KIS_AUCTION"
        }
       ],
       "publishedAt": "2026-11-23T06:40:58.382356+00:00",
-      "revision": "fd53739907ae6829"
+      "revision": "b7e8f0b48de4a654"
      },
      "strategy": {
       "base": {
@@ -4466,15 +4466,15 @@
        {
         "ticker": "017800",
         "name": "현대엘리베이터",
-        "status": "provisional",
+        "status": "confirmed",
         "open": 60600.0,
         "close": 59100.0,
-        "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
-        "closeStatus": "PROVISIONAL"
+        "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+        "closeStatus": "KIS_AUCTION"
        }
       ],
       "publishedAt": "2026-11-23T06:41:09.161838+00:00",
-      "revision": "ab674fd6f612aaaf"
+      "revision": "7a9a3890e9f53310"
      },
      "strategy": {
       "base": {
@@ -4561,15 +4561,15 @@
        {
         "ticker": "017800",
         "name": "현대엘리베이터",
-        "status": "provisional",
+        "status": "confirmed",
         "open": 60600.0,
         "close": 59100.0,
-        "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
-        "closeStatus": "PROVISIONAL"
+        "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+        "closeStatus": "KIS_AUCTION"
        }
       ],
       "publishedAt": "2026-11-23T06:41:09.161838+00:00",
-      "revision": "86acee54deedb392"
+      "revision": "ac1875f96e72b4b6"
      },
      "strategy": {
       "base": {
@@ -4645,8 +4645,20 @@
       "rankStatus": "모델 순위 확인"
      },
      "postmarket": {
-      "status": "pending",
-      "results": []
+      "status": "reviewed",
+      "results": [
+       {
+        "ticker": "042660",
+        "name": "한화오션",
+        "status": "provisional",
+        "open": 40600.0,
+        "close": 43200.0,
+        "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+        "closeStatus": "PROVISIONAL"
+       }
+      ],
+      "publishedAt": "2026-11-24T06:40:55.293102+00:00",
+      "revision": "166b8e7cecd1ec98"
      }
     },
     {
@@ -4821,9 +4833,7 @@
    "dayPct": -0.5558987029030238,
    "tradingDays": 12,
    "trades": 10,
-   "includesProvisional": [
-    "2026-11-23"
-   ],
+   "includesProvisional": [],
    "unverifiedCorrections": [
     "2026-11-06"
    ],
@@ -4841,9 +4851,7 @@
    "dayPct": -2.4752475247524774,
    "tradingDays": 12,
    "trades": 10,
-   "includesProvisional": [
-    "2026-11-23"
-   ],
+   "includesProvisional": [],
    "unverifiedCorrections": [
     "2026-11-06"
    ],
@@ -4861,9 +4869,7 @@
    "dayPct": -2.4752475247524774,
    "tradingDays": 12,
    "trades": 11,
-   "includesProvisional": [
-    "2026-11-23"
-   ],
+   "includesProvisional": [],
    "unverifiedCorrections": [
     "2026-11-06"
    ],
