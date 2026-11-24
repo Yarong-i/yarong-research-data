@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-25",
+  "market": "open",
+  "registeredAt": "2026-11-24T23:29:32.196Z",
+  "corrections": [],
+  "source": {
+    "system": "YATC ASK",
+    "runs": [
+      "PREMARKET-118"
+    ],
+    "origins": [
+      "158 서버 공개용 내보내기"
+    ]
+  },
+  "models": [
+    {
+      "key": "sonnet",
+      "model": "claude-sonnet-5",
+      "label": "Claude Sonnet 5 (운영)",
+      "short": "Sonnet",
+      "role": "operating",
+      "runs": [
+        "PREMARKET-118"
+      ],
+      "premarket": {
+        "status": "failed",
+        "picks": [],
+        "excluded": [
+          {
+            "ticker": "028050",
+            "name": "삼성E&A",
+            "reason": "확인되지 않은 위험: 제안 1 삼성E&A(028050) · 위험 1 - 가격 이후(또는 시각 미상) 자료를 가격 변동의 원인으로 씀 ['T11', 'T12']",
+            "rank": 1,
+            "score": 6
+          },
+          {
+            "ticker": "012750",
+            "name": "에스원",
+            "reason": "확인된 추천 이유가 이 종목의 새 공시·뉴스(수집 구간 내)를 인용하지 않음",
+            "rank": 2,
+            "score": 5
+          },
+          {
+            "ticker": "030000",
+            "name": "제일기획",
+            "reason": "확인된 추천 이유가 이 종목의 새 공시·뉴스(수집 구간 내)를 인용하지 않음",
+            "rank": 3,
+            "score": 9
+          }
+        ],
+        "publishedAt": "2026-11-24T23:29:01.482106+00:00",
+        "detail": "실행 실패",
+        "rankStatus": "제안 종목 모두 근거 점검 미통과"
+      },
+      "postmarket": {
+        "status": "nothing",
+        "results": [],
+        "revision": "9302cb268c3f3063"
+      }
+    },
+    {
+      "key": "opus",
+      "model": "claude-opus-5-5",
+      "label": "Claude Opus 5.5",
+      "short": "Opus",
+      "role": "comparison",
+      "runs": [],
+      "premarket": {
+        "status": "pending",
+        "picks": [],
+        "excluded": []
+      },
+      "postmarket": {
+        "status": "pending",
+        "results": []
+      }
+    },
+    {
+      "key": "astra",
+      "model": "gpt-6-astra",
+      "label": "GPT-6 Astra",
+      "short": "Astra",
+      "role": "comparison",
+      "runs": [],
+      "premarket": {
+        "status": "pending",
+        "picks": [],
+        "excluded": []
+      },
+      "postmarket": {
+        "status": "pending",
+        "results": []
+      }
+    }
+  ]
+}
