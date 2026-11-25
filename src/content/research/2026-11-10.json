@@ -136,7 +136,7 @@
           }
         ],
         "publishedAt": "2026-11-10T06:40:45.270239+00:00",
-        "revision": "ef5bea60e6057259"
+        "revision": "509322c830ba2211"
       },
       "strategy": {
         "base": {
@@ -146,13 +146,27 @@
           "name": "두산",
           "dayPct": -2.752293577981646,
           "cumPct": 0.9925594687316242,
+          "exposures": {
+            "1.0": {
+              "dayPct": -2.752293577981646,
+              "cumPct": 0.9925594687316242
+            },
+            "0.5": {
+              "dayPct": -1.376146788990823,
+              "cumPct": 0.5420786711935577
+            },
+            "0.3": {
+              "dayPct": -0.8256880733944937,
+              "cumPct": 0.33632944408392706
+            }
+          },
           "asOf": "2026-11-10",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KRX_CONFIRMED",
           "tradingDays": 3,
           "trades": 3,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -341,7 +355,7 @@
           }
         ],
         "publishedAt": "2026-11-10T06:40:49.475049+00:00",
-        "revision": "4839587e5d77cb1f"
+        "revision": "684c7191b1832819"
       },
       "strategy": {
         "base": {
@@ -351,13 +365,27 @@
           "name": "두산",
           "dayPct": -2.752293577981646,
           "cumPct": 0.9925594687316242,
+          "exposures": {
+            "1.0": {
+              "dayPct": -2.752293577981646,
+              "cumPct": 0.9925594687316242
+            },
+            "0.5": {
+              "dayPct": -1.376146788990823,
+              "cumPct": 0.5420786711935577
+            },
+            "0.3": {
+              "dayPct": -0.8256880733944937,
+              "cumPct": 0.33632944408392706
+            }
+          },
           "asOf": "2026-11-10",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KRX_CONFIRMED",
           "tradingDays": 3,
           "trades": 3,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -490,7 +518,7 @@
           }
         ],
         "publishedAt": "2026-11-10T06:40:49.475049+00:00",
-        "revision": "4839587e5d77cb1f"
+        "revision": "684c7191b1832819"
       },
       "strategy": {
         "base": {
@@ -500,13 +528,27 @@
           "name": "두산",
           "dayPct": -2.752293577981646,
           "cumPct": 0.9925594687316242,
+          "exposures": {
+            "1.0": {
+              "dayPct": -2.752293577981646,
+              "cumPct": 0.9925594687316242
+            },
+            "0.5": {
+              "dayPct": -1.376146788990823,
+              "cumPct": 0.5420786711935577
+            },
+            "0.3": {
+              "dayPct": -0.8256880733944937,
+              "cumPct": 0.33632944408392706
+            }
+          },
           "asOf": "2026-11-10",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KRX_CONFIRMED",
           "tradingDays": 3,
           "trades": 3,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -548,5 +590,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-20T06:41:18.927Z"
+  "updatedAt": "2026-11-25T21:35:46.519Z"
 }

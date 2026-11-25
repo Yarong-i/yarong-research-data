@@ -43,7 +43,7 @@
       "postmarket": {
         "status": "nothing",
         "results": [],
-        "revision": "51d38f4fac2311af"
+        "revision": "3537edaee1550149"
       },
       "strategy": {
         "base": {
@@ -52,11 +52,26 @@
           "detail": "추천 없음",
           "dayPct": 0,
           "cumPct": -0.7726497705721869,
+          "exposures": {
+            "1.0": {
+              "dayPct": 0,
+              "cumPct": -0.7726497705721869
+            },
+            "0.5": {
+              "dayPct": 0,
+              "cumPct": -0.27879049871702977
+            },
+            "0.3": {
+              "dayPct": 0,
+              "cumPct": -0.14109707066169985
+            }
+          },
           "asOf": "2026-11-18",
           "startDate": "2026-11-06",
           "final": true,
           "tradingDays": 9,
-          "trades": 7
+          "trades": 7,
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       }
     },
@@ -82,7 +97,7 @@
         "status": "nothing",
         "results": [],
         "publishedAt": "2026-11-18T06:40:41.873754+00:00",
-        "revision": "c9b104c58f2cf12c"
+        "revision": "c8255a69579ea409"
       },
       "strategy": {
         "base": {
@@ -91,11 +106,26 @@
           "detail": "추천 없음",
           "dayPct": 0,
           "cumPct": -6.422424518483427,
+          "exposures": {
+            "1.0": {
+              "dayPct": 0,
+              "cumPct": -6.422424518483427
+            },
+            "0.5": {
+              "dayPct": 0,
+              "cumPct": -3.1990447602471495
+            },
+            "0.3": {
+              "dayPct": 0,
+              "cumPct": -1.9158620895112333
+            }
+          },
           "asOf": "2026-11-18",
           "startDate": "2026-11-06",
           "final": true,
           "tradingDays": 9,
-          "trades": 7
+          "trades": 7,
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       }
     },
@@ -152,7 +182,7 @@
           }
         ],
         "publishedAt": "2026-11-18T06:40:41.873754+00:00",
-        "revision": "5ae60191aa962105"
+        "revision": "fb52438cb5ccaf28"
       },
       "strategy": {
         "base": {
@@ -162,13 +192,27 @@
           "name": "현대로템",
           "dayPct": -0.5961251862891204,
           "cumPct": -9.257583351388664,
+          "exposures": {
+            "1.0": {
+              "dayPct": -0.5961251862891204,
+              "cumPct": -9.257583351388664
+            },
+            "0.5": {
+              "dayPct": -0.2980625931445602,
+              "cumPct": -4.659058249379666
+            },
+            "0.3": {
+              "dayPct": -0.1788375558867361,
+              "cumPct": -2.8019453054243915
+            }
+          },
           "asOf": "2026-11-18",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_AUCTION",
           "tradingDays": 9,
           "trades": 8,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -211,5 +255,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-20T06:41:18.927Z"
+  "updatedAt": "2026-11-25T21:35:46.519Z"
 }

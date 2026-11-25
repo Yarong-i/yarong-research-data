@@ -162,7 +162,7 @@
           }
         ],
         "publishedAt": "2026-11-06T06:40:39.516433+00:00",
-        "revision": "1416c2dae05993cb"
+        "revision": "7bceab09e57cf9fc"
       },
       "strategy": {
         "base": {
@@ -172,13 +172,27 @@
           "name": "카카오",
           "dayPct": 5.38336052202284,
           "cumPct": 5.38336052202284,
+          "exposures": {
+            "1.0": {
+              "dayPct": 5.38336052202284,
+              "cumPct": 5.38336052202284
+            },
+            "0.5": {
+              "dayPct": 2.69168026101142,
+              "cumPct": 2.691680261011431
+            },
+            "0.3": {
+              "dayPct": 1.615008156606852,
+              "cumPct": 1.6150081566068453
+            }
+          },
           "asOf": "2026-11-06",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_PATHS_AGREE_KRX_UNVERIFIED",
           "tradingDays": 1,
           "trades": 1,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -385,7 +399,7 @@
           }
         ],
         "publishedAt": "2026-11-06T06:40:43.737439+00:00",
-        "revision": "a85befb4d8c9340d"
+        "revision": "406b889263228d50"
       },
       "strategy": {
         "base": {
@@ -395,13 +409,27 @@
           "name": "카카오",
           "dayPct": 5.38336052202284,
           "cumPct": 5.38336052202284,
+          "exposures": {
+            "1.0": {
+              "dayPct": 5.38336052202284,
+              "cumPct": 5.38336052202284
+            },
+            "0.5": {
+              "dayPct": 2.69168026101142,
+              "cumPct": 2.691680261011431
+            },
+            "0.3": {
+              "dayPct": 1.615008156606852,
+              "cumPct": 1.6150081566068453
+            }
+          },
           "asOf": "2026-11-06",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_PATHS_AGREE_KRX_UNVERIFIED",
           "tradingDays": 1,
           "trades": 1,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -534,7 +562,7 @@
           }
         ],
         "publishedAt": "2026-11-06T06:40:43.737439+00:00",
-        "revision": "a85befb4d8c9340d"
+        "revision": "406b889263228d50"
       },
       "strategy": {
         "base": {
@@ -544,13 +572,27 @@
           "name": "카카오",
           "dayPct": 5.38336052202284,
           "cumPct": 5.38336052202284,
+          "exposures": {
+            "1.0": {
+              "dayPct": 5.38336052202284,
+              "cumPct": 5.38336052202284
+            },
+            "0.5": {
+              "dayPct": 2.69168026101142,
+              "cumPct": 2.691680261011431
+            },
+            "0.3": {
+              "dayPct": 1.615008156606852,
+              "cumPct": 1.6150081566068453
+            }
+          },
           "asOf": "2026-11-06",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_PATHS_AGREE_KRX_UNVERIFIED",
           "tradingDays": 1,
           "trades": 1,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -592,5 +634,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-20T06:41:18.927Z"
+  "updatedAt": "2026-11-25T21:35:46.519Z"
 }

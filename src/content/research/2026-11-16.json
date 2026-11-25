@@ -154,7 +154,7 @@
           }
         ],
         "publishedAt": "2026-11-16T06:41:08.781234+00:00",
-        "revision": "ea5d5ace311b8303"
+        "revision": "c4d3f00707bcc1cc"
       },
       "strategy": {
         "base": {
@@ -164,13 +164,27 @@
           "name": "현대해상",
           "dayPct": 5.292479108635106,
           "cumPct": 3.687006419514449,
+          "exposures": {
+            "1.0": {
+              "dayPct": 5.292479108635106,
+              "cumPct": 3.687006419514449
+            },
+            "0.5": {
+              "dayPct": 2.646239554317553,
+              "cumPct": 1.9128844353770935
+            },
+            "0.3": {
+              "dayPct": 1.5877437325905317,
+              "cumPct": 1.1642480656695264
+            }
+          },
           "asOf": "2026-11-16",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_AUCTION",
           "tradingDays": 7,
           "trades": 6,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -359,7 +373,7 @@
           }
         ],
         "publishedAt": "2026-11-16T06:41:23.977708+00:00",
-        "revision": "699411adf2308bfb"
+        "revision": "c36a108c02c88fea"
       },
       "strategy": {
         "base": {
@@ -369,13 +383,27 @@
           "name": "오뚜기",
           "dayPct": -1.6666666666666718,
           "cumPct": -4.170127572796489,
+          "exposures": {
+            "1.0": {
+              "dayPct": -1.6666666666666718,
+              "cumPct": -4.170127572796489
+            },
+            "0.5": {
+              "dayPct": -0.8333333333333359,
+              "cumPct": -2.0479575235343495
+            },
+            "0.3": {
+              "dayPct": -0.5000000000000016,
+              "cumPct": -1.2193674222027662
+            }
+          },
           "asOf": "2026-11-16",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_AUCTION",
           "tradingDays": 7,
           "trades": 6,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -483,7 +511,7 @@
           }
         ],
         "publishedAt": "2026-11-16T06:41:23.977708+00:00",
-        "revision": "f3a2907e570fdcbf"
+        "revision": "8f2cc8dc1ad8d310"
       },
       "strategy": {
         "base": {
@@ -493,13 +521,27 @@
           "name": "DL이앤씨",
           "dayPct": -4.074074074074074,
           "cumPct": -6.516244976852326,
+          "exposures": {
+            "1.0": {
+              "dayPct": -4.074074074074074,
+              "cumPct": -6.516244976852326
+            },
+            "0.5": {
+              "dayPct": -2.037037037037037,
+              "cumPct": -3.236917889728619
+            },
+            "0.3": {
+              "dayPct": -1.2222222222222223,
+              "cumPct": -1.9363681053470305
+            }
+          },
           "asOf": "2026-11-16",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_AUCTION",
           "tradingDays": 7,
           "trades": 6,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -542,5 +584,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-20T06:41:18.927Z"
+  "updatedAt": "2026-11-25T21:35:46.519Z"
 }

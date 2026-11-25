@@ -7,6 +7,21 @@
   "startDate": "2026-11-06",
   "cumulativePct": -8.61089504466237,
   "dayPct": 1.6683022571148287,
+  "exposures": {
+    "1.0": {
+      "cumulativePct": -8.61089504466237,
+      "dayPct": 1.6683022571148287
+    },
+    "0.5": {
+      "cumulativePct": -4.290583881487264,
+      "dayPct": 0.8341511285574144
+    },
+    "0.3": {
+      "cumulativePct": -2.569559377415942,
+      "dayPct": 0.5004906771344486
+    }
+  },
+  "role": "comparison",
   "tradingDays": 14,
   "trades": 13,
   "includesProvisional": [

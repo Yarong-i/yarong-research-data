@@ -159,7 +159,7 @@
           }
         ],
         "publishedAt": "2026-11-20T06:40:50.633348+00:00",
-        "revision": "c37e1368495c5e1c"
+        "revision": "1bd8356ca19c725d"
       },
       "strategy": {
         "base": {
@@ -169,13 +169,27 @@
           "name": "강원랜드",
           "dayPct": 0,
           "cumPct": 6.7821598491683455,
+          "exposures": {
+            "1.0": {
+              "dayPct": 0,
+              "cumPct": 6.7821598491683455
+            },
+            "0.5": {
+              "dayPct": 0,
+              "cumPct": 3.517414635706806
+            },
+            "0.3": {
+              "dayPct": 0,
+              "cumPct": 2.1397710530652425
+            }
+          },
           "asOf": "2026-11-20",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_AUCTION",
           "tradingDays": 11,
           "trades": 9,
-          "restatedBy": "POSTMARKET_CMP-112"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -395,7 +409,7 @@
           }
         ],
         "publishedAt": "2026-11-20T06:41:01.352697+00:00",
-        "revision": "01b8bdcbae17b8c5"
+        "revision": "782dcc8077c177b2"
       },
       "strategy": {
         "base": {
@@ -405,13 +419,27 @@
           "name": "강원랜드",
           "dayPct": 0,
           "cumPct": 0.7022317965865943,
+          "exposures": {
+            "1.0": {
+              "dayPct": 0,
+              "cumPct": 0.7022317965865943
+            },
+            "0.5": {
+              "dayPct": 0,
+              "cumPct": 0.4859916039934298
+            },
+            "0.3": {
+              "dayPct": 0,
+              "cumPct": 0.32446878776244414
+            }
+          },
           "asOf": "2026-11-20",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_AUCTION",
           "tradingDays": 11,
           "trades": 9,
-          "restatedBy": "POSTMARKET_CMP-112"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -574,7 +602,7 @@
           }
         ],
         "publishedAt": "2026-11-20T06:41:01.352697+00:00",
-        "revision": "420a9f45a853f48d"
+        "revision": "1223df83933abe96"
       },
       "strategy": {
         "base": {
@@ -584,13 +612,27 @@
           "name": "한화오션",
           "dayPct": -2.4333719582850466,
           "cumPct": -10.403272078854787,
+          "exposures": {
+            "1.0": {
+              "dayPct": -2.4333719582850466,
+              "cumPct": -10.403272078854787
+            },
+            "0.5": {
+              "dayPct": -1.2166859791425233,
+              "cumPct": -5.253972468762158
+            },
+            "0.3": {
+              "dayPct": -0.7300115874855139,
+              "cumPct": -3.1641437760283275
+            }
+          },
           "asOf": "2026-11-20",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_AUCTION",
           "tradingDays": 11,
           "trades": 10,
-          "restatedBy": "POSTMARKET_CMP-112"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -673,5 +715,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-23T06:42:29.953Z"
+  "updatedAt": "2026-11-25T21:35:46.519Z"
 }

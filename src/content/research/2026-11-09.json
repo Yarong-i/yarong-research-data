@@ -155,7 +155,7 @@
           }
         ],
         "publishedAt": "2026-11-09T06:40:46.744541+00:00",
-        "revision": "e77cf44acfdd8132"
+        "revision": "c070ce0861185895"
       },
       "strategy": {
         "base": {
@@ -165,12 +165,26 @@
           "name": "삼양식품",
           "dayPct": -1.4542343883661268,
           "cumPct": 3.8508394536957313,
+          "exposures": {
+            "1.0": {
+              "dayPct": -1.4542343883661268,
+              "cumPct": 3.8508394536957313
+            },
+            "0.5": {
+              "dayPct": -0.7271171941830634,
+              "cumPct": 1.944991396838125
+            },
+            "0.3": {
+              "dayPct": -0.436270316509838,
+              "cumPct": 1.1716920389005292
+            }
+          },
           "asOf": "2026-11-09",
           "startDate": "2026-11-06",
           "final": true,
           "tradingDays": 2,
           "trades": 2,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -357,7 +371,7 @@
           }
         ],
         "publishedAt": "2026-11-09T06:40:51.084120+00:00",
-        "revision": "8f618764428491e1"
+        "revision": "e23dd593b8eb0268"
       },
       "strategy": {
         "base": {
@@ -367,12 +381,26 @@
           "name": "삼양식품",
           "dayPct": -1.4542343883661268,
           "cumPct": 3.8508394536957313,
+          "exposures": {
+            "1.0": {
+              "dayPct": -1.4542343883661268,
+              "cumPct": 3.8508394536957313
+            },
+            "0.5": {
+              "dayPct": -0.7271171941830634,
+              "cumPct": 1.944991396838125
+            },
+            "0.3": {
+              "dayPct": -0.436270316509838,
+              "cumPct": 1.1716920389005292
+            }
+          },
           "asOf": "2026-11-09",
           "startDate": "2026-11-06",
           "final": true,
           "tradingDays": 2,
           "trades": 2,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -506,7 +534,7 @@
           }
         ],
         "publishedAt": "2026-11-09T06:40:51.084120+00:00",
-        "revision": "8f618764428491e1"
+        "revision": "e23dd593b8eb0268"
       },
       "strategy": {
         "base": {
@@ -516,12 +544,26 @@
           "name": "삼양식품",
           "dayPct": -1.4542343883661268,
           "cumPct": 3.8508394536957313,
+          "exposures": {
+            "1.0": {
+              "dayPct": -1.4542343883661268,
+              "cumPct": 3.8508394536957313
+            },
+            "0.5": {
+              "dayPct": -0.7271171941830634,
+              "cumPct": 1.944991396838125
+            },
+            "0.3": {
+              "dayPct": -0.436270316509838,
+              "cumPct": 1.1716920389005292
+            }
+          },
           "asOf": "2026-11-09",
           "startDate": "2026-11-06",
           "final": true,
           "tradingDays": 2,
           "trades": 2,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -562,5 +604,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-20T06:41:18.927Z"
+  "updatedAt": "2026-11-25T21:35:46.519Z"
 }

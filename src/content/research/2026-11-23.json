@@ -178,7 +178,7 @@
           }
         ],
         "publishedAt": "2026-11-23T06:40:58.382356+00:00",
-        "revision": "93423ffb49294702"
+        "revision": "b7ff7f4967c0a88c"
       },
       "postmarketHistory": [
         {
@@ -355,13 +355,27 @@
           "name": "LS",
           "dayPct": -0.5558987029030238,
           "cumPct": 6.188559207634992,
+          "exposures": {
+            "1.0": {
+              "dayPct": -0.5558987029030238,
+              "cumPct": 6.188559207634992
+            },
+            "0.5": {
+              "dayPct": -0.2779493514515119,
+              "cumPct": 3.2296886530875035
+            },
+            "0.3": {
+              "dayPct": -0.16676961087090714,
+              "cumPct": 1.969432954335626
+            }
+          },
           "asOf": "2026-11-23",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_AUCTION",
           "tradingDays": 12,
           "trades": 10,
-          "restatedBy": "POSTMARKET_CMP-117"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "premarketHistory": [
@@ -519,7 +533,7 @@
           }
         ],
         "publishedAt": "2026-11-23T06:41:09.161838+00:00",
-        "revision": "2941db98e478063f"
+        "revision": "d84189f4fe42f276"
       },
       "strategy": {
         "base": {
@@ -529,13 +543,27 @@
           "name": "현대엘리베이터",
           "dayPct": -2.4752475247524774,
           "cumPct": -1.7903977033289165,
+          "exposures": {
+            "1.0": {
+              "dayPct": -2.4752475247524774,
+              "cumPct": -1.7903977033289165
+            },
+            "0.5": {
+              "dayPct": -1.2376237623762387,
+              "cumPct": -0.7576469059569768
+            },
+            "0.3": {
+              "dayPct": -0.7425742574257432,
+              "cumPct": -0.4205148913546175
+            }
+          },
           "asOf": "2026-11-23",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_AUCTION",
           "tradingDays": 12,
           "trades": 10,
-          "restatedBy": "POSTMARKET_CMP-117"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -691,7 +719,7 @@
           }
         ],
         "publishedAt": "2026-11-23T06:41:09.161838+00:00",
-        "revision": "ccbb6ad2a0bf103d"
+        "revision": "fc60864974417797"
       },
       "strategy": {
         "base": {
@@ -701,13 +729,27 @@
           "name": "현대엘리베이터",
           "dayPct": -2.4752475247524774,
           "cumPct": -12.62101286898215,
+          "exposures": {
+            "1.0": {
+              "dayPct": -2.4752475247524774,
+              "cumPct": -12.62101286898215
+            },
+            "0.5": {
+              "dayPct": -1.2376237623762387,
+              "cumPct": -6.426571819396287
+            },
+            "0.3": {
+              "dayPct": -0.7425742574257432,
+              "cumPct": -3.883221916305346
+            }
+          },
           "asOf": "2026-11-23",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_AUCTION",
           "tradingDays": 12,
           "trades": 11,
-          "restatedBy": "POSTMARKET_CMP-117"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -790,5 +832,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-24T06:42:23.647Z"
+  "updatedAt": "2026-11-25T21:35:46.519Z"
 }

@@ -102,7 +102,7 @@
         ],
         "publishedAt": "2026-11-19T06:40:47.254246+00:00",
         "correctedAt": "2026-11-19T07:40:18.182284+00:00",
-        "revision": "2a5414c25f8849e3"
+        "revision": "c1acd0e29da0b2bd"
       },
       "strategy": {
         "base": {
@@ -112,13 +112,27 @@
           "name": "하이브",
           "dayPct": 7.613636363636367,
           "cumPct": 6.7821598491683455,
+          "exposures": {
+            "1.0": {
+              "dayPct": 7.613636363636367,
+              "cumPct": 6.7821598491683455
+            },
+            "0.5": {
+              "dayPct": 3.8068181818181834,
+              "cumPct": 3.517414635706806
+            },
+            "0.3": {
+              "dayPct": 2.28409090909091,
+              "cumPct": 2.1397710530652425
+            }
+          },
           "asOf": "2026-11-19",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_AUCTION",
           "tradingDays": 10,
           "trades": 8,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -226,7 +240,7 @@
         ],
         "publishedAt": "2026-11-19T06:40:56.198213+00:00",
         "correctedAt": "2026-11-19T07:40:18.182284+00:00",
-        "revision": "f6203cbc288fb59b"
+        "revision": "e3f28da9412ac863"
       },
       "strategy": {
         "base": {
@@ -236,13 +250,27 @@
           "name": "하이브",
           "dayPct": 7.613636363636367,
           "cumPct": 0.7022317965865943,
+          "exposures": {
+            "1.0": {
+              "dayPct": 7.613636363636367,
+              "cumPct": 0.7022317965865943
+            },
+            "0.5": {
+              "dayPct": 3.8068181818181834,
+              "cumPct": 0.4859916039934298
+            },
+            "0.3": {
+              "dayPct": 2.28409090909091,
+              "cumPct": 0.32446878776244414
+            }
+          },
           "asOf": "2026-11-19",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_AUCTION",
           "tradingDays": 10,
           "trades": 8,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -361,7 +389,7 @@
         ],
         "publishedAt": "2026-11-19T06:40:56.198213+00:00",
         "correctedAt": "2026-11-19T07:40:18.182284+00:00",
-        "revision": "e8d00f3dab771a7d"
+        "revision": "915716a5d8645011"
       },
       "strategy": {
         "base": {
@@ -371,13 +399,27 @@
           "name": "DB하이텍",
           "dayPct": 1.200000000000001,
           "cumPct": -8.16867435160532,
+          "exposures": {
+            "1.0": {
+              "dayPct": 1.200000000000001,
+              "cumPct": -8.16867435160532
+            },
+            "0.5": {
+              "dayPct": 0.6000000000000005,
+              "cumPct": -4.087012598875939
+            },
+            "0.3": {
+              "dayPct": 0.3600000000000003,
+              "cumPct": -2.4520323085239215
+            }
+          },
           "asOf": "2026-11-19",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_AUCTION",
           "tradingDays": 10,
           "trades": 9,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -421,5 +463,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-20T06:41:18.927Z"
+  "updatedAt": "2026-11-25T21:35:46.519Z"
 }

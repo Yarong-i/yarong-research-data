@@ -100,7 +100,7 @@
           }
         ],
         "publishedAt": "2026-11-13T06:41:03.325720+00:00",
-        "revision": "4881db576d7f2588"
+        "revision": "8773faadea6577fe"
       },
       "strategy": {
         "base": {
@@ -110,13 +110,27 @@
           "name": "DB하이텍",
           "dayPct": -1.6867469879518038,
           "cumPct": -1.5247743264399927,
+          "exposures": {
+            "1.0": {
+              "dayPct": -1.6867469879518038,
+              "cumPct": -1.5247743264399927
+            },
+            "0.5": {
+              "dayPct": -0.8433734939759019,
+              "cumPct": -0.7144490846665574
+            },
+            "0.3": {
+              "dayPct": -0.5060240963855411,
+              "cumPct": -0.41687673272454706
+            }
+          },
           "asOf": "2026-11-13",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_AUCTION",
           "tradingDays": 6,
           "trades": 5,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -255,7 +269,7 @@
           }
         ],
         "publishedAt": "2026-11-13T06:41:12.905033+00:00",
-        "revision": "5e028fe5be66d8b4"
+        "revision": "bfd5eebe67c8580c"
       },
       "strategy": {
         "base": {
@@ -265,13 +279,27 @@
           "name": "한화",
           "dayPct": -2.7061855670103108,
           "cumPct": -2.5458924469116795,
+          "exposures": {
+            "1.0": {
+              "dayPct": -2.7061855670103108,
+              "cumPct": -2.5458924469116795
+            },
+            "0.5": {
+              "dayPct": -1.3530927835051554,
+              "cumPct": -1.2248311161691006
+            },
+            "0.3": {
+              "dayPct": -0.8118556701030932,
+              "cumPct": -0.7229823338721242
+            }
+          },
           "asOf": "2026-11-13",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_AUCTION",
           "tradingDays": 6,
           "trades": 5,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -405,7 +433,7 @@
           }
         ],
         "publishedAt": "2026-11-13T06:41:12.905033+00:00",
-        "revision": "5e028fe5be66d8b4"
+        "revision": "bfd5eebe67c8580c"
       },
       "strategy": {
         "base": {
@@ -415,13 +443,27 @@
           "name": "한화",
           "dayPct": -2.7061855670103108,
           "cumPct": -2.5458924469116795,
+          "exposures": {
+            "1.0": {
+              "dayPct": -2.7061855670103108,
+              "cumPct": -2.5458924469116795
+            },
+            "0.5": {
+              "dayPct": -1.3530927835051554,
+              "cumPct": -1.2248311161691006
+            },
+            "0.3": {
+              "dayPct": -0.8118556701030932,
+              "cumPct": -0.7229823338721242
+            }
+          },
           "asOf": "2026-11-13",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_AUCTION",
           "tradingDays": 6,
           "trades": 5,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -464,5 +506,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-20T06:41:18.927Z"
+  "updatedAt": "2026-11-25T21:35:46.519Z"
 }

@@ -90,7 +90,7 @@
           }
         ],
         "publishedAt": "2026-11-12T06:40:50.235289+00:00",
-        "revision": "86db3e8c64009f59"
+        "revision": "ed5fe2e50bddf2d0"
       },
       "strategy": {
         "base": {
@@ -100,13 +100,27 @@
           "name": "신세계",
           "dayPct": -0.8196721311475419,
           "cumPct": 0.16475160423383706,
+          "exposures": {
+            "1.0": {
+              "dayPct": -0.8196721311475419,
+              "cumPct": 0.16475160423383706
+            },
+            "0.5": {
+              "dayPct": -0.40983606557377095,
+              "cumPct": 0.1300209717214562
+            },
+            "0.3": {
+              "dayPct": -0.24590163934426257,
+              "cumPct": 0.0896007651230768
+            }
+          },
           "asOf": "2026-11-12",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_AUCTION",
           "tradingDays": 5,
           "trades": 4,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -225,7 +239,7 @@
           }
         ],
         "publishedAt": "2026-11-12T06:40:54.577342+00:00",
-        "revision": "86db3e8c64009f59"
+        "revision": "ed5fe2e50bddf2d0"
       },
       "strategy": {
         "base": {
@@ -235,13 +249,27 @@
           "name": "신세계",
           "dayPct": -0.8196721311475419,
           "cumPct": 0.16475160423383706,
+          "exposures": {
+            "1.0": {
+              "dayPct": -0.8196721311475419,
+              "cumPct": 0.16475160423383706
+            },
+            "0.5": {
+              "dayPct": -0.40983606557377095,
+              "cumPct": 0.1300209717214562
+            },
+            "0.3": {
+              "dayPct": -0.24590163934426257,
+              "cumPct": 0.0896007651230768
+            }
+          },
           "asOf": "2026-11-12",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_AUCTION",
           "tradingDays": 5,
           "trades": 4,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -375,7 +403,7 @@
           }
         ],
         "publishedAt": "2026-11-12T06:40:54.577342+00:00",
-        "revision": "86db3e8c64009f59"
+        "revision": "ed5fe2e50bddf2d0"
       },
       "strategy": {
         "base": {
@@ -385,13 +413,27 @@
           "name": "신세계",
           "dayPct": -0.8196721311475419,
           "cumPct": 0.16475160423383706,
+          "exposures": {
+            "1.0": {
+              "dayPct": -0.8196721311475419,
+              "cumPct": 0.16475160423383706
+            },
+            "0.5": {
+              "dayPct": -0.40983606557377095,
+              "cumPct": 0.1300209717214562
+            },
+            "0.3": {
+              "dayPct": -0.24590163934426257,
+              "cumPct": 0.0896007651230768
+            }
+          },
           "asOf": "2026-11-12",
           "startDate": "2026-11-06",
           "final": true,
           "closeStatus": "KIS_AUCTION",
           "tradingDays": 5,
           "trades": 4,
-          "restatedBy": "POSTMARKET_CMP-107"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       },
       "postmarketHistory": [
@@ -434,5 +476,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-20T06:41:18.927Z"
+  "updatedAt": "2026-11-25T21:35:46.519Z"
 }

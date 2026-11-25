@@ -36,7 +36,7 @@
       "postmarket": {
         "status": "nothing",
         "results": [],
-        "revision": "472fc88082dc8d23"
+        "revision": "671882b1eec9e908"
       },
       "strategy": {
         "base": {
@@ -45,11 +45,26 @@
           "detail": "KRX 코스피200 명단이 오래됨: 기준일 2026-10-27, 15일 경과 (한도 14일)",
           "dayPct": 0,
           "cumPct": 0.9925594687316242,
+          "exposures": {
+            "1.0": {
+              "dayPct": 0,
+              "cumPct": 0.9925594687316242
+            },
+            "0.5": {
+              "dayPct": 0,
+              "cumPct": 0.5420786711935577
+            },
+            "0.3": {
+              "dayPct": 0,
+              "cumPct": 0.33632944408392706
+            }
+          },
           "asOf": "2026-11-11",
           "startDate": "2026-11-06",
           "final": true,
           "tradingDays": 4,
-          "trades": 3
+          "trades": 3,
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       }
     },
@@ -73,7 +88,7 @@
         "status": "nothing",
         "results": [],
         "publishedAt": "2026-11-11T06:40:03.941807+00:00",
-        "revision": "ea431a4e92682cae"
+        "revision": "42f17d174c802e45"
       },
       "strategy": {
         "base": {
@@ -82,11 +97,26 @@
           "detail": "운영 모델 실행이 근거 묶음 전에 끝남 (상태 UNIVERSE_UNAVAILABLE) - 같은 자료로 판단할 대상이 없어 모델 호출 없음",
           "dayPct": 0,
           "cumPct": 0.9925594687316242,
+          "exposures": {
+            "1.0": {
+              "dayPct": 0,
+              "cumPct": 0.9925594687316242
+            },
+            "0.5": {
+              "dayPct": 0,
+              "cumPct": 0.5420786711935577
+            },
+            "0.3": {
+              "dayPct": 0,
+              "cumPct": 0.33632944408392706
+            }
+          },
           "asOf": "2026-11-11",
           "startDate": "2026-11-06",
           "final": true,
           "tradingDays": 4,
-          "trades": 3
+          "trades": 3,
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       }
     },
@@ -110,7 +140,7 @@
         "status": "nothing",
         "results": [],
         "publishedAt": "2026-11-11T06:40:03.941807+00:00",
-        "revision": "ea431a4e92682cae"
+        "revision": "42f17d174c802e45"
       },
       "strategy": {
         "base": {
@@ -119,14 +149,29 @@
           "detail": "운영 모델 실행이 근거 묶음 전에 끝남 (상태 UNIVERSE_UNAVAILABLE) - 같은 자료로 판단할 대상이 없어 모델 호출 없음",
           "dayPct": 0,
           "cumPct": 0.9925594687316242,
+          "exposures": {
+            "1.0": {
+              "dayPct": 0,
+              "cumPct": 0.9925594687316242
+            },
+            "0.5": {
+              "dayPct": 0,
+              "cumPct": 0.5420786711935577
+            },
+            "0.3": {
+              "dayPct": 0,
+              "cumPct": 0.33632944408392706
+            }
+          },
           "asOf": "2026-11-11",
           "startDate": "2026-11-06",
           "final": true,
           "tradingDays": 4,
-          "trades": 3
+          "trades": 3,
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       }
     }
   ],
-  "updatedAt": "2026-11-19T08:18:47.933Z"
+  "updatedAt": "2026-11-25T21:35:46.519Z"
 }
