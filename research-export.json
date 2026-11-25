@@ -1,6 +1,6 @@
 {
  "exportVersion": "YARONG-PUBLIC-EXPORT-V1",
- "exportedAt": "2026-11-24T23:31:07.054108+00:00",
+ "exportedAt": "2026-11-25T06:35:07.112036+00:00",
  "system": "YATC ASK",
  "ledgerStart": "2026-11-06",
  "costs": {
@@ -4939,6 +4939,7 @@
       ],
       "publishedAt": "2026-11-24T23:29:01.482106+00:00",
       "detail": "실행 실패",
+      "reasonCode": "EVIDENCE_ALL_EXCLUDED",
       "rankStatus": "제안 종목 모두 근거 점검 미통과"
      },
      "postmarket": {
