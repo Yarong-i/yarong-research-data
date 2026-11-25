@@ -7,6 +7,21 @@
       "at": "2026-11-24T06:42:06.647886+00:00",
       "ticker": "claude-sonnet-5:042660",
       "note": "Sonnet 장후 값 갱신: 성과 추가"
+    },
+    {
+      "at": "2026-11-25T06:41:01.974907+00:00",
+      "ticker": "claude-sonnet-5:042660",
+      "note": "Sonnet 장후 값 갱신: 042660 종가 43,200원 그대로, 잠정 → 확정, 근거 PROVISIONAL → KIS_AUCTION · 성과 확정"
+    },
+    {
+      "at": "2026-11-25T06:41:01.974907+00:00",
+      "ticker": "claude-opus-5-5:047040",
+      "note": "Opus 장후 값 갱신: 047040 종가 10,520원 그대로, 잠정 → 확정, 근거 PROVISIONAL → KIS_AUCTION · 성과 확정"
+    },
+    {
+      "at": "2026-11-25T06:41:01.974907+00:00",
+      "ticker": "gpt-6-astra:483650",
+      "note": "Astra 장후 값 갱신: 483650 종가 128,900원 그대로, 잠정 → 확정, 근거 PROVISIONAL → KIS_AUCTION · 성과 확정"
     }
   ],
   "source": {
@@ -76,15 +91,15 @@
           {
             "ticker": "042660",
             "name": "한화오션",
-            "status": "provisional",
+            "status": "confirmed",
             "open": 40600,
             "close": 43200,
-            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
-            "closeStatus": "PROVISIONAL"
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+            "closeStatus": "KIS_AUCTION"
           }
         ],
         "publishedAt": "2026-11-24T06:40:55.293102+00:00",
-        "revision": "e19e9398de983d18"
+        "revision": "dbd21e2508e52d17"
       },
       "postmarketHistory": [
         {
@@ -106,24 +121,61 @@
             "publishedAt": "2026-11-24T06:40:55.293102+00:00",
             "revision": "166b8e7cecd1ec98"
           }
+        },
+        {
+          "replacedAt": "2026-11-25T06:41:01.974907+00:00",
+          "revision": "e19e9398de983d18",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "042660",
+                "name": "한화오션",
+                "status": "provisional",
+                "open": 40600,
+                "close": 43200,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+                "closeStatus": "PROVISIONAL"
+              }
+            ],
+            "publishedAt": "2026-11-24T06:40:55.293102+00:00",
+            "revision": "e19e9398de983d18"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "042660",
+              "name": "한화오션",
+              "dayPct": 6.403940886699511,
+              "cumPct": 12.988811767729835,
+              "asOf": "2026-11-24",
+              "startDate": "2026-11-06",
+              "final": false,
+              "closeStatus": "PROVISIONAL",
+              "tradingDays": 13,
+              "trades": 11,
+              "restatedBy": "POSTMARKET_CMP-117"
+            }
+          }
         }
       ],
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "042660",
           "name": "한화오션",
           "dayPct": 6.403940886699511,
           "cumPct": 12.988811767729835,
           "asOf": "2026-11-24",
           "startDate": "2026-11-06",
-          "final": false,
-          "closeStatus": "PROVISIONAL",
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 13,
           "trades": 11,
-          "restatedBy": "POSTMARKET_CMP-117"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
       }
     },
@@ -201,34 +253,73 @@
           {
             "ticker": "047040",
             "name": "대우건설",
-            "status": "provisional",
+            "status": "confirmed",
             "open": 10000,
             "close": 10520,
-            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
-            "closeStatus": "PROVISIONAL"
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+            "closeStatus": "KIS_AUCTION"
           }
         ],
         "publishedAt": "2026-11-24T06:41:10.062929+00:00",
-        "revision": "b4992c2d5fde5740"
+        "revision": "d2584411587d7edc"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "047040",
           "name": "대우건설",
           "dayPct": 5.200000000000005,
           "cumPct": 3.3165016160979777,
           "asOf": "2026-11-24",
           "startDate": "2026-11-06",
-          "final": false,
-          "closeStatus": "PROVISIONAL",
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 13,
           "trades": 11,
-          "restatedBy": "POSTMARKET_CMP-117"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-25T06:41:01.974907+00:00",
+          "revision": "b4992c2d5fde5740",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "047040",
+                "name": "대우건설",
+                "status": "provisional",
+                "open": 10000,
+                "close": 10520,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+                "closeStatus": "PROVISIONAL"
+              }
+            ],
+            "publishedAt": "2026-11-24T06:41:10.062929+00:00",
+            "revision": "b4992c2d5fde5740"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "047040",
+              "name": "대우건설",
+              "dayPct": 5.200000000000005,
+              "cumPct": 3.3165016160979777,
+              "asOf": "2026-11-24",
+              "startDate": "2026-11-06",
+              "final": false,
+              "closeStatus": "PROVISIONAL",
+              "tradingDays": 13,
+              "trades": 11,
+              "restatedBy": "POSTMARKET_CMP-117"
+            }
+          }
+        }
+      ]
     },
     {
       "key": "astra",
@@ -316,35 +407,74 @@
           {
             "ticker": "483650",
             "name": "달바글로벌",
-            "status": "provisional",
+            "status": "confirmed",
             "open": 125300,
             "close": 128900,
-            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
-            "closeStatus": "PROVISIONAL"
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+            "closeStatus": "KIS_AUCTION"
           }
         ],
         "publishedAt": "2026-11-24T06:41:10.062929+00:00",
-        "revision": "2b1a5e80ba555a30"
+        "revision": "b95ad64ec24c07f6"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "483650",
           "name": "달바글로벌",
           "dayPct": 2.873104549082206,
           "cumPct": -10.110523214778922,
           "asOf": "2026-11-24",
           "startDate": "2026-11-06",
-          "final": false,
-          "closeStatus": "PROVISIONAL",
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 13,
           "trades": 12,
-          "restatedBy": "POSTMARKET_CMP-117"
+          "restatedBy": "POSTMARKET_CMP-122"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-25T06:41:01.974907+00:00",
+          "revision": "2b1a5e80ba555a30",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "483650",
+                "name": "달바글로벌",
+                "status": "provisional",
+                "open": 125300,
+                "close": 128900,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+                "closeStatus": "PROVISIONAL"
+              }
+            ],
+            "publishedAt": "2026-11-24T06:41:10.062929+00:00",
+            "revision": "2b1a5e80ba555a30"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "483650",
+              "name": "달바글로벌",
+              "dayPct": 2.873104549082206,
+              "cumPct": -10.110523214778922,
+              "asOf": "2026-11-24",
+              "startDate": "2026-11-06",
+              "final": false,
+              "closeStatus": "PROVISIONAL",
+              "tradingDays": 13,
+              "trades": 12,
+              "restatedBy": "POSTMARKET_CMP-117"
+            }
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-24T06:42:23.647Z"
+  "updatedAt": "2026-11-25T06:41:19.311Z"
 }

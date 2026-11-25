@@ -7,6 +7,11 @@
       "at": "2026-11-25T01:26:07.541Z",
       "ticker": "claude-sonnet-5:premarket-reason",
       "note": "Sonnet 장전 상태 설명 보강: 실행 실패 → 추천 미발행(근거 검증 실패 · 제안 3종목 모두 제외). 근거: 연구 시스템 기록 '제안 종목 모두 근거 점검 미통과'와 종목별 제외 사유 3건. 제외 종목·사유와 장후 기록은 바뀌지 않았습니다."
+    },
+    {
+      "at": "2026-11-25T06:41:01.974907+00:00",
+      "ticker": "claude-sonnet-5:",
+      "note": "Sonnet 장후 값 갱신: 성과 추가"
     }
   ],
   "source": {
@@ -14,7 +19,8 @@
     "runs": [
       "PREMARKET-118",
       "PREMARKET_CMP_OPUS-120",
-      "PREMARKET_CMP_ASTRA-119"
+      "PREMARKET_CMP_ASTRA-119",
+      "POSTMARKET_CMP-122"
     ],
     "origins": [
       "158 서버 공개용 내보내기"
@@ -28,7 +34,8 @@
       "short": "Sonnet",
       "role": "operating",
       "runs": [
-        "PREMARKET-118"
+        "PREMARKET-118",
+        "POSTMARKET_CMP-122"
       ],
       "premarket": {
         "status": "failed",
@@ -64,7 +71,7 @@
       "postmarket": {
         "status": "nothing",
         "results": [],
-        "revision": "9302cb268c3f3063"
+        "revision": "709dc236151c9895"
       },
       "premarketHistory": [
         {
@@ -101,7 +108,33 @@
             "rankStatus": "제안 종목 모두 근거 점검 미통과"
           }
         }
-      ]
+      ],
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-25T06:41:01.974907+00:00",
+          "revision": "9302cb268c3f3063",
+          "postmarket": {
+            "status": "nothing",
+            "results": [],
+            "revision": "9302cb268c3f3063"
+          }
+        }
+      ],
+      "strategy": {
+        "base": {
+          "executed": false,
+          "category": "VALIDATION_FAILED",
+          "detail": "제안 종목 모두 근거 점검 미통과",
+          "dayPct": 0,
+          "cumPct": 12.988811767729835,
+          "asOf": "2026-11-25",
+          "startDate": "2026-11-06",
+          "final": true,
+          "tradingDays": 14,
+          "trades": 11,
+          "restatedBy": "POSTMARKET_CMP-122"
+        }
+      }
     },
     {
       "key": "opus",
@@ -110,7 +143,8 @@
       "short": "Opus",
       "role": "comparison",
       "runs": [
-        "PREMARKET_CMP_OPUS-120"
+        "PREMARKET_CMP_OPUS-120",
+        "POSTMARKET_CMP-122"
       ],
       "premarket": {
         "status": "published",
@@ -185,8 +219,38 @@
         "rankStatus": "모델 순위 확인"
       },
       "postmarket": {
-        "status": "pending",
-        "results": []
+        "status": "reviewed",
+        "results": [
+          {
+            "ticker": "012750",
+            "name": "에스원",
+            "status": "provisional",
+            "open": 101900,
+            "close": 103600,
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+            "closeStatus": "PROVISIONAL"
+          }
+        ],
+        "publishedAt": "2026-11-25T06:40:35.189987+00:00",
+        "revision": "b3ed26aa00be3954"
+      },
+      "strategy": {
+        "base": {
+          "executed": true,
+          "category": "PICK",
+          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+          "ticker": "012750",
+          "name": "에스원",
+          "dayPct": 1.6683022571148287,
+          "cumPct": 5.040133144531422,
+          "asOf": "2026-11-25",
+          "startDate": "2026-11-06",
+          "final": false,
+          "closeStatus": "PROVISIONAL",
+          "tradingDays": 14,
+          "trades": 12,
+          "restatedBy": "POSTMARKET_CMP-122"
+        }
       }
     },
     {
@@ -196,7 +260,8 @@
       "short": "Astra",
       "role": "comparison",
       "runs": [
-        "PREMARKET_CMP_ASTRA-119"
+        "PREMARKET_CMP_ASTRA-119",
+        "POSTMARKET_CMP-122"
       ],
       "premarket": {
         "status": "published",
@@ -268,10 +333,40 @@
         "rankStatus": "모델 순위 확인"
       },
       "postmarket": {
-        "status": "pending",
-        "results": []
+        "status": "reviewed",
+        "results": [
+          {
+            "ticker": "012750",
+            "name": "에스원",
+            "status": "provisional",
+            "open": 101900,
+            "close": 103600,
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+            "closeStatus": "PROVISIONAL"
+          }
+        ],
+        "publishedAt": "2026-11-25T06:40:35.189987+00:00",
+        "revision": "4a9e310c39515923"
+      },
+      "strategy": {
+        "base": {
+          "executed": true,
+          "category": "PICK",
+          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+          "ticker": "012750",
+          "name": "에스원",
+          "dayPct": 1.6683022571148287,
+          "cumPct": -8.61089504466237,
+          "asOf": "2026-11-25",
+          "startDate": "2026-11-06",
+          "final": false,
+          "closeStatus": "PROVISIONAL",
+          "tradingDays": 14,
+          "trades": 13,
+          "restatedBy": "POSTMARKET_CMP-122"
+        }
       }
     }
   ],
-  "updatedAt": "2026-11-25T01:26:07.541Z"
+  "updatedAt": "2026-11-25T06:41:19.311Z"
 }
