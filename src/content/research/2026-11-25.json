@@ -2,7 +2,13 @@
   "date": "2026-11-25",
   "market": "open",
   "registeredAt": "2026-11-24T23:29:32.196Z",
-  "corrections": [],
+  "corrections": [
+    {
+      "at": "2026-11-25T01:26:07.541Z",
+      "ticker": "claude-sonnet-5:premarket-reason",
+      "note": "Sonnet 장전 상태 설명 보강: 실행 실패 → 추천 미발행(근거 검증 실패 · 제안 3종목 모두 제외). 근거: 연구 시스템 기록 '제안 종목 모두 근거 점검 미통과'와 종목별 제외 사유 3건. 제외 종목·사유와 장후 기록은 바뀌지 않았습니다."
+    }
+  ],
   "source": {
     "system": "YATC ASK",
     "runs": [
@@ -52,13 +58,50 @@
         ],
         "publishedAt": "2026-11-24T23:29:01.482106+00:00",
         "detail": "실행 실패",
-        "rankStatus": "제안 종목 모두 근거 점검 미통과"
+        "rankStatus": "제안 종목 모두 근거 점검 미통과",
+        "reasonCode": "EVIDENCE_ALL_EXCLUDED"
       },
       "postmarket": {
         "status": "nothing",
         "results": [],
         "revision": "9302cb268c3f3063"
-      }
+      },
+      "premarketHistory": [
+        {
+          "replacedAt": "2026-11-25T01:26:07.541Z",
+          "reason": "reason-code-added",
+          "premarket": {
+            "status": "failed",
+            "picks": [],
+            "excluded": [
+              {
+                "ticker": "028050",
+                "name": "삼성E&A",
+                "reason": "확인되지 않은 위험: 제안 1 삼성E&A(028050) · 위험 1 - 가격 이후(또는 시각 미상) 자료를 가격 변동의 원인으로 씀 ['T11', 'T12']",
+                "rank": 1,
+                "score": 6
+              },
+              {
+                "ticker": "012750",
+                "name": "에스원",
+                "reason": "확인된 추천 이유가 이 종목의 새 공시·뉴스(수집 구간 내)를 인용하지 않음",
+                "rank": 2,
+                "score": 5
+              },
+              {
+                "ticker": "030000",
+                "name": "제일기획",
+                "reason": "확인된 추천 이유가 이 종목의 새 공시·뉴스(수집 구간 내)를 인용하지 않음",
+                "rank": 3,
+                "score": 9
+              }
+            ],
+            "publishedAt": "2026-11-24T23:29:01.482106+00:00",
+            "detail": "실행 실패",
+            "rankStatus": "제안 종목 모두 근거 점검 미통과"
+          }
+        }
+      ]
     },
     {
       "key": "opus",
@@ -230,5 +273,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T23:31:21.465Z"
+  "updatedAt": "2026-11-25T01:26:07.541Z"
 }
