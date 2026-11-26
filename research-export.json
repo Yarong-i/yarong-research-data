@@ -1,6 +1,6 @@
 {
  "exportVersion": "YARONG-PUBLIC-EXPORT-V1",
- "exportedAt": "2026-11-26T06:42:03.665230+00:00",
+ "exportedAt": "2026-11-26T23:33:04.656468+00:00",
  "system": "YATC ASK",
  "ledgerStart": "2026-11-06",
  "costs": {
@@ -6144,6 +6144,103 @@
        "trades": 14,
        "restatedBy": "POSTMARKET_CMP-129"
       }
+     }
+    }
+   ],
+   "corrections": []
+  },
+  {
+   "date": "2026-11-27",
+   "market": "open",
+   "models": [
+    {
+     "key": "sonnet",
+     "model": "모델 미기록",
+     "label": "운영 모델 (모델 미기록)",
+     "short": "운영 · 미기록",
+     "role": "operating",
+     "runs": [
+      "PREMARKET-130"
+     ],
+     "premarket": {
+      "status": "failed",
+      "picks": [],
+      "excluded": [],
+      "publishedAt": "2026-11-26T23:32:29.369762+00:00",
+      "detail": "제한 시간 안에 형식에 맞는 답변을 만들지 못해 추천을 내지 않았습니다."
+     },
+     "postmarket": {
+      "status": "nothing",
+      "results": [],
+      "revision": "9302cb268c3f3063"
+     }
+    },
+    {
+     "key": "opus",
+     "model": "claude-opus-5-5",
+     "label": "Claude Opus 5.5",
+     "short": "Opus",
+     "role": "comparison",
+     "runs": [],
+     "premarket": {
+      "status": "pending",
+      "picks": [],
+      "excluded": []
+     },
+     "postmarket": {
+      "status": "pending",
+      "results": []
+     }
+    },
+    {
+     "key": "astra",
+     "model": "gpt-6-astra",
+     "label": "GPT-6 Astra",
+     "short": "Astra",
+     "role": "comparison",
+     "runs": [],
+     "premarket": {
+      "status": "pending",
+      "picks": [],
+      "excluded": []
+     },
+     "postmarket": {
+      "status": "pending",
+      "results": []
+     }
+    },
+    {
+     "key": "fable",
+     "model": "claude-fable-5-2",
+     "label": "Claude Fable 5.2",
+     "short": "Fable",
+     "role": "comparison",
+     "runs": [],
+     "premarket": {
+      "status": "pending",
+      "picks": [],
+      "excluded": []
+     },
+     "postmarket": {
+      "status": "pending",
+      "results": []
+     }
+    },
+    {
+     "key": "astra62",
+     "model": "gpt-6.2-astra",
+     "label": "GPT-6.2 Astra",
+     "short": "Astra 6.2",
+     "role": "comparison",
+     "runs": [],
+     "premarket": {
+      "status": "pending",
+      "picks": [],
+      "excluded": []
+     },
+     "postmarket": {
+      "status": "pending",
+      "results": []
      }
     }
    ],
