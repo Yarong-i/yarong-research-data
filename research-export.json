@@ -1,6 +1,6 @@
 {
  "exportVersion": "YARONG-PUBLIC-EXPORT-V1",
- "exportedAt": "2026-11-25T23:31:03.630241+00:00",
+ "exportedAt": "2026-11-26T06:42:03.665230+00:00",
  "system": "YATC ASK",
  "ledgerStart": "2026-11-06",
  "costs": {
@@ -1165,7 +1165,7 @@
        "closeStatus": "KIS_PATHS_AGREE_KRX_UNVERIFIED",
        "tradingDays": 1,
        "trades": 1,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -1293,7 +1293,7 @@
        "closeStatus": "KIS_PATHS_AGREE_KRX_UNVERIFIED",
        "tradingDays": 1,
        "trades": 1,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -1419,7 +1419,7 @@
        "closeStatus": "KIS_PATHS_AGREE_KRX_UNVERIFIED",
        "tradingDays": 1,
        "trades": 1,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     }
@@ -1583,7 +1583,7 @@
        "final": true,
        "tradingDays": 2,
        "trades": 2,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -1692,7 +1692,7 @@
        "final": true,
        "tradingDays": 2,
        "trades": 2,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -1819,7 +1819,7 @@
        "final": true,
        "tradingDays": 2,
        "trades": 2,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     }
@@ -1954,7 +1954,7 @@
        "closeStatus": "KRX_CONFIRMED",
        "tradingDays": 3,
        "trades": 3,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -2083,7 +2083,7 @@
        "closeStatus": "KRX_CONFIRMED",
        "tradingDays": 3,
        "trades": 3,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -2209,7 +2209,7 @@
        "closeStatus": "KRX_CONFIRMED",
        "tradingDays": 3,
        "trades": 3,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     }
@@ -2274,7 +2274,7 @@
        "final": true,
        "tradingDays": 4,
        "trades": 3,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -2326,7 +2326,7 @@
        "final": true,
        "tradingDays": 4,
        "trades": 3,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -2378,7 +2378,7 @@
        "final": true,
        "tradingDays": 4,
        "trades": 3,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     }
@@ -2477,7 +2477,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 5,
        "trades": 4,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -2588,7 +2588,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 5,
        "trades": 4,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -2714,7 +2714,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 5,
        "trades": 4,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     }
@@ -2823,7 +2823,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 6,
        "trades": 5,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -2954,7 +2954,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 6,
        "trades": 5,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -3080,7 +3080,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 6,
        "trades": 5,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     }
@@ -3238,7 +3238,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 7,
        "trades": 6,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -3346,7 +3346,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 7,
        "trades": 6,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -3446,7 +3446,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 7,
        "trades": 6,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     }
@@ -3554,7 +3554,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 8,
        "trades": 7,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -3664,7 +3664,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 8,
        "trades": 7,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -3791,7 +3791,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 8,
        "trades": 7,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     }
@@ -3851,7 +3851,7 @@
        "final": true,
        "tradingDays": 9,
        "trades": 7,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -3905,7 +3905,7 @@
        "final": true,
        "tradingDays": 9,
        "trades": 7,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -3992,7 +3992,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 9,
        "trades": 8,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     }
@@ -4098,7 +4098,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 10,
        "trades": 8,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -4197,7 +4197,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 10,
        "trades": 8,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -4307,7 +4307,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 10,
        "trades": 9,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     }
@@ -4465,7 +4465,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 11,
        "trades": 9,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -4597,7 +4597,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 11,
        "trades": 9,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -4712,7 +4712,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 11,
        "trades": 10,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     }
@@ -4869,7 +4869,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 12,
        "trades": 10,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -4979,7 +4979,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 12,
        "trades": 10,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -5087,7 +5087,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 12,
        "trades": 11,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     }
@@ -5190,7 +5190,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 13,
        "trades": 11,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -5306,7 +5306,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 13,
        "trades": 11,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -5434,7 +5434,7 @@
        "closeStatus": "KIS_AUCTION",
        "tradingDays": 13,
        "trades": 12,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     }
@@ -5517,7 +5517,7 @@
        "final": true,
        "tradingDays": 14,
        "trades": 11,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -5609,21 +5609,20 @@
        {
         "ticker": "012750",
         "name": "에스원",
-        "status": "provisional",
+        "status": "confirmed",
         "open": 101900.0,
         "close": 103600.0,
-        "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
-        "closeStatus": "PROVISIONAL"
+        "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+        "closeStatus": "KIS_AUCTION"
        }
       ],
       "publishedAt": "2026-11-25T06:40:35.189987+00:00",
-      "revision": "14246e721ee663ef"
+      "revision": "d295943b71ca1fad"
      },
      "strategy": {
       "base": {
        "executed": true,
        "category": "PICK",
-       "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
        "ticker": "012750",
        "name": "에스원",
        "dayPct": 1.6683022571148287,
@@ -5644,11 +5643,11 @@
        },
        "asOf": "2026-11-25",
        "startDate": "2026-11-06",
-       "final": false,
-       "closeStatus": "PROVISIONAL",
+       "final": true,
+       "closeStatus": "KIS_AUCTION",
        "tradingDays": 14,
        "trades": 12,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     },
@@ -5737,21 +5736,20 @@
        {
         "ticker": "012750",
         "name": "에스원",
-        "status": "provisional",
+        "status": "confirmed",
         "open": 101900.0,
         "close": 103600.0,
-        "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
-        "closeStatus": "PROVISIONAL"
+        "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+        "closeStatus": "KIS_AUCTION"
        }
       ],
       "publishedAt": "2026-11-25T06:40:35.189987+00:00",
-      "revision": "03918a67ed5f83ba"
+      "revision": "62841ec924fa526d"
      },
      "strategy": {
       "base": {
        "executed": true,
        "category": "PICK",
-       "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
        "ticker": "012750",
        "name": "에스원",
        "dayPct": 1.6683022571148287,
@@ -5772,11 +5770,11 @@
        },
        "asOf": "2026-11-25",
        "startDate": "2026-11-06",
-       "final": false,
-       "closeStatus": "PROVISIONAL",
+       "final": true,
+       "closeStatus": "KIS_AUCTION",
        "tradingDays": 14,
        "trades": 13,
-       "restatedBy": "POSTMARKET_CMP-122"
+       "restatedBy": "POSTMARKET_CMP-129"
       }
      }
     }
@@ -5794,7 +5792,8 @@
      "short": "Sonnet",
      "role": "operating",
      "runs": [
-      "PREMARKET-125"
+      "PREMARKET-125",
+      "POSTMARKET_CMP-129"
      ],
      "premarket": {
       "status": "published",
@@ -5850,8 +5849,62 @@
       "rankStatus": "모델 순위 확인"
      },
      "postmarket": {
-      "status": "pending",
-      "results": []
+      "status": "reviewed",
+      "results": [
+       {
+        "ticker": "009150",
+        "name": "삼성전기",
+        "status": "provisional",
+        "open": 781000.0,
+        "close": 784000.0,
+        "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:41 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+        "closeStatus": "PROVISIONAL"
+       },
+       {
+        "ticker": "000720",
+        "name": "현대건설",
+        "status": "provisional",
+        "open": 67000.0,
+        "close": 67000.0,
+        "prevClose": 66500.0,
+        "basis": "정규장 09:00 분봉 시가 → 마감 후 KRX 현재가 기반 잠정 종가",
+        "closeStatus": "PROVISIONAL_UNCONFIRMED"
+       }
+      ],
+      "publishedAt": "2026-11-26T06:41:06.586096+00:00",
+      "revision": "29a75b5ab9ae1395"
+     },
+     "strategy": {
+      "base": {
+       "executed": true,
+       "category": "PICK",
+       "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+       "ticker": "009150",
+       "name": "삼성전기",
+       "dayPct": 0.3841229193341844,
+       "cumPct": 13.422827690013062,
+       "exposures": {
+        "1.0": {
+         "dayPct": 0.3841229193341844,
+         "cumPct": 13.422827690013062
+        },
+        "0.5": {
+         "dayPct": 0.1920614596670922,
+         "cumPct": 6.739685588345656
+        },
+        "0.3": {
+         "dayPct": 0.11523687580025532,
+         "cumPct": 4.048215517716147
+        }
+       },
+       "asOf": "2026-11-26",
+       "startDate": "2026-11-06",
+       "final": false,
+       "closeStatus": "PROVISIONAL",
+       "tradingDays": 15,
+       "trades": 12,
+       "restatedBy": "POSTMARKET_CMP-129"
+      }
      }
     },
     {
@@ -5861,7 +5914,8 @@
      "short": "Opus",
      "role": "comparison",
      "runs": [
-      "PREMARKET_CMP_OPUS-127"
+      "PREMARKET_CMP_OPUS-127",
+      "POSTMARKET_CMP-129"
      ],
      "premarket": {
       "status": "published",
@@ -5916,8 +5970,52 @@
       "rankStatus": "모델 순위 확인"
      },
      "postmarket": {
-      "status": "pending",
-      "results": []
+      "status": "reviewed",
+      "results": [
+       {
+        "ticker": "009150",
+        "name": "삼성전기",
+        "status": "provisional",
+        "open": 781000.0,
+        "close": 784000.0,
+        "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:41 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+        "closeStatus": "PROVISIONAL"
+       }
+      ],
+      "publishedAt": "2026-11-26T06:41:12.600326+00:00",
+      "revision": "d0383d169503d4e9"
+     },
+     "strategy": {
+      "base": {
+       "executed": true,
+       "category": "PICK",
+       "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+       "ticker": "009150",
+       "name": "삼성전기",
+       "dayPct": 0.3841229193341844,
+       "cumPct": 5.443616370438709,
+       "exposures": {
+        "1.0": {
+         "dayPct": 0.3841229193341844,
+         "cumPct": 5.443616370438709
+        },
+        "0.5": {
+         "dayPct": 0.1920614596670922,
+         "cumPct": 2.869202453581843
+        },
+        "0.3": {
+         "dayPct": 0.11523687580025532,
+         "cumPct": 1.7562116450874354
+        }
+       },
+       "asOf": "2026-11-26",
+       "startDate": "2026-11-06",
+       "final": false,
+       "closeStatus": "PROVISIONAL",
+       "tradingDays": 15,
+       "trades": 13,
+       "restatedBy": "POSTMARKET_CMP-129"
+      }
      }
     },
     {
@@ -5927,7 +6025,8 @@
      "short": "Astra",
      "role": "comparison",
      "runs": [
-      "PREMARKET_CMP_ASTRA-126"
+      "PREMARKET_CMP_ASTRA-126",
+      "POSTMARKET_CMP-129"
      ],
      "premarket": {
       "status": "published",
@@ -5999,8 +6098,52 @@
       "rankStatus": "모델 순위 확인"
      },
      "postmarket": {
-      "status": "pending",
-      "results": []
+      "status": "reviewed",
+      "results": [
+       {
+        "ticker": "009150",
+        "name": "삼성전기",
+        "status": "provisional",
+        "open": 781000.0,
+        "close": 784000.0,
+        "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:41 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+        "closeStatus": "PROVISIONAL"
+       }
+      ],
+      "publishedAt": "2026-11-26T06:41:12.600326+00:00",
+      "revision": "153dfe5b9d906f50"
+     },
+     "strategy": {
+      "base": {
+       "executed": true,
+       "category": "PICK",
+       "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+       "ticker": "009150",
+       "name": "삼성전기",
+       "dayPct": 0.3841229193341844,
+       "cumPct": -8.259848546754544,
+       "exposures": {
+        "1.0": {
+         "dayPct": 0.3841229193341844,
+         "cumPct": -8.259848546754544
+        },
+        "0.5": {
+         "dayPct": 0.1920614596670922,
+         "cumPct": -4.106762979851187
+        },
+        "0.3": {
+         "dayPct": 0.11523687580025532,
+         "cumPct": -2.4572835815640404
+        }
+       },
+       "asOf": "2026-11-26",
+       "startDate": "2026-11-06",
+       "final": false,
+       "closeStatus": "PROVISIONAL",
+       "tradingDays": 15,
+       "trades": 14,
+       "restatedBy": "POSTMARKET_CMP-129"
+      }
      }
     }
    ],
@@ -6013,103 +6156,105 @@
    "label": "Claude Sonnet 5 (운영)",
    "short": "Sonnet",
    "strategy": "base",
-   "asOf": "2026-11-25",
+   "asOf": "2026-11-26",
    "startDate": "2026-11-06",
-   "cumulativePct": 12.988811767729835,
-   "dayPct": 0.0,
+   "cumulativePct": 13.422827690013062,
+   "dayPct": 0.3841229193341844,
    "exposures": {
     "1.0": {
-     "cumulativePct": 12.988811767729835,
-     "dayPct": 0.0
+     "cumulativePct": 13.422827690013062,
+     "dayPct": 0.3841229193341844
     },
     "0.5": {
-     "cumulativePct": 6.535072772521322,
-     "dayPct": 0.0
+     "cumulativePct": 6.739685588345656,
+     "dayPct": 0.1920614596670922
     },
     "0.3": {
-     "cumulativePct": 3.9284516170051242,
-     "dayPct": 0.0
+     "cumulativePct": 4.048215517716147,
+     "dayPct": 0.11523687580025532
     }
    },
    "role": "operating",
-   "tradingDays": 14,
-   "trades": 11,
-   "includesProvisional": [],
+   "tradingDays": 15,
+   "trades": 12,
+   "includesProvisional": [
+    "2026-11-26"
+   ],
    "unverifiedCorrections": [
     "2026-11-06"
    ],
    "basis": "최종 1순위를 정규장 시가에 시작 자산 100%로 매수, 당일 종가 매도, 일별 복리 · 비용 전 · 실제 주문 아님",
-   "source": "YATC ASK 비교 장부 ASK-CMP-V1 (POSTMARKET_CMP-122)"
+   "source": "YATC ASK 비교 장부 ASK-CMP-V1 (POSTMARKET_CMP-129)"
   },
   {
    "model": "claude-opus-5-5",
    "label": "Claude Opus 5.5",
    "short": "Opus",
    "strategy": "base",
-   "asOf": "2026-11-25",
+   "asOf": "2026-11-26",
    "startDate": "2026-11-06",
-   "cumulativePct": 5.040133144531422,
-   "dayPct": 1.6683022571148287,
+   "cumulativePct": 5.443616370438709,
+   "dayPct": 0.3841229193341844,
    "exposures": {
     "1.0": {
-     "cumulativePct": 5.040133144531422,
-     "dayPct": 1.6683022571148287
+     "cumulativePct": 5.443616370438709,
+     "dayPct": 0.3841229193341844
     },
     "0.5": {
-     "cumulativePct": 2.6720090942458974,
-     "dayPct": 0.8341511285574144
+     "cumulativePct": 2.869202453581843,
+     "dayPct": 0.1920614596670922
     },
     "0.3": {
-     "cumulativePct": 1.639085937860707,
-     "dayPct": 0.5004906771344486
+     "cumulativePct": 1.7562116450874354,
+     "dayPct": 0.11523687580025532
     }
    },
    "role": "comparison",
-   "tradingDays": 14,
-   "trades": 12,
+   "tradingDays": 15,
+   "trades": 13,
    "includesProvisional": [
-    "2026-11-25"
+    "2026-11-26"
    ],
    "unverifiedCorrections": [
     "2026-11-06"
    ],
    "basis": "최종 1순위를 정규장 시가에 시작 자산 100%로 매수, 당일 종가 매도, 일별 복리 · 비용 전 · 실제 주문 아님",
-   "source": "YATC ASK 비교 장부 ASK-CMP-V1 (POSTMARKET_CMP-122)"
+   "source": "YATC ASK 비교 장부 ASK-CMP-V1 (POSTMARKET_CMP-129)"
   },
   {
    "model": "gpt-6-astra",
    "label": "GPT-6 Astra",
    "short": "Astra",
    "strategy": "base",
-   "asOf": "2026-11-25",
+   "asOf": "2026-11-26",
    "startDate": "2026-11-06",
-   "cumulativePct": -8.61089504466237,
-   "dayPct": 1.6683022571148287,
+   "cumulativePct": -8.259848546754544,
+   "dayPct": 0.3841229193341844,
    "exposures": {
     "1.0": {
-     "cumulativePct": -8.61089504466237,
-     "dayPct": 1.6683022571148287
+     "cumulativePct": -8.259848546754544,
+     "dayPct": 0.3841229193341844
     },
     "0.5": {
-     "cumulativePct": -4.290583881487264,
-     "dayPct": 0.8341511285574144
+     "cumulativePct": -4.106762979851187,
+     "dayPct": 0.1920614596670922
     },
     "0.3": {
-     "cumulativePct": -2.569559377415942,
-     "dayPct": 0.5004906771344486
+     "cumulativePct": -2.4572835815640404,
+     "dayPct": 0.11523687580025532
     }
    },
    "role": "comparison",
-   "tradingDays": 14,
-   "trades": 13,
+   "tradingDays": 15,
+   "trades": 14,
    "includesProvisional": [
-    "2026-11-25"
+    "2026-11-26"
    ],
    "unverifiedCorrections": [
     "2026-11-06"
    ],
    "basis": "최종 1순위를 정규장 시가에 시작 자산 100%로 매수, 당일 종가 매도, 일별 복리 · 비용 전 · 실제 주문 아님",
-   "source": "YATC ASK 비교 장부 ASK-CMP-V1 (POSTMARKET_CMP-122)"
+   "source": "YATC ASK 비교 장부 ASK-CMP-V1 (POSTMARKET_CMP-129)"
   }
  ]
 }
