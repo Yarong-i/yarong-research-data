@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-27",
+  "market": "open",
+  "registeredAt": "2026-11-26T23:33:23.825Z",
+  "corrections": [],
+  "source": {
+    "system": "YATC ASK",
+    "runs": [
+      "PREMARKET-130"
+    ],
+    "origins": [
+      "158 서버 공개용 내보내기"
+    ]
+  },
+  "models": [
+    {
+      "key": "sonnet",
+      "model": "모델 미기록",
+      "label": "운영 모델 (모델 미기록)",
+      "short": "운영 · 미기록",
+      "role": "operating",
+      "runs": [
+        "PREMARKET-130"
+      ],
+      "premarket": {
+        "status": "failed",
+        "picks": [],
+        "excluded": [],
+        "publishedAt": "2026-11-26T23:32:29.369762+00:00",
+        "detail": "제한 시간 안에 형식에 맞는 답변을 만들지 못해 추천을 내지 않았습니다."
+      },
+      "postmarket": {
+        "status": "nothing",
+        "results": [],
+        "revision": "9302cb268c3f3063"
+      }
+    },
+    {
+      "key": "opus",
+      "model": "claude-opus-5-5",
+      "label": "Claude Opus 5.5",
+      "short": "Opus",
+      "role": "comparison",
+      "runs": [],
+      "premarket": {
+        "status": "pending",
+        "picks": [],
+        "excluded": []
+      },
+      "postmarket": {
+        "status": "pending",
+        "results": []
+      }
+    },
+    {
+      "key": "astra",
+      "model": "gpt-6-astra",
+      "label": "GPT-6 Astra",
+      "short": "Astra",
+      "role": "comparison",
+      "runs": [],
+      "premarket": {
+        "status": "pending",
+        "picks": [],
+        "excluded": []
+      },
+      "postmarket": {
+        "status": "pending",
+        "results": []
+      }
+    },
+    {
+      "key": "fable",
+      "model": "claude-fable-5-2",
+      "label": "Claude Fable 5.2",
+      "short": "Fable",
+      "role": "comparison",
+      "runs": [],
+      "premarket": {
+        "status": "pending",
+        "picks": [],
+        "excluded": []
+      },
+      "postmarket": {
+        "status": "pending",
+        "results": []
+      }
+    },
+    {
+      "key": "astra62",
+      "model": "gpt-6.2-astra",
+      "label": "GPT-6.2 Astra",
+      "short": "Astra 6.2",
+      "role": "comparison",
+      "runs": [],
+      "premarket": {
+        "status": "pending",
+        "picks": [],
+        "excluded": []
+      },
+      "postmarket": {
+        "status": "pending",
+        "results": []
+      }
+    }
+  ]
+}
