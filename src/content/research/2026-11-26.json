@@ -8,7 +8,8 @@
     "runs": [
       "PREMARKET-125",
       "PREMARKET_CMP_OPUS-127",
-      "PREMARKET_CMP_ASTRA-126"
+      "PREMARKET_CMP_ASTRA-126",
+      "POSTMARKET_CMP-129"
     ],
     "origins": [
       "158 서버 공개용 내보내기"
@@ -22,7 +23,8 @@
       "short": "Sonnet",
       "role": "operating",
       "runs": [
-        "PREMARKET-125"
+        "PREMARKET-125",
+        "POSTMARKET_CMP-129"
       ],
       "premarket": {
         "status": "published",
@@ -78,8 +80,62 @@
         "rankStatus": "모델 순위 확인"
       },
       "postmarket": {
-        "status": "pending",
-        "results": []
+        "status": "reviewed",
+        "results": [
+          {
+            "ticker": "009150",
+            "name": "삼성전기",
+            "status": "provisional",
+            "open": 781000,
+            "close": 784000,
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:41 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+            "closeStatus": "PROVISIONAL"
+          },
+          {
+            "ticker": "000720",
+            "name": "현대건설",
+            "status": "provisional",
+            "open": 67000,
+            "close": 67000,
+            "prevClose": 66500,
+            "basis": "정규장 09:00 분봉 시가 → 마감 후 KRX 현재가 기반 잠정 종가",
+            "closeStatus": "PROVISIONAL_UNCONFIRMED"
+          }
+        ],
+        "publishedAt": "2026-11-26T06:41:06.586096+00:00",
+        "revision": "29a75b5ab9ae1395"
+      },
+      "strategy": {
+        "base": {
+          "executed": true,
+          "category": "PICK",
+          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+          "ticker": "009150",
+          "name": "삼성전기",
+          "dayPct": 0.3841229193341844,
+          "cumPct": 13.422827690013062,
+          "exposures": {
+            "1.0": {
+              "dayPct": 0.3841229193341844,
+              "cumPct": 13.422827690013062
+            },
+            "0.5": {
+              "dayPct": 0.1920614596670922,
+              "cumPct": 6.739685588345656
+            },
+            "0.3": {
+              "dayPct": 0.11523687580025532,
+              "cumPct": 4.048215517716147
+            }
+          },
+          "asOf": "2026-11-26",
+          "startDate": "2026-11-06",
+          "final": false,
+          "closeStatus": "PROVISIONAL",
+          "tradingDays": 15,
+          "trades": 12,
+          "restatedBy": "POSTMARKET_CMP-129"
+        }
       }
     },
     {
@@ -89,7 +145,8 @@
       "short": "Opus",
       "role": "comparison",
       "runs": [
-        "PREMARKET_CMP_OPUS-127"
+        "PREMARKET_CMP_OPUS-127",
+        "POSTMARKET_CMP-129"
       ],
       "premarket": {
         "status": "published",
@@ -144,8 +201,52 @@
         "rankStatus": "모델 순위 확인"
       },
       "postmarket": {
-        "status": "pending",
-        "results": []
+        "status": "reviewed",
+        "results": [
+          {
+            "ticker": "009150",
+            "name": "삼성전기",
+            "status": "provisional",
+            "open": 781000,
+            "close": 784000,
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:41 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+            "closeStatus": "PROVISIONAL"
+          }
+        ],
+        "publishedAt": "2026-11-26T06:41:12.600326+00:00",
+        "revision": "d0383d169503d4e9"
+      },
+      "strategy": {
+        "base": {
+          "executed": true,
+          "category": "PICK",
+          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+          "ticker": "009150",
+          "name": "삼성전기",
+          "dayPct": 0.3841229193341844,
+          "cumPct": 5.443616370438709,
+          "exposures": {
+            "1.0": {
+              "dayPct": 0.3841229193341844,
+              "cumPct": 5.443616370438709
+            },
+            "0.5": {
+              "dayPct": 0.1920614596670922,
+              "cumPct": 2.869202453581843
+            },
+            "0.3": {
+              "dayPct": 0.11523687580025532,
+              "cumPct": 1.7562116450874354
+            }
+          },
+          "asOf": "2026-11-26",
+          "startDate": "2026-11-06",
+          "final": false,
+          "closeStatus": "PROVISIONAL",
+          "tradingDays": 15,
+          "trades": 13,
+          "restatedBy": "POSTMARKET_CMP-129"
+        }
       }
     },
     {
@@ -155,7 +256,8 @@
       "short": "Astra",
       "role": "comparison",
       "runs": [
-        "PREMARKET_CMP_ASTRA-126"
+        "PREMARKET_CMP_ASTRA-126",
+        "POSTMARKET_CMP-129"
       ],
       "premarket": {
         "status": "published",
@@ -227,10 +329,54 @@
         "rankStatus": "모델 순위 확인"
       },
       "postmarket": {
-        "status": "pending",
-        "results": []
+        "status": "reviewed",
+        "results": [
+          {
+            "ticker": "009150",
+            "name": "삼성전기",
+            "status": "provisional",
+            "open": 781000,
+            "close": 784000,
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:41 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+            "closeStatus": "PROVISIONAL"
+          }
+        ],
+        "publishedAt": "2026-11-26T06:41:12.600326+00:00",
+        "revision": "153dfe5b9d906f50"
+      },
+      "strategy": {
+        "base": {
+          "executed": true,
+          "category": "PICK",
+          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+          "ticker": "009150",
+          "name": "삼성전기",
+          "dayPct": 0.3841229193341844,
+          "cumPct": -8.259848546754544,
+          "exposures": {
+            "1.0": {
+              "dayPct": 0.3841229193341844,
+              "cumPct": -8.259848546754544
+            },
+            "0.5": {
+              "dayPct": 0.1920614596670922,
+              "cumPct": -4.106762979851187
+            },
+            "0.3": {
+              "dayPct": 0.11523687580025532,
+              "cumPct": -2.4572835815640404
+            }
+          },
+          "asOf": "2026-11-26",
+          "startDate": "2026-11-06",
+          "final": false,
+          "closeStatus": "PROVISIONAL",
+          "tradingDays": 15,
+          "trades": 14,
+          "restatedBy": "POSTMARKET_CMP-129"
+        }
       }
     }
   ],
-  "updatedAt": "2026-11-25T23:31:21.317Z"
+  "updatedAt": "2026-11-26T06:42:25.288Z"
 }

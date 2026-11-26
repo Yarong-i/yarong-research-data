@@ -3,33 +3,33 @@
   "label": "GPT-6 Astra",
   "short": "Astra",
   "strategy": "base",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "startDate": "2026-11-06",
-  "cumulativePct": -8.61089504466237,
-  "dayPct": 1.6683022571148287,
+  "cumulativePct": -8.259848546754544,
+  "dayPct": 0.3841229193341844,
   "exposures": {
     "1.0": {
-      "cumulativePct": -8.61089504466237,
-      "dayPct": 1.6683022571148287
+      "cumulativePct": -8.259848546754544,
+      "dayPct": 0.3841229193341844
     },
     "0.5": {
-      "cumulativePct": -4.290583881487264,
-      "dayPct": 0.8341511285574144
+      "cumulativePct": -4.106762979851187,
+      "dayPct": 0.1920614596670922
     },
     "0.3": {
-      "cumulativePct": -2.569559377415942,
-      "dayPct": 0.5004906771344486
+      "cumulativePct": -2.4572835815640404,
+      "dayPct": 0.11523687580025532
     }
   },
   "role": "comparison",
-  "tradingDays": 14,
-  "trades": 13,
+  "tradingDays": 15,
+  "trades": 14,
   "includesProvisional": [
-    "2026-11-25"
+    "2026-11-26"
   ],
   "unverifiedCorrections": [
     "2026-11-06"
   ],
   "basis": "최종 1순위를 정규장 시가에 시작 자산 100%로 매수, 당일 종가 매도, 일별 복리 · 비용 전 · 실제 주문 아님",
-  "source": "YATC ASK 비교 장부 ASK-CMP-V1 (POSTMARKET_CMP-122)"
+  "source": "YATC ASK 비교 장부 ASK-CMP-V1 (POSTMARKET_CMP-129)"
 }

@@ -12,6 +12,16 @@
       "at": "2026-11-25T06:41:01.974907+00:00",
       "ticker": "claude-sonnet-5:",
       "note": "Sonnet 장후 값 갱신: 성과 추가"
+    },
+    {
+      "at": "2026-11-26T06:42:03.665230+00:00",
+      "ticker": "claude-opus-5-5:012750",
+      "note": "Opus 장후 값 갱신: 012750 종가 103,600원 그대로, 잠정 → 확정, 근거 PROVISIONAL → KIS_AUCTION · 성과 확정"
+    },
+    {
+      "at": "2026-11-26T06:42:03.665230+00:00",
+      "ticker": "gpt-6-astra:012750",
+      "note": "Astra 장후 값 갱신: 012750 종가 103,600원 그대로, 잠정 → 확정, 근거 PROVISIONAL → KIS_AUCTION · 성과 확정"
     }
   ],
   "source": {
@@ -238,21 +248,20 @@
           {
             "ticker": "012750",
             "name": "에스원",
-            "status": "provisional",
+            "status": "confirmed",
             "open": 101900,
             "close": 103600,
-            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
-            "closeStatus": "PROVISIONAL"
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+            "closeStatus": "KIS_AUCTION"
           }
         ],
         "publishedAt": "2026-11-25T06:40:35.189987+00:00",
-        "revision": "14246e721ee663ef"
+        "revision": "d295943b71ca1fad"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "012750",
           "name": "에스원",
           "dayPct": 1.6683022571148287,
@@ -273,13 +282,67 @@
           },
           "asOf": "2026-11-25",
           "startDate": "2026-11-06",
-          "final": false,
-          "closeStatus": "PROVISIONAL",
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 14,
           "trades": 12,
-          "restatedBy": "POSTMARKET_CMP-122"
+          "restatedBy": "POSTMARKET_CMP-129"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-26T06:42:03.665230+00:00",
+          "revision": "14246e721ee663ef",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "012750",
+                "name": "에스원",
+                "status": "provisional",
+                "open": 101900,
+                "close": 103600,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+                "closeStatus": "PROVISIONAL"
+              }
+            ],
+            "publishedAt": "2026-11-25T06:40:35.189987+00:00",
+            "revision": "14246e721ee663ef"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "012750",
+              "name": "에스원",
+              "dayPct": 1.6683022571148287,
+              "cumPct": 5.040133144531422,
+              "exposures": {
+                "1.0": {
+                  "dayPct": 1.6683022571148287,
+                  "cumPct": 5.040133144531422
+                },
+                "0.5": {
+                  "dayPct": 0.8341511285574144,
+                  "cumPct": 2.6720090942458974
+                },
+                "0.3": {
+                  "dayPct": 0.5004906771344486,
+                  "cumPct": 1.639085937860707
+                }
+              },
+              "asOf": "2026-11-25",
+              "startDate": "2026-11-06",
+              "final": false,
+              "closeStatus": "PROVISIONAL",
+              "tradingDays": 14,
+              "trades": 12,
+              "restatedBy": "POSTMARKET_CMP-122"
+            }
+          }
+        }
+      ]
     },
     {
       "key": "astra",
@@ -366,21 +429,20 @@
           {
             "ticker": "012750",
             "name": "에스원",
-            "status": "provisional",
+            "status": "confirmed",
             "open": 101900,
             "close": 103600,
-            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
-            "closeStatus": "PROVISIONAL"
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+            "closeStatus": "KIS_AUCTION"
           }
         ],
         "publishedAt": "2026-11-25T06:40:35.189987+00:00",
-        "revision": "03918a67ed5f83ba"
+        "revision": "62841ec924fa526d"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "012750",
           "name": "에스원",
           "dayPct": 1.6683022571148287,
@@ -401,14 +463,68 @@
           },
           "asOf": "2026-11-25",
           "startDate": "2026-11-06",
-          "final": false,
-          "closeStatus": "PROVISIONAL",
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 14,
           "trades": 13,
-          "restatedBy": "POSTMARKET_CMP-122"
+          "restatedBy": "POSTMARKET_CMP-129"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-26T06:42:03.665230+00:00",
+          "revision": "03918a67ed5f83ba",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "012750",
+                "name": "에스원",
+                "status": "provisional",
+                "open": 101900,
+                "close": 103600,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+                "closeStatus": "PROVISIONAL"
+              }
+            ],
+            "publishedAt": "2026-11-25T06:40:35.189987+00:00",
+            "revision": "03918a67ed5f83ba"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "012750",
+              "name": "에스원",
+              "dayPct": 1.6683022571148287,
+              "cumPct": -8.61089504466237,
+              "exposures": {
+                "1.0": {
+                  "dayPct": 1.6683022571148287,
+                  "cumPct": -8.61089504466237
+                },
+                "0.5": {
+                  "dayPct": 0.8341511285574144,
+                  "cumPct": -4.290583881487264
+                },
+                "0.3": {
+                  "dayPct": 0.5004906771344486,
+                  "cumPct": -2.569559377415942
+                }
+              },
+              "asOf": "2026-11-25",
+              "startDate": "2026-11-06",
+              "final": false,
+              "closeStatus": "PROVISIONAL",
+              "tradingDays": 14,
+              "trades": 13,
+              "restatedBy": "POSTMARKET_CMP-122"
+            }
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-25T21:35:46.519Z"
+  "updatedAt": "2026-11-26T06:42:25.288Z"
 }
