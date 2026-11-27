@@ -2,7 +2,13 @@
   "date": "2026-11-27",
   "market": "open",
   "registeredAt": "2026-11-26T23:33:23.825Z",
-  "corrections": [],
+  "corrections": [
+    {
+      "at": "2026-11-27T06:41:05.886098+00:00",
+      "ticker": "모델 미기록:",
+      "note": "운영 · 미기록 장후 값 갱신: 성과 추가"
+    }
+  ],
   "source": {
     "system": "YATC ASK",
     "runs": [
@@ -10,7 +16,8 @@
       "PREMARKET_CMP_OPUS-131",
       "PREMARKET_CMP_ASTRA-132",
       "PREMARKET_CMP_ASTRA62-134",
-      "PREMARKET_CMP_FABLE-133"
+      "PREMARKET_CMP_FABLE-133",
+      "POSTMARKET_CMP-137"
     ],
     "origins": [
       "158 서버 공개용 내보내기"
@@ -24,7 +31,8 @@
       "short": "운영 · 미기록",
       "role": "operating",
       "runs": [
-        "PREMARKET-130"
+        "PREMARKET-130",
+        "POSTMARKET_CMP-137"
       ],
       "premarket": {
         "status": "failed",
@@ -36,7 +44,47 @@
       "postmarket": {
         "status": "nothing",
         "results": [],
-        "revision": "9302cb268c3f3063"
+        "revision": "18e5d2201fc68db4"
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-27T06:41:05.886098+00:00",
+          "revision": "9302cb268c3f3063",
+          "postmarket": {
+            "status": "nothing",
+            "results": [],
+            "revision": "9302cb268c3f3063"
+          }
+        }
+      ],
+      "strategy": {
+        "base": {
+          "executed": false,
+          "category": "MODEL_FAILED",
+          "detail": "제한 시간 300초를 넘겼습니다 - 형식 검사 실패로 답변을 1번 다시 만들었습니다 - picks[0].risks[0].evidence_ids 항목 부족 (0 < 1)",
+          "dayPct": 0,
+          "cumPct": 13.422827690013062,
+          "exposures": {
+            "1.0": {
+              "dayPct": 0,
+              "cumPct": 13.422827690013062
+            },
+            "0.5": {
+              "dayPct": 0,
+              "cumPct": 6.739685588345656
+            },
+            "0.3": {
+              "dayPct": 0,
+              "cumPct": 4.048215517716147
+            }
+          },
+          "asOf": "2026-11-27",
+          "startDate": "2026-11-06",
+          "final": true,
+          "tradingDays": 16,
+          "trades": 12,
+          "restatedBy": "POSTMARKET_CMP-137"
+        }
       }
     },
     {
@@ -46,7 +94,8 @@
       "short": "Opus",
       "role": "comparison",
       "runs": [
-        "PREMARKET_CMP_OPUS-131"
+        "PREMARKET_CMP_OPUS-131",
+        "POSTMARKET_CMP-137"
       ],
       "premarket": {
         "status": "published",
@@ -107,8 +156,52 @@
         "rankStatus": "모델 순위 확인"
       },
       "postmarket": {
-        "status": "pending",
-        "results": []
+        "status": "reviewed",
+        "results": [
+          {
+            "ticker": "278470",
+            "name": "에이피알",
+            "status": "provisional",
+            "open": 322000,
+            "close": 299500,
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+            "closeStatus": "PROVISIONAL"
+          }
+        ],
+        "publishedAt": "2026-11-27T06:40:22.442406+00:00",
+        "revision": "13a879ae73176aca"
+      },
+      "strategy": {
+        "base": {
+          "executed": true,
+          "category": "PICK",
+          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+          "ticker": "278470",
+          "name": "에이피알",
+          "dayPct": -6.987577639751552,
+          "cumPct": -1.9243381896074663,
+          "exposures": {
+            "1.0": {
+              "dayPct": -6.987577639751552,
+              "cumPct": -1.9243381896074663
+            },
+            "0.5": {
+              "dayPct": -3.493788819875776,
+              "cumPct": -0.7248302408367713
+            },
+            "0.3": {
+              "dayPct": -2.0962732919254656,
+              "cumPct": -0.37687664250368735
+            }
+          },
+          "asOf": "2026-11-27",
+          "startDate": "2026-11-06",
+          "final": false,
+          "closeStatus": "PROVISIONAL",
+          "tradingDays": 16,
+          "trades": 14,
+          "restatedBy": "POSTMARKET_CMP-137"
+        }
       }
     },
     {
@@ -118,7 +211,8 @@
       "short": "Astra",
       "role": "comparison",
       "runs": [
-        "PREMARKET_CMP_ASTRA-132"
+        "PREMARKET_CMP_ASTRA-132",
+        "POSTMARKET_CMP-137"
       ],
       "premarket": {
         "status": "published",
@@ -178,8 +272,52 @@
         "rankStatus": "모델 순위 확인"
       },
       "postmarket": {
-        "status": "pending",
-        "results": []
+        "status": "reviewed",
+        "results": [
+          {
+            "ticker": "278470",
+            "name": "에이피알",
+            "status": "provisional",
+            "open": 322000,
+            "close": 299500,
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+            "closeStatus": "PROVISIONAL"
+          }
+        ],
+        "publishedAt": "2026-11-27T06:40:22.442406+00:00",
+        "revision": "941c14fdecb2e48f"
+      },
+      "strategy": {
+        "base": {
+          "executed": true,
+          "category": "PICK",
+          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+          "ticker": "278470",
+          "name": "에이피알",
+          "dayPct": -6.987577639751552,
+          "cumPct": -14.670262856375727,
+          "exposures": {
+            "1.0": {
+              "dayPct": -6.987577639751552,
+              "cumPct": -14.670262856375727
+            },
+            "0.5": {
+              "dayPct": -3.493788819875776,
+              "cumPct": -7.457070173878122
+            },
+            "0.3": {
+              "dayPct": -2.0962732919254656,
+              "cumPct": -4.502045494062312
+            }
+          },
+          "asOf": "2026-11-27",
+          "startDate": "2026-11-06",
+          "final": false,
+          "closeStatus": "PROVISIONAL",
+          "tradingDays": 16,
+          "trades": 15,
+          "restatedBy": "POSTMARKET_CMP-137"
+        }
       }
     },
     {
@@ -189,7 +327,8 @@
       "short": "Fable",
       "role": "comparison",
       "runs": [
-        "PREMARKET_CMP_FABLE-133"
+        "PREMARKET_CMP_FABLE-133",
+        "POSTMARKET_CMP-137"
       ],
       "premarket": {
         "status": "published",
@@ -271,8 +410,52 @@
         "rankStatus": "모델 순위 확인"
       },
       "postmarket": {
-        "status": "pending",
-        "results": []
+        "status": "reviewed",
+        "results": [
+          {
+            "ticker": "006400",
+            "name": "삼성SDI",
+            "status": "provisional",
+            "open": 422000,
+            "close": 452500,
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+            "closeStatus": "PROVISIONAL"
+          }
+        ],
+        "publishedAt": "2026-11-27T06:40:22.442406+00:00",
+        "revision": "69060a897c744ecc"
+      },
+      "strategy": {
+        "base": {
+          "executed": true,
+          "category": "PICK",
+          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+          "ticker": "006400",
+          "name": "삼성SDI",
+          "dayPct": 7.2274881516587675,
+          "cumPct": 7.2274881516587675,
+          "exposures": {
+            "1.0": {
+              "dayPct": 7.2274881516587675,
+              "cumPct": 7.2274881516587675
+            },
+            "0.5": {
+              "dayPct": 3.6137440758293837,
+              "cumPct": 3.613744075829395
+            },
+            "0.3": {
+              "dayPct": 2.1682464454976302,
+              "cumPct": 2.1682464454976236
+            }
+          },
+          "asOf": "2026-11-27",
+          "startDate": "2026-11-27",
+          "final": false,
+          "closeStatus": "PROVISIONAL",
+          "tradingDays": 1,
+          "trades": 1,
+          "restatedBy": "POSTMARKET_CMP-137"
+        }
       }
     },
     {
@@ -282,7 +465,8 @@
       "short": "Astra 6.2",
       "role": "comparison",
       "runs": [
-        "PREMARKET_CMP_ASTRA62-134"
+        "PREMARKET_CMP_ASTRA62-134",
+        "POSTMARKET_CMP-137"
       ],
       "premarket": {
         "status": "published",
@@ -337,10 +521,54 @@
         "rankStatus": "모델 순위 확인"
       },
       "postmarket": {
-        "status": "pending",
-        "results": []
+        "status": "reviewed",
+        "results": [
+          {
+            "ticker": "278470",
+            "name": "에이피알",
+            "status": "provisional",
+            "open": 322000,
+            "close": 299500,
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:40 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+            "closeStatus": "PROVISIONAL"
+          }
+        ],
+        "publishedAt": "2026-11-27T06:40:22.442406+00:00",
+        "revision": "680ce749941252e3"
+      },
+      "strategy": {
+        "base": {
+          "executed": true,
+          "category": "PICK",
+          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+          "ticker": "278470",
+          "name": "에이피알",
+          "dayPct": -6.987577639751552,
+          "cumPct": -6.987577639751552,
+          "exposures": {
+            "1.0": {
+              "dayPct": -6.987577639751552,
+              "cumPct": -6.987577639751552
+            },
+            "0.5": {
+              "dayPct": -3.493788819875776,
+              "cumPct": -3.493788819875776
+            },
+            "0.3": {
+              "dayPct": -2.0962732919254656,
+              "cumPct": -2.0962732919254656
+            }
+          },
+          "asOf": "2026-11-27",
+          "startDate": "2026-11-27",
+          "final": false,
+          "closeStatus": "PROVISIONAL",
+          "tradingDays": 1,
+          "trades": 1,
+          "restatedBy": "POSTMARKET_CMP-137"
+        }
       }
     }
   ],
-  "updatedAt": "2026-11-26T23:35:19.140Z"
+  "updatedAt": "2026-11-27T06:41:21.542Z"
 }

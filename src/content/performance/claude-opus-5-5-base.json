@@ -3,33 +3,33 @@
   "label": "Claude Opus 5.5",
   "short": "Opus",
   "strategy": "base",
-  "asOf": "2026-11-26",
+  "asOf": "2026-11-27",
   "startDate": "2026-11-06",
-  "cumulativePct": 5.443616370438709,
-  "dayPct": 0.3841229193341844,
+  "cumulativePct": -1.9243381896074663,
+  "dayPct": -6.987577639751552,
   "exposures": {
     "1.0": {
-      "cumulativePct": 5.443616370438709,
-      "dayPct": 0.3841229193341844
+      "cumulativePct": -1.9243381896074663,
+      "dayPct": -6.987577639751552
     },
     "0.5": {
-      "cumulativePct": 2.869202453581843,
-      "dayPct": 0.1920614596670922
+      "cumulativePct": -0.7248302408367713,
+      "dayPct": -3.493788819875776
     },
     "0.3": {
-      "cumulativePct": 1.7562116450874354,
-      "dayPct": 0.11523687580025532
+      "cumulativePct": -0.37687664250368735,
+      "dayPct": -2.0962732919254656
     }
   },
   "role": "comparison",
-  "tradingDays": 15,
-  "trades": 13,
+  "tradingDays": 16,
+  "trades": 14,
   "includesProvisional": [
-    "2026-11-26"
+    "2026-11-27"
   ],
   "unverifiedCorrections": [
     "2026-11-06"
   ],
   "basis": "최종 1순위를 정규장 시가에 시작 자산 100%로 매수, 당일 종가 매도, 일별 복리 · 비용 전 · 실제 주문 아님",
-  "source": "YATC ASK 비교 장부 ASK-CMP-V1 (POSTMARKET_CMP-129)"
+  "source": "YATC ASK 비교 장부 ASK-CMP-V1 (POSTMARKET_CMP-137)"
 }

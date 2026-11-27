@@ -1,0 +1,33 @@
+{
+  "model": "claude-fable-5-2",
+  "label": "Claude Fable 5.2",
+  "short": "Fable",
+  "strategy": "base",
+  "asOf": "2026-11-27",
+  "startDate": "2026-11-27",
+  "cumulativePct": 7.2274881516587675,
+  "dayPct": 7.2274881516587675,
+  "exposures": {
+    "1.0": {
+      "cumulativePct": 7.2274881516587675,
+      "dayPct": 7.2274881516587675
+    },
+    "0.5": {
+      "cumulativePct": 3.613744075829395,
+      "dayPct": 3.6137440758293837
+    },
+    "0.3": {
+      "cumulativePct": 2.1682464454976236,
+      "dayPct": 2.1682464454976302
+    }
+  },
+  "role": "comparison",
+  "tradingDays": 1,
+  "trades": 1,
+  "includesProvisional": [
+    "2026-11-27"
+  ],
+  "unverifiedCorrections": [],
+  "basis": "최종 1순위를 정규장 시가에 시작 자산 100%로 매수, 당일 종가 매도, 일별 복리 · 비용 전 · 실제 주문 아님",
+  "source": "YATC ASK 비교 장부 ASK-CMP-V1 (POSTMARKET_CMP-137)"
+}

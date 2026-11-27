@@ -3,33 +3,31 @@
   "label": "Claude Sonnet 5 (운영)",
   "short": "Sonnet",
   "strategy": "base",
-  "asOf": "2026-11-26",
+  "asOf": "2026-11-27",
   "startDate": "2026-11-06",
   "cumulativePct": 13.422827690013062,
-  "dayPct": 0.3841229193341844,
+  "dayPct": 0,
   "exposures": {
     "1.0": {
       "cumulativePct": 13.422827690013062,
-      "dayPct": 0.3841229193341844
+      "dayPct": 0
     },
     "0.5": {
       "cumulativePct": 6.739685588345656,
-      "dayPct": 0.1920614596670922
+      "dayPct": 0
     },
     "0.3": {
       "cumulativePct": 4.048215517716147,
-      "dayPct": 0.11523687580025532
+      "dayPct": 0
     }
   },
   "role": "operating",
-  "tradingDays": 15,
+  "tradingDays": 16,
   "trades": 12,
-  "includesProvisional": [
-    "2026-11-26"
-  ],
+  "includesProvisional": [],
   "unverifiedCorrections": [
     "2026-11-06"
   ],
   "basis": "최종 1순위를 정규장 시가에 시작 자산 100%로 매수, 당일 종가 매도, 일별 복리 · 비용 전 · 실제 주문 아님",
-  "source": "YATC ASK 비교 장부 ASK-CMP-V1 (POSTMARKET_CMP-129)"
+  "source": "YATC ASK 비교 장부 ASK-CMP-V1 (POSTMARKET_CMP-137)"
 }

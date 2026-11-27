@@ -2,7 +2,23 @@
   "date": "2026-11-26",
   "market": "open",
   "registeredAt": "2026-11-25T23:30:21.717Z",
-  "corrections": [],
+  "corrections": [
+    {
+      "at": "2026-11-27T06:41:05.886098+00:00",
+      "ticker": "claude-sonnet-5:009150",
+      "note": "Sonnet 장후 값 갱신: 009150 종가 784,000원 그대로, 잠정 → 확정, 근거 PROVISIONAL → KIS_AUCTION · 성과 확정"
+    },
+    {
+      "at": "2026-11-27T06:41:05.886098+00:00",
+      "ticker": "claude-opus-5-5:009150",
+      "note": "Opus 장후 값 갱신: 009150 종가 784,000원 그대로, 잠정 → 확정, 근거 PROVISIONAL → KIS_AUCTION · 성과 확정"
+    },
+    {
+      "at": "2026-11-27T06:41:05.886098+00:00",
+      "ticker": "gpt-6-astra:009150",
+      "note": "Astra 장후 값 갱신: 009150 종가 784,000원 그대로, 잠정 → 확정, 근거 PROVISIONAL → KIS_AUCTION · 성과 확정"
+    }
+  ],
   "source": {
     "system": "YATC ASK",
     "runs": [
@@ -85,11 +101,11 @@
           {
             "ticker": "009150",
             "name": "삼성전기",
-            "status": "provisional",
+            "status": "confirmed",
             "open": 781000,
             "close": 784000,
-            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:41 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
-            "closeStatus": "PROVISIONAL"
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+            "closeStatus": "KIS_AUCTION"
           },
           {
             "ticker": "000720",
@@ -103,13 +119,12 @@
           }
         ],
         "publishedAt": "2026-11-26T06:41:06.586096+00:00",
-        "revision": "29a75b5ab9ae1395"
+        "revision": "b001e51d06c95920"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "009150",
           "name": "삼성전기",
           "dayPct": 0.3841229193341844,
@@ -130,13 +145,77 @@
           },
           "asOf": "2026-11-26",
           "startDate": "2026-11-06",
-          "final": false,
-          "closeStatus": "PROVISIONAL",
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 15,
           "trades": 12,
-          "restatedBy": "POSTMARKET_CMP-129"
+          "restatedBy": "POSTMARKET_CMP-137"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-27T06:41:05.886098+00:00",
+          "revision": "29a75b5ab9ae1395",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "009150",
+                "name": "삼성전기",
+                "status": "provisional",
+                "open": 781000,
+                "close": 784000,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:41 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+                "closeStatus": "PROVISIONAL"
+              },
+              {
+                "ticker": "000720",
+                "name": "현대건설",
+                "status": "provisional",
+                "open": 67000,
+                "close": 67000,
+                "prevClose": 66500,
+                "basis": "정규장 09:00 분봉 시가 → 마감 후 KRX 현재가 기반 잠정 종가",
+                "closeStatus": "PROVISIONAL_UNCONFIRMED"
+              }
+            ],
+            "publishedAt": "2026-11-26T06:41:06.586096+00:00",
+            "revision": "29a75b5ab9ae1395"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "009150",
+              "name": "삼성전기",
+              "dayPct": 0.3841229193341844,
+              "cumPct": 13.422827690013062,
+              "exposures": {
+                "1.0": {
+                  "dayPct": 0.3841229193341844,
+                  "cumPct": 13.422827690013062
+                },
+                "0.5": {
+                  "dayPct": 0.1920614596670922,
+                  "cumPct": 6.739685588345656
+                },
+                "0.3": {
+                  "dayPct": 0.11523687580025532,
+                  "cumPct": 4.048215517716147
+                }
+              },
+              "asOf": "2026-11-26",
+              "startDate": "2026-11-06",
+              "final": false,
+              "closeStatus": "PROVISIONAL",
+              "tradingDays": 15,
+              "trades": 12,
+              "restatedBy": "POSTMARKET_CMP-129"
+            }
+          }
+        }
+      ]
     },
     {
       "key": "opus",
@@ -206,21 +285,20 @@
           {
             "ticker": "009150",
             "name": "삼성전기",
-            "status": "provisional",
+            "status": "confirmed",
             "open": 781000,
             "close": 784000,
-            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:41 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
-            "closeStatus": "PROVISIONAL"
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+            "closeStatus": "KIS_AUCTION"
           }
         ],
         "publishedAt": "2026-11-26T06:41:12.600326+00:00",
-        "revision": "d0383d169503d4e9"
+        "revision": "b3bc2941db8c6964"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "009150",
           "name": "삼성전기",
           "dayPct": 0.3841229193341844,
@@ -241,13 +319,67 @@
           },
           "asOf": "2026-11-26",
           "startDate": "2026-11-06",
-          "final": false,
-          "closeStatus": "PROVISIONAL",
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 15,
           "trades": 13,
-          "restatedBy": "POSTMARKET_CMP-129"
+          "restatedBy": "POSTMARKET_CMP-137"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-27T06:41:05.886098+00:00",
+          "revision": "d0383d169503d4e9",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "009150",
+                "name": "삼성전기",
+                "status": "provisional",
+                "open": 781000,
+                "close": 784000,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:41 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+                "closeStatus": "PROVISIONAL"
+              }
+            ],
+            "publishedAt": "2026-11-26T06:41:12.600326+00:00",
+            "revision": "d0383d169503d4e9"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "009150",
+              "name": "삼성전기",
+              "dayPct": 0.3841229193341844,
+              "cumPct": 5.443616370438709,
+              "exposures": {
+                "1.0": {
+                  "dayPct": 0.3841229193341844,
+                  "cumPct": 5.443616370438709
+                },
+                "0.5": {
+                  "dayPct": 0.1920614596670922,
+                  "cumPct": 2.869202453581843
+                },
+                "0.3": {
+                  "dayPct": 0.11523687580025532,
+                  "cumPct": 1.7562116450874354
+                }
+              },
+              "asOf": "2026-11-26",
+              "startDate": "2026-11-06",
+              "final": false,
+              "closeStatus": "PROVISIONAL",
+              "tradingDays": 15,
+              "trades": 13,
+              "restatedBy": "POSTMARKET_CMP-129"
+            }
+          }
+        }
+      ]
     },
     {
       "key": "astra",
@@ -334,21 +466,20 @@
           {
             "ticker": "009150",
             "name": "삼성전기",
-            "status": "provisional",
+            "status": "confirmed",
             "open": 781000,
             "close": 784000,
-            "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:41 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
-            "closeStatus": "PROVISIONAL"
+            "basis": "09:00 분봉 시가(시가 단일가 포함) → 15:30 종가 단일가 분봉(KIS 원본 시각 153000)",
+            "closeStatus": "KIS_AUCTION"
           }
         ],
         "publishedAt": "2026-11-26T06:41:12.600326+00:00",
-        "revision": "153dfe5b9d906f50"
+        "revision": "a780014283c9e0ed"
       },
       "strategy": {
         "base": {
           "executed": true,
           "category": "PICK",
-          "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
           "ticker": "009150",
           "name": "삼성전기",
           "dayPct": 0.3841229193341844,
@@ -369,14 +500,68 @@
           },
           "asOf": "2026-11-26",
           "startDate": "2026-11-06",
-          "final": false,
-          "closeStatus": "PROVISIONAL",
+          "final": true,
+          "closeStatus": "KIS_AUCTION",
           "tradingDays": 15,
           "trades": 14,
-          "restatedBy": "POSTMARKET_CMP-129"
+          "restatedBy": "POSTMARKET_CMP-137"
         }
-      }
+      },
+      "postmarketHistory": [
+        {
+          "replacedAt": "2026-11-27T06:41:05.886098+00:00",
+          "revision": "153dfe5b9d906f50",
+          "postmarket": {
+            "status": "reviewed",
+            "results": [
+              {
+                "ticker": "009150",
+                "name": "삼성전기",
+                "status": "provisional",
+                "open": 781000,
+                "close": 784000,
+                "basis": "09:00 분봉 시가(시가 단일가 포함) → KIS 현재가(KRX) 15:41 조회 - 시간외 단일가(16:00) 전 정규장 종가, 잠정 (다음 거래일 과거 분봉 종가 단일가로 확정)",
+                "closeStatus": "PROVISIONAL"
+              }
+            ],
+            "publishedAt": "2026-11-26T06:41:12.600326+00:00",
+            "revision": "153dfe5b9d906f50"
+          },
+          "strategy": {
+            "base": {
+              "executed": true,
+              "category": "PICK",
+              "detail": "잠정 종가 - 다음 거래일 종가 단일가로 확정",
+              "ticker": "009150",
+              "name": "삼성전기",
+              "dayPct": 0.3841229193341844,
+              "cumPct": -8.259848546754544,
+              "exposures": {
+                "1.0": {
+                  "dayPct": 0.3841229193341844,
+                  "cumPct": -8.259848546754544
+                },
+                "0.5": {
+                  "dayPct": 0.1920614596670922,
+                  "cumPct": -4.106762979851187
+                },
+                "0.3": {
+                  "dayPct": 0.11523687580025532,
+                  "cumPct": -2.4572835815640404
+                }
+              },
+              "asOf": "2026-11-26",
+              "startDate": "2026-11-06",
+              "final": false,
+              "closeStatus": "PROVISIONAL",
+              "tradingDays": 15,
+              "trades": 14,
+              "restatedBy": "POSTMARKET_CMP-129"
+            }
+          }
+        }
+      ]
     }
   ],
-  "updatedAt": "2026-11-26T06:42:25.288Z"
+  "updatedAt": "2026-11-27T06:41:21.542Z"
 }
